@@ -41,7 +41,7 @@ obj/unittest/minimizer_mapper.o: src/unittest/minimizer_mapper.cpp \
  src/unittest/../funnel.hpp src/unittest/../annotation.hpp \
  src/unittest/../build_index.hpp src/unittest/../kmer.hpp \
  src/unittest/../integrated_snarl_finder.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp \
  src/unittest/catch.hpp
 
 src/unittest/../minimizer_mapper.hpp:
@@ -146,6 +146,6 @@ src/unittest/../kmer.hpp:
 
 src/unittest/../integrated_snarl_finder.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp:
 
 src/unittest/catch.hpp:

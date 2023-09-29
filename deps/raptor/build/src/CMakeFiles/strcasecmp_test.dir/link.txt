@@ -1,0 +1,1 @@
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include  -rdynamic CMakeFiles/strcasecmp_test.dir/strcasecmp.c.o  -o strcasecmp_test  libraptor2.a -lxml2 

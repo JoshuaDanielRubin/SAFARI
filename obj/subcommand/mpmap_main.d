@@ -1,9 +1,9 @@
 obj/subcommand/mpmap_main.o: src/subcommand/mpmap_main.cpp \
  src/subcommand/subcommand.hpp src/subcommand/../algorithms/component.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp \
  src/subcommand/../multipath_mapper.hpp src/subcommand/../mapper.hpp \
  src/subcommand/../vg.hpp src/subcommand/../aligner.hpp \
  src/subcommand/../handle.hpp src/subcommand/../path.hpp \
@@ -36,13 +36,13 @@ src/subcommand/subcommand.hpp:
 
 src/subcommand/../algorithms/component.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp:
 
 src/subcommand/../multipath_mapper.hpp:
 

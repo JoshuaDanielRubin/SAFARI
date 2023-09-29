@@ -1,0 +1,1 @@
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include  -rdynamic CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o  -o turtle_parser_test  libraptor2.a -lxml2 

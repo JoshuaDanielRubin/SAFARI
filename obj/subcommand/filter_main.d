@@ -11,7 +11,7 @@ obj/subcommand/filter_main.o: src/subcommand/filter_main.cpp \
  src/subcommand/../progressive.hpp src/subcommand/../swap_remove.hpp \
  src/subcommand/../pictographs.hpp src/subcommand/../colors.hpp \
  src/subcommand/../nodeside.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
  src/subcommand/../readfilter.hpp src/subcommand/../vg.hpp \
  src/subcommand/../annotation.hpp \
  src/subcommand/../multipath_alignment_emitter.hpp \
@@ -62,7 +62,7 @@ src/subcommand/../colors.hpp:
 
 src/subcommand/../nodeside.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
 
 src/subcommand/../readfilter.hpp:
 

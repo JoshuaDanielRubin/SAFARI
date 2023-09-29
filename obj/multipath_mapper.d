@@ -18,8 +18,8 @@ obj/multipath_mapper.o: src/multipath_mapper.cpp src/multipath_mapper.hpp \
  src/algorithms/../position.hpp src/algorithms/../handle.hpp \
  src/algorithms/locally_expand_graph.hpp \
  src/algorithms/jump_along_path.hpp src/algorithms/ref_path_distance.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp \
  src/algorithms/component.hpp
 
 src/multipath_mapper.hpp:
@@ -126,8 +126,8 @@ src/algorithms/jump_along_path.hpp:
 
 src/algorithms/ref_path_distance.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp:
 
 src/algorithms/component.hpp:

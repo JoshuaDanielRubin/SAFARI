@@ -1,5 +1,5 @@
 obj/subcommand/inject_main.o: src/subcommand/inject_main.cpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/subcommand/subcommand.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/subcommand/subcommand.hpp \
  src/subcommand/../alignment.hpp src/subcommand/../utility.hpp \
  src/subcommand/../types.hpp src/subcommand/../path.hpp \
  src/subcommand/../hash_map.hpp src/subcommand/../wang_hash.hpp \
@@ -11,9 +11,9 @@ obj/subcommand/inject_main.o: src/subcommand/inject_main.cpp \
  src/subcommand/../alignment.hpp src/subcommand/../progressive.hpp \
  src/subcommand/../swap_remove.hpp src/subcommand/../pictographs.hpp \
  src/subcommand/../colors.hpp src/subcommand/../nodeside.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/subcommand/subcommand.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/subcommand/subcommand.hpp:
 
 src/subcommand/../alignment.hpp:
 
@@ -59,4 +59,4 @@ src/subcommand/../colors.hpp:
 
 src/subcommand/../nodeside.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:

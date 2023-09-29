@@ -1,0 +1,1 @@
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include  -rdynamic CMakeFiles/raptor_avltree_test.dir/raptor_avltree.c.o  -o raptor_avltree_test  libraptor2.a -lxml2 

@@ -1,16 +1,16 @@
 obj/io/register_loader_saver_xg.o: src/io/register_loader_saver_xg.cpp \
  src/io/register_loader_saver_xg.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp
 
 src/io/register_loader_saver_xg.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp:

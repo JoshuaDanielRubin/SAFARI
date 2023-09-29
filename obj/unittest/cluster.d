@@ -9,7 +9,7 @@ obj/unittest/cluster.o: src/unittest/cluster.cpp src/unittest/../vg.hpp \
  src/unittest/../alignment.hpp src/unittest/../progressive.hpp \
  src/unittest/../swap_remove.hpp src/unittest/../pictographs.hpp \
  src/unittest/../colors.hpp src/unittest/../nodeside.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
  src/unittest/catch.hpp src/unittest/../snarls.hpp src/unittest/../vg.hpp \
  src/unittest/../cactus.hpp src/unittest/../cactus_snarl_finder.hpp \
  src/unittest/../snarls.hpp src/unittest/../integrated_snarl_finder.hpp \
@@ -21,7 +21,7 @@ obj/unittest/cluster.o: src/unittest/cluster.cpp src/unittest/../vg.hpp \
  src/unittest/../translator.hpp src/unittest/../statistics.hpp \
  src/unittest/../path_index.hpp src/unittest/../packer.hpp \
  src/unittest/../graph.hpp src/unittest/random_graph.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp
 
 src/unittest/../vg.hpp:
 
@@ -65,7 +65,7 @@ src/unittest/../colors.hpp:
 
 src/unittest/../nodeside.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
 
 src/unittest/catch.hpp:
 
@@ -107,4 +107,4 @@ src/unittest/../graph.hpp:
 
 src/unittest/random_graph.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:

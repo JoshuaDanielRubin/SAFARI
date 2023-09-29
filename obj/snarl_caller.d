@@ -8,9 +8,9 @@ obj/snarl_caller.o: src/snarl_caller.cpp src/snarl_caller.hpp \
  src/genotypekit.hpp src/translator.hpp src/statistics.hpp \
  src/path_index.hpp src/packer.hpp src/graph.hpp \
  src/traversal_support.hpp src/algorithms/coverage_depth.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp
 
 src/snarl_caller.hpp:
 
@@ -76,8 +76,8 @@ src/traversal_support.hpp:
 
 src/algorithms/coverage_depth.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp:

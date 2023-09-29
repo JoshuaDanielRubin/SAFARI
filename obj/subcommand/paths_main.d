@@ -11,7 +11,7 @@ obj/subcommand/paths_main.o: src/subcommand/paths_main.cpp \
  src/subcommand/../progressive.hpp src/subcommand/../swap_remove.hpp \
  src/subcommand/../pictographs.hpp src/subcommand/../colors.hpp \
  src/subcommand/../nodeside.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
  src/subcommand/../gbwt_helper.hpp
 
 src/subcommand/subcommand.hpp:
@@ -58,6 +58,6 @@ src/subcommand/../colors.hpp:
 
 src/subcommand/../nodeside.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
 
 src/subcommand/../gbwt_helper.hpp:

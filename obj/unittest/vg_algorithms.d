@@ -23,7 +23,7 @@ obj/unittest/vg_algorithms.o: src/unittest/vg_algorithms.cpp \
  src/unittest/../algorithms/intersect_path_offsets.hpp \
  src/unittest/../algorithms/nearest_offsets_in_paths.hpp \
  src/unittest/random_graph.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
  src/unittest/randomness.hpp src/unittest/../vg.hpp \
  src/unittest/../aligner.hpp src/unittest/../handle.hpp \
  src/unittest/../path.hpp src/unittest/../hash_map.hpp \
@@ -35,7 +35,7 @@ obj/unittest/vg_algorithms.o: src/unittest/vg_algorithms.cpp \
  src/unittest/../progressive.hpp src/unittest/../swap_remove.hpp \
  src/unittest/../pictographs.hpp src/unittest/../colors.hpp \
  src/unittest/../nodeside.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp
 
 src/unittest/catch.hpp:
 
@@ -85,7 +85,7 @@ src/unittest/../algorithms/nearest_offsets_in_paths.hpp:
 
 src/unittest/random_graph.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
 src/unittest/randomness.hpp:
 
@@ -129,4 +129,4 @@ src/unittest/../colors.hpp:
 
 src/unittest/../nodeside.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:

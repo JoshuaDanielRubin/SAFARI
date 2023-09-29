@@ -19,12 +19,12 @@ obj/subcommand/call_main.o: src/subcommand/call_main.cpp \
  src/subcommand/../snarl_caller.hpp \
  src/subcommand/../traversal_support.hpp \
  src/subcommand/../algorithms/coverage_depth.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp \
  src/subcommand/../zstdutil.hpp \
  src/subcommand/../integrated_snarl_finder.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
  src/subcommand/../gbzgraph.hpp src/subcommand/../gbwtgraph_helper.hpp
 
 src/subcommand/subcommand.hpp:
@@ -101,17 +101,17 @@ src/subcommand/../traversal_support.hpp:
 
 src/subcommand/../algorithms/coverage_depth.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp:
 
 src/subcommand/../zstdutil.hpp:
 
 src/subcommand/../integrated_snarl_finder.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
 
 src/subcommand/../gbzgraph.hpp:
 

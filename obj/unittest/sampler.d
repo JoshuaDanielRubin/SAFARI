@@ -3,7 +3,7 @@ obj/unittest/sampler.o: src/unittest/sampler.cpp \
  src/unittest/../utility.hpp src/unittest/../types.hpp \
  src/unittest/../position.hpp src/unittest/../handle.hpp \
  src/unittest/../hash_map.hpp src/unittest/../wang_hash.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
  src/unittest/../vg.hpp src/unittest/../aligner.hpp \
  src/unittest/../path.hpp src/unittest/../nodetraversal.hpp \
  src/unittest/../dozeu_interface.hpp src/unittest/../mem.hpp \
@@ -29,7 +29,7 @@ src/unittest/../hash_map.hpp:
 
 src/unittest/../wang_hash.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
 
 src/unittest/../vg.hpp:
 

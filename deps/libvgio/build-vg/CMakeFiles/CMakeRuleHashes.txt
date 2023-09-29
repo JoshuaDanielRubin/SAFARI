@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+712780d9200421e5e0b9be496c058740 CMakeFiles/handlegraph
+6adc0017ac016ccd80e4c1b0fb43215c CMakeFiles/handlegraph-complete
+1e1df1634b54d0df0e813768de5e6513 CMakeFiles/link_target
+f4a5c1b9b0773326d36da66f3ea130d7 handlegraph-prefix/src/handlegraph-stamp/handlegraph-build
+26f9683d21843f688cfda4a0717f7a3d handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure
+e39762ab7f650a4f860e9d131ee4a70a handlegraph-prefix/src/handlegraph-stamp/handlegraph-download
+8879cdf283425198620e9ba2e29442b2 handlegraph-prefix/src/handlegraph-stamp/handlegraph-install
+31a66616f641248581a3ba08d5f9ff83 handlegraph-prefix/src/handlegraph-stamp/handlegraph-mkdir
+eb599fa715a54d1d899b0d2672c7d7cd handlegraph-prefix/src/handlegraph-stamp/handlegraph-patch
+226b9ebdae123fbedd035c522bb9c0cc handlegraph-prefix/src/handlegraph-stamp/handlegraph-update
+ce404dac6c8257845c60ba95fb51db4f vg.pb.h

@@ -1,9 +1,9 @@
 obj/unittest/source_sink_overlay.o: src/unittest/source_sink_overlay.cpp \
  src/unittest/catch.hpp src/unittest/random_graph.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp \
  src/unittest/../source_sink_overlay.hpp src/unittest/../handle.hpp \
  src/unittest/../kmer.hpp src/unittest/../position.hpp \
  src/unittest/../types.hpp src/unittest/../utility.hpp \
@@ -20,13 +20,13 @@ src/unittest/catch.hpp:
 
 src/unittest/random_graph.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp:
 
 src/unittest/../source_sink_overlay.hpp:
 

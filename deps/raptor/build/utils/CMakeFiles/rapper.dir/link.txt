@@ -1,0 +1,1 @@
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include  -rdynamic CMakeFiles/rapper.dir/rapper.c.o  -o rapper  ../src/libraptor2.a -lxml2 

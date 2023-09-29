@@ -6,9 +6,9 @@ obj/vg_set.o: src/vg_set.cpp src/vg_set.hpp src/handle.hpp \
  src/alignment.hpp src/progressive.hpp src/swap_remove.hpp \
  src/pictographs.hpp src/colors.hpp src/nodeside.hpp src/kmer.hpp \
  src/source_sink_overlay.hpp src/io/save_handle_graph.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
  src/io/../algorithms/gfa_to_handle.hpp \
  src/io/../algorithms/../handle.hpp
 
@@ -62,11 +62,11 @@ src/source_sink_overlay.hpp:
 
 src/io/save_handle_graph.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
 src/io/../algorithms/gfa_to_handle.hpp:
 

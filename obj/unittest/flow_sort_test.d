@@ -10,7 +10,7 @@ obj/unittest/flow_sort_test.o: src/unittest/flow_sort_test.cpp \
  src/unittest/../alignment.hpp src/unittest/../progressive.hpp \
  src/unittest/../swap_remove.hpp src/unittest/../pictographs.hpp \
  src/unittest/../colors.hpp src/unittest/../nodeside.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
  src/unittest/../flow_sort.hpp \
  src/unittest/../algorithms/gfa_to_handle.hpp \
  src/unittest/../algorithms/../handle.hpp
@@ -59,7 +59,7 @@ src/unittest/../colors.hpp:
 
 src/unittest/../nodeside.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
 
 src/unittest/../flow_sort.hpp:
 

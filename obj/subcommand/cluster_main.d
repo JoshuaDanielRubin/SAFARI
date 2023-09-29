@@ -18,7 +18,7 @@ obj/subcommand/cluster_main.o: src/subcommand/cluster_main.cpp \
  src/subcommand/../snarl_seed_clusterer.hpp \
  src/subcommand/../path_component_index.hpp \
  src/subcommand/../haplotypes.hpp src/subcommand/../annotation.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp
 
 src/subcommand/subcommand.hpp:
 
@@ -88,4 +88,4 @@ src/subcommand/../haplotypes.hpp:
 
 src/subcommand/../annotation.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:

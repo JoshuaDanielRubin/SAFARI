@@ -5,7 +5,7 @@ obj/cactus.o: src/cactus.cpp src/cactus.hpp src/types.hpp src/utility.hpp \
  src/deletion_aligner.hpp src/ssw_aligner.hpp src/region.hpp \
  src/alignment.hpp src/progressive.hpp src/swap_remove.hpp \
  src/pictographs.hpp src/colors.hpp src/algorithms/dfs.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp
 
 src/cactus.hpp:
 
@@ -53,4 +53,4 @@ src/colors.hpp:
 
 src/algorithms/dfs.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:

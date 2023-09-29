@@ -15,8 +15,8 @@ obj/algorithms/component.o: src/algorithms/component.cpp \
  src/algorithms/../snarl_seed_clusterer.hpp \
  src/algorithms/../small_bitset.hpp \
  src/algorithms/../path_component_index.hpp src/algorithms/component.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
- /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/utility.hpp
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/utility.hpp
 
 src/algorithms/../cluster.hpp:
 
@@ -76,6 +76,6 @@ src/algorithms/../path_component_index.hpp:
 
 src/algorithms/component.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
 
-/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/utility.hpp:
+/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/utility.hpp:
