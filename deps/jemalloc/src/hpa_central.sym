@@ -1,0 +1,4 @@
+hpa_central_alloc_grow
+hpa_central_alloc_reuse
+hpa_central_dalloc
+hpa_central_init

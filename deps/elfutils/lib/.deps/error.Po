@@ -1,0 +1,7 @@
+error.o: error.c /usr/include/stdc-predef.h ../config.h eu-config.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+eu-config.h:

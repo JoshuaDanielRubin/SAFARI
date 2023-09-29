@@ -1,0 +1,9 @@
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/install/strip.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/install/local.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/edit_cache.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/handlegraph_static.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/install.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/list_install_components.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/rebuild_cache.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/handlegraph_shared.dir
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/build/CMakeFiles/handlegraph_objs.dir

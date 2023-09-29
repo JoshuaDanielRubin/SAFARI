@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG  -rdynamic CMakeFiles/wt_int_test.dir/wt_int_test.cpp.o  -o wt_int_test  ../lib/libsdsl.a ../external/googletest/googletest/libgtest.a ../external/libdivsufsort/lib/libdivsufsort.a ../external/libdivsufsort/lib/libdivsufsort64.a -lpthread 

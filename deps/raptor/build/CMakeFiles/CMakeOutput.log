@@ -1,0 +1,960 @@
+The system is: Linux - 5.4.0-149-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: -I;/home/projects/MAAG/Magpie/Magpie/vg_corrected/include;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99717/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_99717.dir/build.make CMakeFiles/cmTC_99717.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99717.dir/testCCompiler.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_99717.dir/testCCompiler.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_99717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99717.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_99717.dir/testCCompiler.c.o  -o cmTC_99717 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d388f/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d388f.dir/build.make CMakeFiles/cmTC_d388f.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -o CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc51ZI4v.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/projects/MAAG/Magpie/Magpie/vg_corrected/include
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include --64 -o CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o /tmp/cc51ZI4v.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_d388f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d388f.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -rdynamic CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o  -o cmTC_d388f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-rdynamic' '-o' 'cmTC_d388f' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDIZlwr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d388f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-rdynamic' '-o' 'cmTC_d388f' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d388f/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d388f.dir/build.make CMakeFiles/cmTC_d388f.dir/build]
+  ignore line: [make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -o CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc51ZI4v.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/projects/MAAG/Magpie/Magpie/vg_corrected/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include --64 -o CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o /tmp/cc51ZI4v.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_d388f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d388f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -rdynamic CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o  -o cmTC_d388f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-rdynamic' '-o' 'cmTC_d388f' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDIZlwr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d388f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDIZlwr.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d388f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+    arg [-L.] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_d388f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0855/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a0855.dir/build.make CMakeFiles/cmTC_a0855.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0855.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_a0855.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a0855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0855.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_a0855.dir/CheckIncludeFile.c.o  -o cmTC_a0855 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_206ef/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_206ef.dir/build.make CMakeFiles/cmTC_206ef.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_206ef.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_206ef.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_206ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_206ef.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_206ef.dir/CheckIncludeFile.c.o  -o cmTC_206ef 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_348dc/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_348dc.dir/build.make CMakeFiles/cmTC_348dc.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_348dc.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_348dc.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_348dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_348dc.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_348dc.dir/CheckIncludeFile.c.o  -o cmTC_348dc 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3555a/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3555a.dir/build.make CMakeFiles/cmTC_3555a.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3555a.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_3555a.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3555a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3555a.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_3555a.dir/CheckIncludeFile.c.o  -o cmTC_3555a 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45666/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_45666.dir/build.make CMakeFiles/cmTC_45666.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45666.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_45666.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_45666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45666.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_45666.dir/CheckIncludeFile.c.o  -o cmTC_45666 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2aa65/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2aa65.dir/build.make CMakeFiles/cmTC_2aa65.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2aa65.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_2aa65.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2aa65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aa65.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_2aa65.dir/CheckIncludeFile.c.o  -o cmTC_2aa65 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62c47/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62c47.dir/build.make CMakeFiles/cmTC_62c47.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62c47.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_62c47.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62c47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c47.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_62c47.dir/CheckIncludeFile.c.o  -o cmTC_62c47 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72441/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_72441.dir/build.make CMakeFiles/cmTC_72441.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72441.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_72441.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_72441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72441.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_72441.dir/CheckIncludeFile.c.o  -o cmTC_72441 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7562/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d7562.dir/build.make CMakeFiles/cmTC_d7562.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7562.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_d7562.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d7562
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7562.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_d7562.dir/CheckIncludeFile.c.o  -o cmTC_d7562 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_27454/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_27454.dir/build.make CMakeFiles/cmTC_27454.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27454.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_27454.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_27454
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27454.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_27454.dir/CheckIncludeFile.c.o  -o cmTC_27454 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eb7ed/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eb7ed.dir/build.make CMakeFiles/cmTC_eb7ed.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb7ed.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_eb7ed.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eb7ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb7ed.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_eb7ed.dir/CheckIncludeFile.c.o  -o cmTC_eb7ed 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3c116/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3c116.dir/build.make CMakeFiles/cmTC_3c116.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c116.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_3c116.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3c116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c116.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_3c116.dir/CheckIncludeFile.c.o  -o cmTC_3c116 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_668d6/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_668d6.dir/build.make CMakeFiles/cmTC_668d6.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_668d6.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_668d6.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_668d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_668d6.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_668d6.dir/CheckIncludeFile.c.o  -o cmTC_668d6 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/time.h;time.h exist passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e1d4/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7e1d4.dir/build.make CMakeFiles/cmTC_7e1d4.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e1d4.dir/TIME_WITH_SYS_TIME.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_7e1d4.dir/TIME_WITH_SYS_TIME.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CheckIncludeFiles/TIME_WITH_SYS_TIME.c
+Linking C executable cmTC_7e1d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e1d4.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_7e1d4.dir/TIME_WITH_SYS_TIME.c.o  -o cmTC_7e1d4 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function access exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c87a/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2c87a.dir/build.make CMakeFiles/cmTC_2c87a.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c87a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=access   -o CMakeFiles/cmTC_2c87a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2c87a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c87a.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=access    -rdynamic CMakeFiles/cmTC_2c87a.dir/CheckFunctionExists.c.o  -o cmTC_2c87a 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae901/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ae901.dir/build.make CMakeFiles/cmTC_ae901.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae901.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=getopt   -o CMakeFiles/cmTC_ae901.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae901
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae901.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=getopt    -rdynamic CMakeFiles/cmTC_ae901.dir/CheckFunctionExists.c.o  -o cmTC_ae901 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2e59/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e2e59.dir/build.make CMakeFiles/cmTC_e2e59.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2e59.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=getopt_long   -o CMakeFiles/cmTC_e2e59.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2e59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2e59.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=getopt_long    -rdynamic CMakeFiles/cmTC_e2e59.dir/CheckFunctionExists.c.o  -o cmTC_e2e59 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5fce0/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5fce0.dir/build.make CMakeFiles/cmTC_5fce0.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fce0.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTC_5fce0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5fce0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fce0.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=gettimeofday    -rdynamic CMakeFiles/cmTC_5fce0.dir/CheckFunctionExists.c.o  -o cmTC_5fce0 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4bc3c/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4bc3c.dir/build.make CMakeFiles/cmTC_4bc3c.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bc3c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=isascii   -o CMakeFiles/cmTC_4bc3c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isascii’; expected ‘int(int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_4bc3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bc3c.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=isascii    -rdynamic CMakeFiles/cmTC_4bc3c.dir/CheckFunctionExists.c.o  -o cmTC_4bc3c 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12837/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_12837.dir/build.make CMakeFiles/cmTC_12837.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12837.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_12837.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12837.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=setjmp    -rdynamic CMakeFiles/cmTC_12837.dir/CheckFunctionExists.c.o  -o cmTC_12837 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04010/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_04010.dir/build.make CMakeFiles/cmTC_04010.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04010.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTC_04010.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘snprintf’; expected ‘int(char *, long unsigned int,  const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘snprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_04010
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04010.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=snprintf    -rdynamic CMakeFiles/cmTC_04010.dir/CheckFunctionExists.c.o  -o cmTC_04010 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function stat exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e64b7/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e64b7.dir/build.make CMakeFiles/cmTC_e64b7.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e64b7.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=stat   -o CMakeFiles/cmTC_e64b7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e64b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e64b7.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=stat    -rdynamic CMakeFiles/cmTC_e64b7.dir/CheckFunctionExists.c.o  -o cmTC_e64b7 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09200/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_09200.dir/build.make CMakeFiles/cmTC_09200.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09200.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_09200.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+Linking C executable cmTC_09200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09200.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=strcasecmp    -rdynamic CMakeFiles/cmTC_09200.dir/CheckFunctionExists.c.o  -o cmTC_09200 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strtok_r exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2127/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2127.dir/build.make CMakeFiles/cmTC_f2127.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2127.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=strtok_r   -o CMakeFiles/cmTC_f2127.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2127
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2127.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=strtok_r    -rdynamic CMakeFiles/cmTC_f2127.dir/CheckFunctionExists.c.o  -o cmTC_f2127 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08775/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_08775.dir/build.make CMakeFiles/cmTC_08775.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08775.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=vasprintf   -o CMakeFiles/cmTC_08775.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08775
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08775.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=vasprintf    -rdynamic CMakeFiles/cmTC_08775.dir/CheckFunctionExists.c.o  -o cmTC_08775 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e1c8/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4e1c8.dir/build.make CMakeFiles/cmTC_4e1c8.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e1c8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_4e1c8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_4e1c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e1c8.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=vsnprintf    -rdynamic CMakeFiles/cmTC_4e1c8.dir/CheckFunctionExists.c.o  -o cmTC_4e1c8 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1ff7/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f1ff7.dir/build.make CMakeFiles/cmTC_f1ff7.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1ff7.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_f1ff7.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f1ff7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1ff7.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_f1ff7.dir/CheckIncludeFile.c.o  -o cmTC_f1ff7 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_210f0/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_210f0.dir/build.make CMakeFiles/cmTC_210f0.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_210f0.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_210f0.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_210f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_210f0.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_210f0.dir/CheckIncludeFile.c.o  -o cmTC_210f0 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned char passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e3609/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e3609.dir/build.make CMakeFiles/cmTC_e3609.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3609.dir/SIZEOF_UNSIGNED_CHAR.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_e3609.dir/SIZEOF_UNSIGNED_CHAR.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR.c
+Linking C executable cmTC_e3609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3609.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_e3609.dir/SIZEOF_UNSIGNED_CHAR.c.o  -o cmTC_e3609 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da937/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_da937.dir/build.make CMakeFiles/cmTC_da937.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da937.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_da937.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_da937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da937.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_da937.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_da937 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5934c/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5934c.dir/build.make CMakeFiles/cmTC_5934c.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5934c.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_5934c.dir/SIZEOF_UNSIGNED_INT.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_5934c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5934c.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_5934c.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTC_5934c 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3cfc/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f3cfc.dir/build.make CMakeFiles/cmTC_f3cfc.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3cfc.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_f3cfc.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_f3cfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3cfc.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_f3cfc.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_f3cfc 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0fe8/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a0fe8.dir/build.make CMakeFiles/cmTC_a0fe8.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0fe8.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_a0fe8.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_a0fe8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0fe8.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_a0fe8.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTC_a0fe8 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE___FUNCTION__ succeeded with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_877b6/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_877b6.dir/build.make CMakeFiles/cmTC_877b6.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_877b6.dir/src.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DHAVE___FUNCTION__   -o CMakeFiles/cmTC_877b6.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c:2:17: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+    2 | int main(void){ printf(__FUNCTION__); }
+      |                 ^~~~~~
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c:2:17: warning: incompatible implicit declaration of built-in function ‘printf’
+/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+  +++ |+#include <stdio.h>
+    1 | 
+Linking C executable cmTC_877b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_877b6.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DHAVE___FUNCTION__    -rdynamic CMakeFiles/cmTC_877b6.dir/src.c.o  -o cmTC_877b6 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+int main(void){ printf(__FUNCTION__); }
+Determining if the function xmlCtxtUseOptions exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_094b3/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_094b3.dir/build.make CMakeFiles/cmTC_094b3.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_094b3.dir/CheckFunctionExists.c.o
+/usr/bin/gcc  -I/usr/include/libxml2  -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=xmlCtxtUseOptions   -o CMakeFiles/cmTC_094b3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_094b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_094b3.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=xmlCtxtUseOptions    -rdynamic CMakeFiles/cmTC_094b3.dir/CheckFunctionExists.c.o  -o cmTC_094b3  /usr/lib/x86_64-linux-gnu/libxml2.so 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function xmlSAX2InternalSubset exists passed with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d36a/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4d36a.dir/build.make CMakeFiles/cmTC_4d36a.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d36a.dir/CheckFunctionExists.c.o
+/usr/bin/gcc  -I/usr/include/libxml2  -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=xmlSAX2InternalSubset   -o CMakeFiles/cmTC_4d36a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d36a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d36a.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=xmlSAX2InternalSubset    -rdynamic CMakeFiles/cmTC_4d36a.dir/CheckFunctionExists.c.o  -o cmTC_4d36a  /usr/lib/x86_64-linux-gnu/libxml2.so 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test RAPTOR_LIBXML_ENTITY_ETYPE succeeded with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34e53/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_34e53.dir/build.make CMakeFiles/cmTC_34e53.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34e53.dir/src.c.o
+/usr/bin/gcc  -I/usr/include/libxml2  -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_ENTITY_ETYPE   -o CMakeFiles/cmTC_34e53.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_34e53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34e53.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_ENTITY_ETYPE    -rdynamic CMakeFiles/cmTC_34e53.dir/src.c.o  -o cmTC_34e53  /usr/lib/x86_64-linux-gnu/libxml2.so 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <libxml/parser.h>
+
+int main()
+{
+  (void)sizeof(((xmlEntity *)0)->etype);
+  return 0;
+}
+
+Performing C SOURCE FILE Test RAPTOR_LIBXML_XMLSAXHANDLER_INITIALIZED succeeded with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f497/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7f497.dir/build.make CMakeFiles/cmTC_7f497.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f497.dir/src.c.o
+/usr/bin/gcc  -I/usr/include/libxml2  -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_XMLSAXHANDLER_INITIALIZED   -o CMakeFiles/cmTC_7f497.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f497
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f497.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_XMLSAXHANDLER_INITIALIZED    -rdynamic CMakeFiles/cmTC_7f497.dir/src.c.o  -o cmTC_7f497  /usr/lib/x86_64-linux-gnu/libxml2.so 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <libxml/parser.h>
+
+int main()
+{
+  (void)sizeof(((xmlSAXHandler *)0)->initialized);
+  return 0;
+}
+
+Performing C SOURCE FILE Test RAPTOR_LIBXML_XMLSAXHANDLER_EXTERNALSUBSET succeeded with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bbd4c/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bbd4c.dir/build.make CMakeFiles/cmTC_bbd4c.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbd4c.dir/src.c.o
+/usr/bin/gcc  -I/usr/include/libxml2  -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_XMLSAXHANDLER_EXTERNALSUBSET   -o CMakeFiles/cmTC_bbd4c.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bbd4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbd4c.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_XMLSAXHANDLER_EXTERNALSUBSET    -rdynamic CMakeFiles/cmTC_bbd4c.dir/src.c.o  -o cmTC_bbd4c  /usr/lib/x86_64-linux-gnu/libxml2.so 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <libxml/parser.h>
+
+int main()
+{
+  (void)sizeof(((xmlSAXHandler *)0)->externalSubset);
+  return 0;
+}
+
+Performing C SOURCE FILE Test RAPTOR_LIBXML_XML_PARSE_NONET succeeded with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06647/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_06647.dir/build.make CMakeFiles/cmTC_06647.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06647.dir/src.c.o
+/usr/bin/gcc  -I/usr/include/libxml2  -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_XML_PARSE_NONET   -o CMakeFiles/cmTC_06647.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_06647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06647.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_XML_PARSE_NONET    -rdynamic CMakeFiles/cmTC_06647.dir/src.c.o  -o cmTC_06647  /usr/lib/x86_64-linux-gnu/libxml2.so 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <libxml/parser.h>
+int main(void){ xmlParserOption foo; foo = XML_PARSE_NONET; return 0; }
+Performing C SOURCE FILE Test RAPTOR_LIBXML_HTML_PARSE_NONET succeeded with the following output:
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6259e/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6259e.dir/build.make CMakeFiles/cmTC_6259e.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6259e.dir/src.c.o
+/usr/bin/gcc  -I/usr/include/libxml2  -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_HTML_PARSE_NONET   -o CMakeFiles/cmTC_6259e.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6259e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6259e.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DRAPTOR_LIBXML_HTML_PARSE_NONET    -rdynamic CMakeFiles/cmTC_6259e.dir/src.c.o  -o cmTC_6259e  /usr/lib/x86_64-linux-gnu/libxml2.so 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <libxml/HTMLparser.h>
+int main(void){ htmlParserOption foo; foo = HTML_PARSE_NONET; return 0; }

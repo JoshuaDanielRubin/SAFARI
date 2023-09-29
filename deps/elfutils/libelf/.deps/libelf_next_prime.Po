@@ -1,0 +1,13 @@
+libelf_next_prime.o: libelf_next_prime.c /usr/include/stdc-predef.h \
+ ../config.h ../lib/eu-config.h ../lib/next_prime.c \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+../lib/eu-config.h:
+
+../lib/next_prime.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:

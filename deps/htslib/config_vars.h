@@ -1,0 +1,5 @@
+#define HTS_CC "/usr/bin/gcc"
+#define HTS_CPPFLAGS ""
+#define HTS_CFLAGS "-Wall -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/htslib -isystem /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/htslib -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/include  -fvisibility=hidden"
+#define HTS_LDFLAGS "-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -Wl,-rpath,/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -fvisibility=hidden "
+#define HTS_LIBS "-ldeflate -llzma -lbz2 -lz -lm  "

@@ -1,0 +1,10 @@
+edata_cache_get
+edata_cache_init
+edata_cache_postfork_child
+edata_cache_postfork_parent
+edata_cache_prefork
+edata_cache_put
+edata_cache_small_disable
+edata_cache_small_get
+edata_cache_small_init
+edata_cache_small_put
