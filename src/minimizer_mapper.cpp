@@ -730,7 +730,7 @@ vector<Alignment> MinimizerMapper::map(Alignment& aln) {
 // Get minimizers
 
 std::vector<Minimizer> minimizers = this->find_minimizers(aln.sequence(), funnel, false);
-std::vector<Minimizer> minimizers_rymer; //= this->find_minimizers(aln.sequence(), funnel, true);
+std::vector<Minimizer> minimizers_rymer = this->find_minimizers(aln.sequence(), funnel, true);
 
 for (auto & el : minimizers_rymer){
     if (el.kmer_seq == ""){
@@ -749,13 +749,11 @@ rymers_start_index = minimizers.size();
 
 
 vector<Seed> seeds = this->find_seeds<Seed>(minimizers, aln, funnel, false);
-vector<Seed> seeds_rymer;// = this->find_seeds<Seed>(minimizers_rymer, aln, funnel, true);
+vector<Seed> seeds_rymer = this->find_seeds<Seed>(minimizers_rymer, aln, funnel, true);
 seeds.insert(seeds.end(), seeds_rymer.begin(), seeds_rymer.end());
 
 //cerr << "FOUND: " << seeds.size() << " KMER SEEDS" << endl;
 //cerr << "FOUND: " << seeds_rymer.size() << " RYMER SEDS" << endl;
-
-//throw runtime_error("SANITY CHECK");
 
     // Cluster the seeds. Get sets of input seed indexes that go together.
     if (track_provenance) {
