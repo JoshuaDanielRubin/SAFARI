@@ -500,7 +500,6 @@ int main_giraffe(int argc, char** argv) {
         .chain(extension_score)
         .get_iterator();
     
-
     // Formats for alignment output.
     std::string output_format = "GAM";
     std::set<std::string> output_formats = { "GAM", "GAF", "JSON", "TSV", "SAM", "BAM", "CRAM" };
@@ -588,7 +587,7 @@ int main_giraffe(int argc, char** argv) {
         };
 
         int option_index = 0;
-        c = getopt_long (argc, argv, "hZ:x:g:H:m:q:s:d:pG:f:iM:N:R:o:Pnb:c:C:D:F:e:a:S:u:U:v:w:Ot:r:A:L:j:V",
+        c = getopt_long (argc, argv, "hZ:x:g:H:m:q:s:d:pG:f:iM:N:R:o:Pnb:c:C:D:F:e:a:S:u:U:v:w:Ot:r:A:L:j:V:",
                          long_options, &option_index);
 
 
