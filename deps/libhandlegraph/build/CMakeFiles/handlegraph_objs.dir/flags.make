@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -O3 -
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/include 
+CXX_INCLUDES = -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/include 
 

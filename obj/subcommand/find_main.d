@@ -19,9 +19,9 @@ obj/subcommand/find_main.o: src/subcommand/find_main.cpp \
  src/subcommand/../path_component_index.hpp \
  src/subcommand/../haplotypes.hpp \
  src/subcommand/../io/save_handle_graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
  src/subcommand/../io/../algorithms/gfa_to_handle.hpp \
  src/subcommand/../io/../algorithms/../handle.hpp \
  src/subcommand/../region.hpp src/subcommand/../stream_index.hpp \
@@ -33,9 +33,9 @@ obj/subcommand/find_main.o: src/subcommand/find_main.cpp \
  src/subcommand/../algorithms/approx_path_distance.hpp \
  src/subcommand/../algorithms/nearest_offsets_in_paths.hpp \
  src/subcommand/../algorithms/walk.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gbwt_helper.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gbwt_helper.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp
 
 src/subcommand/subcommand.hpp:
 
@@ -105,11 +105,11 @@ src/subcommand/../haplotypes.hpp:
 
 src/subcommand/../io/save_handle_graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
 src/subcommand/../io/../algorithms/gfa_to_handle.hpp:
 
@@ -137,8 +137,8 @@ src/subcommand/../algorithms/nearest_offsets_in_paths.hpp:
 
 src/subcommand/../algorithms/walk.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gbwt_helper.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gbwt_helper.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp:

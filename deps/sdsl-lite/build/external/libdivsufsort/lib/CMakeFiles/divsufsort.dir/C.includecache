@@ -32,23 +32,23 @@ divsufsort64.h
 divsufsort.h
 ../external/libdivsufsort/include/divsufsort.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort.c
 divsufsort_private.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
 omp.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/sssort.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/sssort.c
 divsufsort_private.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/trsort.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/trsort.c
 divsufsort_private.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/utils.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/utils.c
 divsufsort_private.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort_private.h
 
 external/libdivsufsort/include/config.h
 

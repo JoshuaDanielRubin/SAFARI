@@ -6,7 +6,7 @@
 # such as $DEBUGINFOD_MAXSIZE, $DEBUGINFOD_MAXTIME, $DEBUGINFOD_PROGRESS.
 
 if (! $?DEBUGINFOD_URLS) then
-    set prefix="/home/projects/MAAG/Magpie/Magpie/vg_corrected"
+    set prefix="/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg"
     set debuginfod_urls=`sh -c "cat ${prefix}/etc/debuginfod/*.urls 2>/dev/null" | tr '\n' ' '`
     if ( "$debuginfod_urls" != "" ) then
         setenv DEBUGINFOD_URLS "$debuginfod_urls"

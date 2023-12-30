@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -129,9 +129,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

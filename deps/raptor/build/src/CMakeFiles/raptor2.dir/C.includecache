@@ -54,7 +54,7 @@ curl/curl.h
 
 ../src/turtle_common.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c
 raptor_config.h
 -
 stdio.h
@@ -72,9 +72,9 @@ stdlib.h
 alloca.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor_internal.h
 string.h
 -
 limits.h
@@ -98,13 +98,13 @@ stdlib.h
 stdio.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
 stdio.h
 -
 stdarg.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.c
 raptor_config.h
 -
 stdio.h
@@ -134,9 +134,9 @@ stdlib.h
 setjmp.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor_internal.h
 turtle_parser.h
 -
 turtle_common.h
@@ -144,7 +144,7 @@ turtle_common.h
 unistd.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c
 raptor_config.h
 -
 stdio.h
@@ -160,9 +160,9 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor_internal.h
 turtle_parser.h
 -
 turtle_lexer.h
@@ -194,17 +194,17 @@ stdio.h
 locale.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/context.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/context.c
 config.h
 -
 string.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/curie.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/curie.c
 config.h
 -
 stdlib.h
@@ -218,13 +218,13 @@ stdio.h
 ctype.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 strtok_r.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/iri.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/iri.c
 config.h
 -
 stdlib.h
@@ -234,11 +234,11 @@ stdio.h
 string.h
 -
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/language.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/language.c
 config.h
 -
 stdlib.h
@@ -248,11 +248,11 @@ stdio.h
 string.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/lists.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/lists.c
 config.h
 -
 stdlib.h
@@ -262,11 +262,11 @@ string.h
 stdio.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/namespace.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/namespace.c
 config.h
 -
 stdlib.h
@@ -276,11 +276,11 @@ stdio.h
 string.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.c
 config.h
 -
 stdlib.h
@@ -296,23 +296,23 @@ ctype.h
 libxml/SAX2.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 strtok_r.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 stdlib.h
 -
 libxml/SAX2.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.c
 config.h
 -
 stdlib.h
@@ -322,27 +322,27 @@ string.h
 stdio.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 strtok_r.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.c
 config.h
 -
 string.h
 -
 strtok_r.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/subject.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/subject.c
 config.h
 -
 stdlib.h
@@ -352,11 +352,11 @@ stdio.h
 string.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/triple.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/triple.c
 config.h
 -
 stdlib.h
@@ -366,11 +366,11 @@ string.h
 stdio.h
 -
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/ntriples_parse.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/ntriples_parse.c
 raptor_config.h
 -
 stdio.h
@@ -386,11 +386,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_abbrev.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_abbrev.c
 raptor_config.h
 -
 stdio.h
@@ -406,31 +406,31 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_avltree.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_avltree.c
 raptor_config.h
 -
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 string.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_concepts.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_concepts.c
 raptor_config.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_escaped.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_escaped.c
 raptor_config.h
 -
 stdio.h
@@ -438,11 +438,11 @@ stdio.h
 string.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_general.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_general.c
 raptor_config.h
 -
 stdio.h
@@ -458,13 +458,13 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 git-version.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_guess.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_guess.c
 raptor_config.h
 -
 stdio.h
@@ -480,11 +480,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdlib.h
 -
 libxml/parser.h
@@ -512,7 +512,7 @@ libinn.h
 curl/curl.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_iostream.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_iostream.c
 raptor_config.h
 -
 stdio.h
@@ -524,11 +524,11 @@ ctype.h
 stdarg.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_json_writer.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_json_writer.c
 raptor_config.h
 -
 stdio.h
@@ -546,11 +546,11 @@ stdlib.h
 limits.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_librdfa.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_librdfa.c
 raptor_config.h
 -
 stdio.h
@@ -566,15 +566,15 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 rdfa.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/rdfa.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/rdfa.h
 rdfa_utils.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/rdfa_utils.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/rdfa_utils.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_locator.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_locator.c
 raptor_config.h
 -
 stdio.h
@@ -590,11 +590,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_log.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_log.c
 raptor_config.h
 -
 stdio.h
@@ -610,41 +610,21 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_memstr.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_memstr.c
 raptor_config.h
 -
 string.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_namespace.c
-raptor_config.h
--
-stdio.h
--
-string.h
--
-ctype.h
--
-stdarg.h
--
-errno.h
--
-stdlib.h
--
-raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
-raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
-
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_ntriples.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_namespace.c
 raptor_config.h
 -
 stdio.h
@@ -660,11 +640,31 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_option.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_ntriples.c
+raptor_config.h
+-
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+stdarg.h
+-
+errno.h
+-
+stdlib.h
+-
+raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
+raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_option.c
 raptor_config.h
 -
 stdio.h
@@ -676,11 +676,11 @@ ctype.h
 stdarg.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_parse.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_parse.c
 raptor_config.h
 -
 stdio.h
@@ -700,13 +700,13 @@ sys/stat.h
 fcntl.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdio.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_qname.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_qname.c
 raptor_config.h
 -
 stdio.h
@@ -722,11 +722,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rfc2396.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rfc2396.c
 raptor_config.h
 -
 stdio.h
@@ -740,13 +740,13 @@ stdarg.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdio.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.c
 raptor_config.h
 -
 stdio.h
@@ -762,15 +762,15 @@ stdarg.h
 errno.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 raptor_rss.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss_common.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss_common.c
 raptor_config.h
 -
 stdio.h
@@ -784,13 +784,13 @@ stdarg.h
 errno.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 raptor_rss.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_sax2.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_sax2.c
 raptor_config.h
 -
 stdio.h
@@ -806,11 +806,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_sequence.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_sequence.c
 raptor_config.h
 -
 stdio.h
@@ -826,13 +826,13 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdio.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize.c
 raptor_config.h
 -
 stdio.h
@@ -848,11 +848,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_dot.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_dot.c
 raptor_config.h
 -
 stdio.h
@@ -868,11 +868,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_html.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_html.c
 raptor_config.h
 -
 stdio.h
@@ -888,11 +888,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_json.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_json.c
 raptor_config.h
 -
 stdio.h
@@ -906,31 +906,11 @@ stdarg.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_ntriples.c
-raptor_config.h
--
-stdio.h
--
-string.h
--
-ctype.h
--
-stdarg.h
--
-errno.h
--
-stdlib.h
--
-raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
-raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
-
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_rdfxml.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_ntriples.c
 raptor_config.h
 -
 stdio.h
@@ -946,11 +926,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_rdfxmla.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_rdfxml.c
 raptor_config.h
 -
 stdio.h
@@ -966,11 +946,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_rss.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_rdfxmla.c
 raptor_config.h
 -
 stdio.h
@@ -986,13 +966,33 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_rss.c
+raptor_config.h
+-
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+stdarg.h
+-
+errno.h
+-
+stdlib.h
+-
+raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
+raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 raptor_rss.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_turtle.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_turtle.c
 raptor_config.h
 -
 stdio.h
@@ -1008,11 +1008,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_set.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_set.c
 raptor_config.h
 -
 stdio.h
@@ -1026,11 +1026,11 @@ sys/types.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_statement.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_statement.c
 raptor_config.h
 -
 stdio.h
@@ -1046,11 +1046,11 @@ stdarg.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_stringbuffer.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_stringbuffer.c
 raptor_config.h
 -
 stdio.h
@@ -1064,11 +1064,11 @@ sys/types.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_syntax_description.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_syntax_description.c
 raptor_config.h
 -
 stdio.h
@@ -1076,11 +1076,11 @@ stdio.h
 string.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_term.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_term.c
 raptor_config.h
 -
 stdio.h
@@ -1094,11 +1094,11 @@ stdarg.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_turtle_writer.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_turtle_writer.c
 raptor_config.h
 -
 stdio.h
@@ -1118,11 +1118,11 @@ limits.h
 math.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_unicode.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_unicode.c
 raptor_config.h
 -
 stdio.h
@@ -1134,11 +1134,11 @@ stdarg.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_uri.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_uri.c
 raptor_config.h
 -
 stdio.h
@@ -1164,15 +1164,15 @@ limits.h
 sys/stat.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdio.h
 -
 sys/stat.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_www.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_www.c
 raptor_config.h
 -
 stdio.h
@@ -1186,11 +1186,11 @@ errno.h
 sys/stat.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_xml.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_xml.c
 raptor_config.h
 -
 stdio.h
@@ -1206,11 +1206,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_xml_writer.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_xml_writer.c
 raptor_config.h
 -
 stdio.h
@@ -1226,11 +1226,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/snprintf.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/snprintf.c
 raptor_config.h
 -
 stdio.h
@@ -1246,11 +1246,11 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/sort_r.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/sort_r.c
 raptor_config.h
 -
 stdio.h
@@ -1258,23 +1258,23 @@ stdio.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 sort_r.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/sort_r.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/sort_r.h
 ssort.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/ssort.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/ssort.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/sort_r.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/sort_r.h
 stdlib.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/ssort.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/ssort.h
 stddef.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_common.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_common.c
 raptor_config.h
 -
 stdio.h
@@ -1290,9 +1290,9 @@ errno.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 turtle_parser.h
 -
 turtle_lexer.h

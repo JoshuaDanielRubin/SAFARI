@@ -12,15 +12,6 @@ CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: ../smithwa
 CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: ../src/Variant.h
 CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: ../src/convert.h
 CMakeFiles/dumpContigsFromHeader.dir/src/dumpContigsFromHeader.cpp.o: ../src/dumpContigsFromHeader.cpp

@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,7 +86,7 @@ install/local/fast: preinstall/fast
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CPackSourceConfig.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -130,7 +130,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -151,14 +151,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/lib/CMakeFiles/progress.marks
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles 0
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/lib/CMakeFiles/progress.marks
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/clean
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,22 +168,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/preinstall
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/preinstall
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/rule
 .PHONY : external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/rule
 
 # Convenience name for target.
@@ -193,12 +193,12 @@ divsufsort64: external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/rule
 
 # fast build rule for target.
 divsufsort64/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build
 .PHONY : divsufsort64/fast
 
 # Convenience name for target.
 external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f CMakeFiles/Makefile2 external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/rule
 .PHONY : external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/rule
 
 # Convenience name for target.
@@ -208,79 +208,79 @@ divsufsort: external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/rule
 
 # fast build rule for target.
 divsufsort/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build
 .PHONY : divsufsort/fast
 
 # target to build an object file
 divsufsort.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/divsufsort.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/divsufsort.o
 .PHONY : divsufsort.o
 
 # target to preprocess a source file
 divsufsort.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/divsufsort.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/divsufsort.i
 .PHONY : divsufsort.i
 
 # target to generate assembly for a file
 divsufsort.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/divsufsort.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/divsufsort.s
 .PHONY : divsufsort.s
 
 # target to build an object file
 sssort.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/sssort.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/sssort.o
 .PHONY : sssort.o
 
 # target to preprocess a source file
 sssort.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/sssort.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/sssort.i
 .PHONY : sssort.i
 
 # target to generate assembly for a file
 sssort.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/sssort.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/sssort.s
 .PHONY : sssort.s
 
 # target to build an object file
 trsort.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/trsort.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/trsort.o
 .PHONY : trsort.o
 
 # target to preprocess a source file
 trsort.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/trsort.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/trsort.i
 .PHONY : trsort.i
 
 # target to generate assembly for a file
 trsort.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/trsort.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/trsort.s
 .PHONY : trsort.s
 
 # target to build an object file
 utils.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/utils.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/utils.o
 .PHONY : utils.o
 
 # target to preprocess a source file
 utils.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/utils.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/utils.i
 .PHONY : utils.i
 
 # target to generate assembly for a file
 utils.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/utils.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(MAKE) -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/utils.s
 .PHONY : utils.s
 
 # Help Target
@@ -322,6 +322,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

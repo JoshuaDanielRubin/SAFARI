@@ -164,7 +164,7 @@ lock_old_archive_extraction=no
 LTCC="/usr/bin/gcc"
 
 # LTCC compiler flags.
-LTCFLAGS="-I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include "
+LTCFLAGS="-I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include "
 
 # Take the output of nm and produce a listing of raw symbols and C names.
 global_symbol_pipe="sed -n -e 's/^.*[	 ]\\([ABCDGIRSTW][ABCDGIRSTW]*\\)[	 ][	 ]*\\([_A-Za-z][_A-Za-z0-9]*\\)\$/\\1 \\2 \\2/p' | sed '/ __gnu_lto/d'"
@@ -281,7 +281,7 @@ finish_eval=""
 hardcode_into_libs=yes
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib /usr/lib/gcc/x86_64-linux-gnu/9 /usr/lib/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib "
+sys_lib_search_path_spec="/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib /usr/lib/gcc/x86_64-linux-gnu/9 /usr/lib/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib "
 
 # Detected run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib /usr/lib /usr/lib/x86_64-linux-gnu/libfakeroot /usr/local/lib /usr/local/lib/x86_64-linux-gnu /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /lib32 /usr/lib32 "
@@ -11895,7 +11895,7 @@ file_list_spec=""
 hardcode_action=immediate
 
 # The directories searched by this compiler when creating a shared library.
-compiler_lib_search_dirs="/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib /usr/lib/gcc/x86_64-linux-gnu/9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu /usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /home/projects/MAAG/Magpie/Magpie/vg_corrected/lib . /usr/lib/gcc/x86_64-linux-gnu/9/../../.."
+compiler_lib_search_dirs="/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib /usr/lib/gcc/x86_64-linux-gnu/9 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu /usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib . /usr/lib/gcc/x86_64-linux-gnu/9/../../.."
 
 # Dependencies to place before and after the objects being linked to
 # create a shared library.
@@ -11906,6 +11906,6 @@ postdeps="-lstdc++ -lm -lgcc_s -lc -lgcc_s"
 
 # The library search path used internally by the compiler when linking
 # a shared library.
-compiler_lib_search_path="-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.."
+compiler_lib_search_path="-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.."
 
 # ### END LIBTOOL TAG CONFIG: CXX

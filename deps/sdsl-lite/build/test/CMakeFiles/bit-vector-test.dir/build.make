@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for bit-vector-test.
 
@@ -70,10 +70,10 @@ test/CMakeFiles/bit-vector-test.dir/build: bit-vector-test
 .PHONY : test/CMakeFiles/bit-vector-test.dir/build
 
 test/CMakeFiles/bit-vector-test.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/bit-vector-test.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/bit-vector-test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/bit-vector-test.dir/clean
 
 test/CMakeFiles/bit-vector-test.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/bit-vector-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/bit-vector-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/bit-vector-test.dir/depend
 

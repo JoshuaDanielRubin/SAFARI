@@ -1,103 +1,103 @@
 obj/unittest/traversal_support.o: src/unittest/traversal_support.cpp \
  src/unittest/catch.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/traversal_support.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/snarls.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/aligner.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/path.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/utility.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/nodetraversal.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/dozeu_interface.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/mem.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/deletion_aligner.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/ssw_aligner.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/region.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/alignment.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/progressive.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/swap_remove.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/pictographs.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/colors.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/nodeside.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/cactus.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/genotypekit.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/translator.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/path_index.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/traversal_finder.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gbwt_helper.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/traversal_support.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/snarls.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/aligner.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/path.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/utility.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/nodetraversal.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/dozeu_interface.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/mem.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/deletion_aligner.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/ssw_aligner.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/region.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/alignment.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/progressive.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/swap_remove.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/pictographs.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/colors.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/nodeside.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/cactus.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/genotypekit.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/translator.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/path_index.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/graph.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/traversal_finder.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gbwt_helper.hpp \
  src/unittest/../handle.hpp
 
 src/unittest/catch.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/traversal_support.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/traversal_support.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/wang_hash.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/wang_hash.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/snarls.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/snarls.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/aligner.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/aligner.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/path.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/path.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/utility.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/utility.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/nodetraversal.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/nodetraversal.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/dozeu_interface.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/dozeu_interface.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/mem.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/mem.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/deletion_aligner.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/deletion_aligner.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/ssw_aligner.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/ssw_aligner.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/region.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/region.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/alignment.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/alignment.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/progressive.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/progressive.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/swap_remove.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/swap_remove.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/pictographs.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/pictographs.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/colors.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/colors.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/nodeside.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/nodeside.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/cactus.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/cactus.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/genotypekit.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/genotypekit.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/translator.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/translator.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/path_index.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/path_index.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/graph.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/traversal_finder.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/traversal_finder.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gbwt_helper.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gbwt_helper.hpp:
 
 src/unittest/../handle.hpp:

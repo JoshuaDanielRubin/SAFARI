@@ -12,15 +12,6 @@ CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: ../smithwaterman/Mos
 CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: ../src/Variant.h
 CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: ../src/convert.h
 CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o: ../src/join.h

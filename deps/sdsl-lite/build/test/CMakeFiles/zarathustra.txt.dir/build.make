@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for zarathustra.txt.
 
@@ -60,8 +60,8 @@ test/CMakeFiles/zarathustra.txt: ../test/test_cases/zarathustra.txt
 
 
 ../test/test_cases/zarathustra.txt:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Checking or downloading test case zarathustra.txt."
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test && /usr/bin/cmake -Ddownload_url=http://algo2.iti.kit.edu/gog/sdsl/zarathustra.txt.tar.gz -Dtest_case_dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases -P /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/download.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Checking or downloading test case zarathustra.txt."
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test && /usr/bin/cmake -Ddownload_url=http://algo2.iti.kit.edu/gog/sdsl/zarathustra.txt.tar.gz -Dtest_case_dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases -P /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/download.cmake
 
 zarathustra.txt: test/CMakeFiles/zarathustra.txt
 zarathustra.txt: ../test/test_cases/zarathustra.txt
@@ -75,10 +75,10 @@ test/CMakeFiles/zarathustra.txt.dir/build: zarathustra.txt
 .PHONY : test/CMakeFiles/zarathustra.txt.dir/build
 
 test/CMakeFiles/zarathustra.txt.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/zarathustra.txt.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/zarathustra.txt.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/zarathustra.txt.dir/clean
 
 test/CMakeFiles/zarathustra.txt.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/zarathustra.txt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/zarathustra.txt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/zarathustra.txt.dir/depend
 

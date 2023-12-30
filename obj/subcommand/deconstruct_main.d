@@ -20,9 +20,9 @@ obj/subcommand/deconstruct_main.o: src/subcommand/deconstruct_main.cpp \
  src/subcommand/../snarl_caller.hpp \
  src/subcommand/../traversal_support.hpp \
  src/subcommand/../algorithms/coverage_depth.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp \
  src/subcommand/../zstdutil.hpp \
  src/subcommand/../integrated_snarl_finder.hpp \
  src/subcommand/../gbwtgraph_helper.hpp src/subcommand/../gbwt_helper.hpp \
@@ -104,11 +104,11 @@ src/subcommand/../traversal_support.hpp:
 
 src/subcommand/../algorithms/coverage_depth.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/statistics.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/statistics.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/packer.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/packer.hpp:
 
 src/subcommand/../zstdutil.hpp:
 

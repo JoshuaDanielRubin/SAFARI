@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_avltree.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_avltree.c
 raptor_config.h
 -
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 string.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdlib.h
 -
 libxml/parser.h

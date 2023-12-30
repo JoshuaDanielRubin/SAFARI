@@ -12,15 +12,6 @@ CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: ../src/Variant.h
 CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: ../src/convert.h
 CMakeFiles/vcfinfo2qual.dir/src/vcfinfo2qual.cpp.o: ../src/join.h

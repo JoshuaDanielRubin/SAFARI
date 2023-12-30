@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for cst-int-test_int-vec-sa.100000.18.r_0.
 
@@ -59,14 +59,14 @@ include test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/progress.make
 test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0: ../test/test_cases/int-vec-sa.100000.18.r
 test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0: ../test/tmp
 test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0: test/cst_int_test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute cst-int-test on int-vec-sa.100000.18.r."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/cst_int_test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/int-vec-sa.100000.18.r 0 /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp/cst_int_test__0 /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute cst-int-test on int-vec-sa.100000.18.r."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/cst_int_test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/int-vec-sa.100000.18.r 0 /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp/cst_int_test__0 /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp
 
 ../test/test_cases/int-vec-sa.100000.18.r: test/int_vector_generator
 ../test/test_cases/int-vec-sa.100000.18.r: test/replace_int_vector_value
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating test case int-vec-sa.100000.18.r."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/int_vector_generator /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/int-vec-sa.100000.18.r 100000 18 r
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/replace_int_vector_value /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/int-vec-sa.100000.18.r 0 1
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating test case int-vec-sa.100000.18.r."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/int_vector_generator /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/int-vec-sa.100000.18.r 100000 18 r
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/replace_int_vector_value /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/int-vec-sa.100000.18.r 0 1
 
 cst-int-test_int-vec-sa.100000.18.r_0: test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0
 cst-int-test_int-vec-sa.100000.18.r_0: ../test/test_cases/int-vec-sa.100000.18.r
@@ -80,10 +80,10 @@ test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/build: cst-int-test_in
 .PHONY : test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/build
 
 test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/clean
 
 test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/cst-int-test_int-vec-sa.100000.18.r_0.dir/depend
 

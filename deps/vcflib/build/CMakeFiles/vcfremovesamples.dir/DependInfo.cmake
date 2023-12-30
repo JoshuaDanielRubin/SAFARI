@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/projects2/vgan_ancient/vg/deps/vcflib/src/vcfremovesamples.cpp" "/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/vcfremovesamples.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles/vcfremovesamples.dir/src/vcfremovesamples.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,12 +23,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../multichoose"
   "../filevercmp"
   "../tabixpp"
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles/vcflib.dir/DependInfo.cmake"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles/vcflib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

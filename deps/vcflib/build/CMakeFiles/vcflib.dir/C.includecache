@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/filevercmp/filevercmp.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/filevercmp/filevercmp.c
 filevercmp.h
-/home/projects2/vgan_ancient/vg/deps/vcflib/filevercmp/filevercmp.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/filevercmp/filevercmp.h
 sys/types.h
 -
 stdlib.h
@@ -22,11 +22,11 @@ limits.h
 ctype.h
 -
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/filevercmp/filevercmp.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/filevercmp/filevercmp.h
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/fsom/fsom.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/fsom/fsom.c
 fsom.h
-/home/projects2/vgan_ancient/vg/deps/vcflib/fsom/fsom.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/fsom/fsom.h
 float.h
 -
 limits.h
@@ -40,7 +40,7 @@ stdio.h
 stdlib.h
 -
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/fsom/fsom.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/fsom/fsom.h
 stddef.h
 -
 time.h

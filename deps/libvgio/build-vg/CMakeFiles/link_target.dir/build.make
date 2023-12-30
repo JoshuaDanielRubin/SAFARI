@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg
 
 # Utility rule file for link_target.
 
@@ -74,6 +74,6 @@ CMakeFiles/link_target.dir/clean:
 .PHONY : CMakeFiles/link_target.dir/clean
 
 CMakeFiles/link_target.dir/depend:
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects2/vgan_ancient/vg/deps/libvgio /home/projects2/vgan_ancient/vg/deps/libvgio /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/link_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/link_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/link_target.dir/depend
 

@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for wt-int-test_int-vec.0.1.0.
 
@@ -59,12 +59,12 @@ include test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/progress.make
 test/CMakeFiles/wt-int-test_int-vec.0.1.0: ../test/test_cases/int-vec.0.1.0
 test/CMakeFiles/wt-int-test_int-vec.0.1.0: ../test/tmp
 test/CMakeFiles/wt-int-test_int-vec.0.1.0: test/wt_int_test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute wt-int-test on int-vec.0.1.0."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/wt_int_test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/int-vec.0.1.0 /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp/wt_int_test_int-vec.0.1.0 /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute wt-int-test on int-vec.0.1.0."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/wt_int_test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/int-vec.0.1.0 /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp/wt_int_test_int-vec.0.1.0 /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp
 
 ../test/test_cases/int-vec.0.1.0: test/int_vector_generator
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating test case int-vec.0.1.0."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/int_vector_generator /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/int-vec.0.1.0 0 1 0
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating test case int-vec.0.1.0."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/int_vector_generator /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/int-vec.0.1.0 0 1 0
 
 wt-int-test_int-vec.0.1.0: test/CMakeFiles/wt-int-test_int-vec.0.1.0
 wt-int-test_int-vec.0.1.0: ../test/test_cases/int-vec.0.1.0
@@ -78,10 +78,10 @@ test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/build: wt-int-test_int-vec.0.1.0
 .PHONY : test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/build
 
 test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/wt-int-test_int-vec.0.1.0.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/wt-int-test_int-vec.0.1.0.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/clean
 
 test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/wt-int-test_int-vec.0.1.0.dir/depend
 

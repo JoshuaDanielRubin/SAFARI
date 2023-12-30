@@ -21,7 +21,7 @@ obj/unittest/multipath_mapper.o: src/unittest/multipath_mapper.cpp \
  src/unittest/../incremental_subgraph.hpp src/unittest/../statistics.hpp \
  src/unittest/../memoizing_graph.hpp src/unittest/../build_index.hpp \
  src/unittest/../kmer.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp \
  src/unittest/catch.hpp
 
 src/unittest/../multipath_mapper.hpp:
@@ -106,6 +106,6 @@ src/unittest/../build_index.hpp:
 
 src/unittest/../kmer.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp:
 
 src/unittest/catch.hpp:

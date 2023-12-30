@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/CMakeFiles/progress.marks
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles 0
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/CMakeFiles/progress.marks
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/turtle_parser_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_parser_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_parser_test.dir/rule
 .PHONY : src/CMakeFiles/turtle_parser_test.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ turtle_parser_test: src/CMakeFiles/turtle_parser_test.dir/rule
 
 # fast build rule for target.
 turtle_parser_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/build
 .PHONY : turtle_parser_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_rfc2396_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_rfc2396_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_rfc2396_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_rfc2396_test.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ raptor_rfc2396_test: src/CMakeFiles/raptor_rfc2396_test.dir/rule
 
 # fast build rule for target.
 raptor_rfc2396_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/build
 .PHONY : raptor_rfc2396_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_uri_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_uri_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_uri_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_uri_test.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ raptor_uri_test: src/CMakeFiles/raptor_uri_test.dir/rule
 
 # fast build rule for target.
 raptor_uri_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/build
 .PHONY : raptor_uri_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_namespace_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_namespace_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_namespace_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_namespace_test.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ raptor_namespace_test: src/CMakeFiles/raptor_namespace_test.dir/rule
 
 # fast build rule for target.
 raptor_namespace_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/build
 .PHONY : raptor_namespace_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/turtle_flex_tgt.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_flex_tgt.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_flex_tgt.dir/rule
 .PHONY : src/CMakeFiles/turtle_flex_tgt.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ turtle_flex_tgt: src/CMakeFiles/turtle_flex_tgt.dir/rule
 
 # fast build rule for target.
 turtle_flex_tgt/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_flex_tgt.dir/build.make src/CMakeFiles/turtle_flex_tgt.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_flex_tgt.dir/build.make src/CMakeFiles/turtle_flex_tgt.dir/build
 .PHONY : turtle_flex_tgt/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_avltree_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_avltree_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_avltree_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_avltree_test.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ raptor_avltree_test: src/CMakeFiles/raptor_avltree_test.dir/rule
 
 # fast build rule for target.
 raptor_avltree_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/build
 .PHONY : raptor_avltree_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/parsedate_tables_tgt.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/parsedate_tables_tgt.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/parsedate_tables_tgt.dir/rule
 .PHONY : src/CMakeFiles/parsedate_tables_tgt.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ parsedate_tables_tgt: src/CMakeFiles/parsedate_tables_tgt.dir/rule
 
 # fast build rule for target.
 parsedate_tables_tgt/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/parsedate_tables_tgt.dir/build.make src/CMakeFiles/parsedate_tables_tgt.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/parsedate_tables_tgt.dir/build.make src/CMakeFiles/parsedate_tables_tgt.dir/build
 .PHONY : parsedate_tables_tgt/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_turtle_writer_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_turtle_writer_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_turtle_writer_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_turtle_writer_test.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ raptor_turtle_writer_test: src/CMakeFiles/raptor_turtle_writer_test.dir/rule
 
 # fast build rule for target.
 raptor_turtle_writer_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/build
 .PHONY : raptor_turtle_writer_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/parsedate_tgt.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/parsedate_tgt.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/parsedate_tgt.dir/rule
 .PHONY : src/CMakeFiles/parsedate_tgt.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ parsedate_tgt: src/CMakeFiles/parsedate_tgt.dir/rule
 
 # fast build rule for target.
 parsedate_tgt/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/parsedate_tgt.dir/build.make src/CMakeFiles/parsedate_tgt.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/parsedate_tgt.dir/build.make src/CMakeFiles/parsedate_tgt.dir/build
 .PHONY : parsedate_tgt/fast
 
 # Convenience name for target.
 src/CMakeFiles/turtle_lexer_tgt.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_lexer_tgt.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_lexer_tgt.dir/rule
 .PHONY : src/CMakeFiles/turtle_lexer_tgt.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ turtle_lexer_tgt: src/CMakeFiles/turtle_lexer_tgt.dir/rule
 
 # fast build rule for target.
 turtle_lexer_tgt/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_tgt.dir/build.make src/CMakeFiles/turtle_lexer_tgt.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_tgt.dir/build.make src/CMakeFiles/turtle_lexer_tgt.dir/build
 .PHONY : turtle_lexer_tgt/fast
 
 # Convenience name for target.
 src/CMakeFiles/turtle_parser_tgt.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_parser_tgt.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_parser_tgt.dir/rule
 .PHONY : src/CMakeFiles/turtle_parser_tgt.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ turtle_parser_tgt: src/CMakeFiles/turtle_parser_tgt.dir/rule
 
 # fast build rule for target.
 turtle_parser_tgt/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_tgt.dir/build.make src/CMakeFiles/turtle_parser_tgt.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_tgt.dir/build.make src/CMakeFiles/turtle_parser_tgt.dir/build
 .PHONY : turtle_parser_tgt/fast
 
 # Convenience name for target.
 src/CMakeFiles/turtle_lexer_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_lexer_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_lexer_test.dir/rule
 .PHONY : src/CMakeFiles/turtle_lexer_test.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ turtle_lexer_test: src/CMakeFiles/turtle_lexer_test.dir/rule
 
 # fast build rule for target.
 turtle_lexer_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/build
 .PHONY : turtle_lexer_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_sequence_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_sequence_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_sequence_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_sequence_test.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ raptor_sequence_test: src/CMakeFiles/raptor_sequence_test.dir/rule
 
 # fast build rule for target.
 raptor_sequence_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/build
 .PHONY : raptor_sequence_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor2.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor2.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor2.dir/rule
 .PHONY : src/CMakeFiles/raptor2.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ raptor2: src/CMakeFiles/raptor2.dir/rule
 
 # fast build rule for target.
 raptor2/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/build
 .PHONY : raptor2/fast
 
 # Convenience name for target.
 src/CMakeFiles/turtle_tables_tgt.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_tables_tgt.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/turtle_tables_tgt.dir/rule
 .PHONY : src/CMakeFiles/turtle_tables_tgt.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ turtle_tables_tgt: src/CMakeFiles/turtle_tables_tgt.dir/rule
 
 # fast build rule for target.
 turtle_tables_tgt/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_tables_tgt.dir/build.make src/CMakeFiles/turtle_tables_tgt.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_tables_tgt.dir/build.make src/CMakeFiles/turtle_tables_tgt.dir/build
 .PHONY : turtle_tables_tgt/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_sort_r_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_sort_r_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_sort_r_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_sort_r_test.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ raptor_sort_r_test: src/CMakeFiles/raptor_sort_r_test.dir/rule
 
 # fast build rule for target.
 raptor_sort_r_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/build
 .PHONY : raptor_sort_r_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/strcasecmp_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/strcasecmp_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/strcasecmp_test.dir/rule
 .PHONY : src/CMakeFiles/strcasecmp_test.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ strcasecmp_test: src/CMakeFiles/strcasecmp_test.dir/rule
 
 # fast build rule for target.
 strcasecmp_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/build
 .PHONY : strcasecmp_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_www_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_www_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_www_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_www_test.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ raptor_www_test: src/CMakeFiles/raptor_www_test.dir/rule
 
 # fast build rule for target.
 raptor_www_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/build
 .PHONY : raptor_www_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_parse_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_parse_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_parse_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_parse_test.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ raptor_parse_test: src/CMakeFiles/raptor_parse_test.dir/rule
 
 # fast build rule for target.
 raptor_parse_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/build
 .PHONY : raptor_parse_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_stringbuffer_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_stringbuffer_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_stringbuffer_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_stringbuffer_test.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ raptor_stringbuffer_test: src/CMakeFiles/raptor_stringbuffer_test.dir/rule
 
 # fast build rule for target.
 raptor_stringbuffer_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/build
 .PHONY : raptor_stringbuffer_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_iostream_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_iostream_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_iostream_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_iostream_test.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ raptor_iostream_test: src/CMakeFiles/raptor_iostream_test.dir/rule
 
 # fast build rule for target.
 raptor_iostream_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/build
 .PHONY : raptor_iostream_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_xml_writer_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_xml_writer_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_xml_writer_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_xml_writer_test.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ raptor_xml_writer_test: src/CMakeFiles/raptor_xml_writer_test.dir/rule
 
 # fast build rule for target.
 raptor_xml_writer_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/build
 .PHONY : raptor_xml_writer_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_term_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_term_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_term_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_term_test.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ raptor_term_test: src/CMakeFiles/raptor_term_test.dir/rule
 
 # fast build rule for target.
 raptor_term_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/build
 .PHONY : raptor_term_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_permute_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_permute_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_permute_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_permute_test.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ raptor_permute_test: src/CMakeFiles/raptor_permute_test.dir/rule
 
 # fast build rule for target.
 raptor_permute_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/build
 .PHONY : raptor_permute_test/fast
 
 # Convenience name for target.
 src/CMakeFiles/raptor_snprintf_test.dir/rule:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_snprintf_test.dir/rule
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/raptor_snprintf_test.dir/rule
 .PHONY : src/CMakeFiles/raptor_snprintf_test.dir/rule
 
 # Convenience name for target.
@@ -539,7 +539,7 @@ raptor_snprintf_test: src/CMakeFiles/raptor_snprintf_test.dir/rule
 
 # fast build rule for target.
 raptor_snprintf_test/fast:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/build
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/build
 .PHONY : raptor_snprintf_test/fast
 
 __/librdfa/context.o: __/librdfa/context.c.o
@@ -548,7 +548,7 @@ __/librdfa/context.o: __/librdfa/context.c.o
 
 # target to build an object file
 __/librdfa/context.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/context.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/context.c.o
 .PHONY : __/librdfa/context.c.o
 
 __/librdfa/context.i: __/librdfa/context.c.i
@@ -557,7 +557,7 @@ __/librdfa/context.i: __/librdfa/context.c.i
 
 # target to preprocess a source file
 __/librdfa/context.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/context.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/context.c.i
 .PHONY : __/librdfa/context.c.i
 
 __/librdfa/context.s: __/librdfa/context.c.s
@@ -566,7 +566,7 @@ __/librdfa/context.s: __/librdfa/context.c.s
 
 # target to generate assembly for a file
 __/librdfa/context.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/context.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/context.c.s
 .PHONY : __/librdfa/context.c.s
 
 __/librdfa/curie.o: __/librdfa/curie.c.o
@@ -575,7 +575,7 @@ __/librdfa/curie.o: __/librdfa/curie.c.o
 
 # target to build an object file
 __/librdfa/curie.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.o
 .PHONY : __/librdfa/curie.c.o
 
 __/librdfa/curie.i: __/librdfa/curie.c.i
@@ -584,7 +584,7 @@ __/librdfa/curie.i: __/librdfa/curie.c.i
 
 # target to preprocess a source file
 __/librdfa/curie.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.i
 .PHONY : __/librdfa/curie.c.i
 
 __/librdfa/curie.s: __/librdfa/curie.c.s
@@ -593,7 +593,7 @@ __/librdfa/curie.s: __/librdfa/curie.c.s
 
 # target to generate assembly for a file
 __/librdfa/curie.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.s
 .PHONY : __/librdfa/curie.c.s
 
 __/librdfa/iri.o: __/librdfa/iri.c.o
@@ -602,7 +602,7 @@ __/librdfa/iri.o: __/librdfa/iri.c.o
 
 # target to build an object file
 __/librdfa/iri.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.o
 .PHONY : __/librdfa/iri.c.o
 
 __/librdfa/iri.i: __/librdfa/iri.c.i
@@ -611,7 +611,7 @@ __/librdfa/iri.i: __/librdfa/iri.c.i
 
 # target to preprocess a source file
 __/librdfa/iri.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.i
 .PHONY : __/librdfa/iri.c.i
 
 __/librdfa/iri.s: __/librdfa/iri.c.s
@@ -620,7 +620,7 @@ __/librdfa/iri.s: __/librdfa/iri.c.s
 
 # target to generate assembly for a file
 __/librdfa/iri.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.s
 .PHONY : __/librdfa/iri.c.s
 
 __/librdfa/language.o: __/librdfa/language.c.o
@@ -629,7 +629,7 @@ __/librdfa/language.o: __/librdfa/language.c.o
 
 # target to build an object file
 __/librdfa/language.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/language.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/language.c.o
 .PHONY : __/librdfa/language.c.o
 
 __/librdfa/language.i: __/librdfa/language.c.i
@@ -638,7 +638,7 @@ __/librdfa/language.i: __/librdfa/language.c.i
 
 # target to preprocess a source file
 __/librdfa/language.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/language.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/language.c.i
 .PHONY : __/librdfa/language.c.i
 
 __/librdfa/language.s: __/librdfa/language.c.s
@@ -647,7 +647,7 @@ __/librdfa/language.s: __/librdfa/language.c.s
 
 # target to generate assembly for a file
 __/librdfa/language.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/language.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/language.c.s
 .PHONY : __/librdfa/language.c.s
 
 __/librdfa/lists.o: __/librdfa/lists.c.o
@@ -656,7 +656,7 @@ __/librdfa/lists.o: __/librdfa/lists.c.o
 
 # target to build an object file
 __/librdfa/lists.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.o
 .PHONY : __/librdfa/lists.c.o
 
 __/librdfa/lists.i: __/librdfa/lists.c.i
@@ -665,7 +665,7 @@ __/librdfa/lists.i: __/librdfa/lists.c.i
 
 # target to preprocess a source file
 __/librdfa/lists.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.i
 .PHONY : __/librdfa/lists.c.i
 
 __/librdfa/lists.s: __/librdfa/lists.c.s
@@ -674,7 +674,7 @@ __/librdfa/lists.s: __/librdfa/lists.c.s
 
 # target to generate assembly for a file
 __/librdfa/lists.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.s
 .PHONY : __/librdfa/lists.c.s
 
 __/librdfa/namespace.o: __/librdfa/namespace.c.o
@@ -683,7 +683,7 @@ __/librdfa/namespace.o: __/librdfa/namespace.c.o
 
 # target to build an object file
 __/librdfa/namespace.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.o
 .PHONY : __/librdfa/namespace.c.o
 
 __/librdfa/namespace.i: __/librdfa/namespace.c.i
@@ -692,7 +692,7 @@ __/librdfa/namespace.i: __/librdfa/namespace.c.i
 
 # target to preprocess a source file
 __/librdfa/namespace.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.i
 .PHONY : __/librdfa/namespace.c.i
 
 __/librdfa/namespace.s: __/librdfa/namespace.c.s
@@ -701,7 +701,7 @@ __/librdfa/namespace.s: __/librdfa/namespace.c.s
 
 # target to generate assembly for a file
 __/librdfa/namespace.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.s
 .PHONY : __/librdfa/namespace.c.s
 
 __/librdfa/rdfa.o: __/librdfa/rdfa.c.o
@@ -710,7 +710,7 @@ __/librdfa/rdfa.o: __/librdfa/rdfa.c.o
 
 # target to build an object file
 __/librdfa/rdfa.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.o
 .PHONY : __/librdfa/rdfa.c.o
 
 __/librdfa/rdfa.i: __/librdfa/rdfa.c.i
@@ -719,7 +719,7 @@ __/librdfa/rdfa.i: __/librdfa/rdfa.c.i
 
 # target to preprocess a source file
 __/librdfa/rdfa.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.i
 .PHONY : __/librdfa/rdfa.c.i
 
 __/librdfa/rdfa.s: __/librdfa/rdfa.c.s
@@ -728,7 +728,7 @@ __/librdfa/rdfa.s: __/librdfa/rdfa.c.s
 
 # target to generate assembly for a file
 __/librdfa/rdfa.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.s
 .PHONY : __/librdfa/rdfa.c.s
 
 __/librdfa/rdfa_utils.o: __/librdfa/rdfa_utils.c.o
@@ -737,7 +737,7 @@ __/librdfa/rdfa_utils.o: __/librdfa/rdfa_utils.c.o
 
 # target to build an object file
 __/librdfa/rdfa_utils.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.o
 .PHONY : __/librdfa/rdfa_utils.c.o
 
 __/librdfa/rdfa_utils.i: __/librdfa/rdfa_utils.c.i
@@ -746,7 +746,7 @@ __/librdfa/rdfa_utils.i: __/librdfa/rdfa_utils.c.i
 
 # target to preprocess a source file
 __/librdfa/rdfa_utils.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.i
 .PHONY : __/librdfa/rdfa_utils.c.i
 
 __/librdfa/rdfa_utils.s: __/librdfa/rdfa_utils.c.s
@@ -755,7 +755,7 @@ __/librdfa/rdfa_utils.s: __/librdfa/rdfa_utils.c.s
 
 # target to generate assembly for a file
 __/librdfa/rdfa_utils.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.s
 .PHONY : __/librdfa/rdfa_utils.c.s
 
 __/librdfa/strtok_r.o: __/librdfa/strtok_r.c.o
@@ -764,7 +764,7 @@ __/librdfa/strtok_r.o: __/librdfa/strtok_r.c.o
 
 # target to build an object file
 __/librdfa/strtok_r.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/strtok_r.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/strtok_r.c.o
 .PHONY : __/librdfa/strtok_r.c.o
 
 __/librdfa/strtok_r.i: __/librdfa/strtok_r.c.i
@@ -773,7 +773,7 @@ __/librdfa/strtok_r.i: __/librdfa/strtok_r.c.i
 
 # target to preprocess a source file
 __/librdfa/strtok_r.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/strtok_r.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/strtok_r.c.i
 .PHONY : __/librdfa/strtok_r.c.i
 
 __/librdfa/strtok_r.s: __/librdfa/strtok_r.c.s
@@ -782,7 +782,7 @@ __/librdfa/strtok_r.s: __/librdfa/strtok_r.c.s
 
 # target to generate assembly for a file
 __/librdfa/strtok_r.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/strtok_r.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/strtok_r.c.s
 .PHONY : __/librdfa/strtok_r.c.s
 
 __/librdfa/subject.o: __/librdfa/subject.c.o
@@ -791,7 +791,7 @@ __/librdfa/subject.o: __/librdfa/subject.c.o
 
 # target to build an object file
 __/librdfa/subject.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.o
 .PHONY : __/librdfa/subject.c.o
 
 __/librdfa/subject.i: __/librdfa/subject.c.i
@@ -800,7 +800,7 @@ __/librdfa/subject.i: __/librdfa/subject.c.i
 
 # target to preprocess a source file
 __/librdfa/subject.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.i
 .PHONY : __/librdfa/subject.c.i
 
 __/librdfa/subject.s: __/librdfa/subject.c.s
@@ -809,7 +809,7 @@ __/librdfa/subject.s: __/librdfa/subject.c.s
 
 # target to generate assembly for a file
 __/librdfa/subject.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.s
 .PHONY : __/librdfa/subject.c.s
 
 __/librdfa/triple.o: __/librdfa/triple.c.o
@@ -818,7 +818,7 @@ __/librdfa/triple.o: __/librdfa/triple.c.o
 
 # target to build an object file
 __/librdfa/triple.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.o
 .PHONY : __/librdfa/triple.c.o
 
 __/librdfa/triple.i: __/librdfa/triple.c.i
@@ -827,7 +827,7 @@ __/librdfa/triple.i: __/librdfa/triple.c.i
 
 # target to preprocess a source file
 __/librdfa/triple.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.i
 .PHONY : __/librdfa/triple.c.i
 
 __/librdfa/triple.s: __/librdfa/triple.c.s
@@ -836,7 +836,7 @@ __/librdfa/triple.s: __/librdfa/triple.c.s
 
 # target to generate assembly for a file
 __/librdfa/triple.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.s
 .PHONY : __/librdfa/triple.c.s
 
 ntriples_parse.o: ntriples_parse.c.o
@@ -845,7 +845,7 @@ ntriples_parse.o: ntriples_parse.c.o
 
 # target to build an object file
 ntriples_parse.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/ntriples_parse.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/ntriples_parse.c.o
 .PHONY : ntriples_parse.c.o
 
 ntriples_parse.i: ntriples_parse.c.i
@@ -854,7 +854,7 @@ ntriples_parse.i: ntriples_parse.c.i
 
 # target to preprocess a source file
 ntriples_parse.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/ntriples_parse.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/ntriples_parse.c.i
 .PHONY : ntriples_parse.c.i
 
 ntriples_parse.s: ntriples_parse.c.s
@@ -863,7 +863,7 @@ ntriples_parse.s: ntriples_parse.c.s
 
 # target to generate assembly for a file
 ntriples_parse.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/ntriples_parse.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/ntriples_parse.c.s
 .PHONY : ntriples_parse.c.s
 
 parsedate.o: parsedate.c.o
@@ -872,7 +872,7 @@ parsedate.o: parsedate.c.o
 
 # target to build an object file
 parsedate.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/parsedate.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/parsedate.c.o
 .PHONY : parsedate.c.o
 
 parsedate.i: parsedate.c.i
@@ -881,7 +881,7 @@ parsedate.i: parsedate.c.i
 
 # target to preprocess a source file
 parsedate.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/parsedate.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/parsedate.c.i
 .PHONY : parsedate.c.i
 
 parsedate.s: parsedate.c.s
@@ -890,7 +890,7 @@ parsedate.s: parsedate.c.s
 
 # target to generate assembly for a file
 parsedate.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/parsedate.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/parsedate.c.s
 .PHONY : parsedate.c.s
 
 raptor_abbrev.o: raptor_abbrev.c.o
@@ -899,7 +899,7 @@ raptor_abbrev.o: raptor_abbrev.c.o
 
 # target to build an object file
 raptor_abbrev.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_abbrev.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_abbrev.c.o
 .PHONY : raptor_abbrev.c.o
 
 raptor_abbrev.i: raptor_abbrev.c.i
@@ -908,7 +908,7 @@ raptor_abbrev.i: raptor_abbrev.c.i
 
 # target to preprocess a source file
 raptor_abbrev.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_abbrev.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_abbrev.c.i
 .PHONY : raptor_abbrev.c.i
 
 raptor_abbrev.s: raptor_abbrev.c.s
@@ -917,7 +917,7 @@ raptor_abbrev.s: raptor_abbrev.c.s
 
 # target to generate assembly for a file
 raptor_abbrev.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_abbrev.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_abbrev.c.s
 .PHONY : raptor_abbrev.c.s
 
 raptor_avltree.o: raptor_avltree.c.o
@@ -926,8 +926,8 @@ raptor_avltree.o: raptor_avltree.c.o
 
 # target to build an object file
 raptor_avltree.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/raptor_avltree.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_avltree.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/raptor_avltree.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_avltree.c.o
 .PHONY : raptor_avltree.c.o
 
 raptor_avltree.i: raptor_avltree.c.i
@@ -936,8 +936,8 @@ raptor_avltree.i: raptor_avltree.c.i
 
 # target to preprocess a source file
 raptor_avltree.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/raptor_avltree.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_avltree.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/raptor_avltree.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_avltree.c.i
 .PHONY : raptor_avltree.c.i
 
 raptor_avltree.s: raptor_avltree.c.s
@@ -946,8 +946,8 @@ raptor_avltree.s: raptor_avltree.c.s
 
 # target to generate assembly for a file
 raptor_avltree.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/raptor_avltree.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_avltree.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_avltree_test.dir/build.make src/CMakeFiles/raptor_avltree_test.dir/raptor_avltree.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_avltree.c.s
 .PHONY : raptor_avltree.c.s
 
 raptor_concepts.o: raptor_concepts.c.o
@@ -956,7 +956,7 @@ raptor_concepts.o: raptor_concepts.c.o
 
 # target to build an object file
 raptor_concepts.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_concepts.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_concepts.c.o
 .PHONY : raptor_concepts.c.o
 
 raptor_concepts.i: raptor_concepts.c.i
@@ -965,7 +965,7 @@ raptor_concepts.i: raptor_concepts.c.i
 
 # target to preprocess a source file
 raptor_concepts.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_concepts.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_concepts.c.i
 .PHONY : raptor_concepts.c.i
 
 raptor_concepts.s: raptor_concepts.c.s
@@ -974,7 +974,7 @@ raptor_concepts.s: raptor_concepts.c.s
 
 # target to generate assembly for a file
 raptor_concepts.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_concepts.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_concepts.c.s
 .PHONY : raptor_concepts.c.s
 
 raptor_escaped.o: raptor_escaped.c.o
@@ -983,7 +983,7 @@ raptor_escaped.o: raptor_escaped.c.o
 
 # target to build an object file
 raptor_escaped.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_escaped.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_escaped.c.o
 .PHONY : raptor_escaped.c.o
 
 raptor_escaped.i: raptor_escaped.c.i
@@ -992,7 +992,7 @@ raptor_escaped.i: raptor_escaped.c.i
 
 # target to preprocess a source file
 raptor_escaped.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_escaped.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_escaped.c.i
 .PHONY : raptor_escaped.c.i
 
 raptor_escaped.s: raptor_escaped.c.s
@@ -1001,7 +1001,7 @@ raptor_escaped.s: raptor_escaped.c.s
 
 # target to generate assembly for a file
 raptor_escaped.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_escaped.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_escaped.c.s
 .PHONY : raptor_escaped.c.s
 
 raptor_general.o: raptor_general.c.o
@@ -1010,7 +1010,7 @@ raptor_general.o: raptor_general.c.o
 
 # target to build an object file
 raptor_general.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_general.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_general.c.o
 .PHONY : raptor_general.c.o
 
 raptor_general.i: raptor_general.c.i
@@ -1019,7 +1019,7 @@ raptor_general.i: raptor_general.c.i
 
 # target to preprocess a source file
 raptor_general.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_general.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_general.c.i
 .PHONY : raptor_general.c.i
 
 raptor_general.s: raptor_general.c.s
@@ -1028,7 +1028,7 @@ raptor_general.s: raptor_general.c.s
 
 # target to generate assembly for a file
 raptor_general.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_general.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_general.c.s
 .PHONY : raptor_general.c.s
 
 raptor_guess.o: raptor_guess.c.o
@@ -1037,7 +1037,7 @@ raptor_guess.o: raptor_guess.c.o
 
 # target to build an object file
 raptor_guess.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_guess.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_guess.c.o
 .PHONY : raptor_guess.c.o
 
 raptor_guess.i: raptor_guess.c.i
@@ -1046,7 +1046,7 @@ raptor_guess.i: raptor_guess.c.i
 
 # target to preprocess a source file
 raptor_guess.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_guess.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_guess.c.i
 .PHONY : raptor_guess.c.i
 
 raptor_guess.s: raptor_guess.c.s
@@ -1055,7 +1055,7 @@ raptor_guess.s: raptor_guess.c.s
 
 # target to generate assembly for a file
 raptor_guess.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_guess.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_guess.c.s
 .PHONY : raptor_guess.c.s
 
 raptor_iostream.o: raptor_iostream.c.o
@@ -1064,8 +1064,8 @@ raptor_iostream.o: raptor_iostream.c.o
 
 # target to build an object file
 raptor_iostream.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_iostream.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/raptor_iostream.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_iostream.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/raptor_iostream.c.o
 .PHONY : raptor_iostream.c.o
 
 raptor_iostream.i: raptor_iostream.c.i
@@ -1074,8 +1074,8 @@ raptor_iostream.i: raptor_iostream.c.i
 
 # target to preprocess a source file
 raptor_iostream.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_iostream.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/raptor_iostream.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_iostream.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/raptor_iostream.c.i
 .PHONY : raptor_iostream.c.i
 
 raptor_iostream.s: raptor_iostream.c.s
@@ -1084,8 +1084,8 @@ raptor_iostream.s: raptor_iostream.c.s
 
 # target to generate assembly for a file
 raptor_iostream.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_iostream.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/raptor_iostream.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_iostream.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_iostream_test.dir/build.make src/CMakeFiles/raptor_iostream_test.dir/raptor_iostream.c.s
 .PHONY : raptor_iostream.c.s
 
 raptor_json_writer.o: raptor_json_writer.c.o
@@ -1094,7 +1094,7 @@ raptor_json_writer.o: raptor_json_writer.c.o
 
 # target to build an object file
 raptor_json_writer.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_json_writer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_json_writer.c.o
 .PHONY : raptor_json_writer.c.o
 
 raptor_json_writer.i: raptor_json_writer.c.i
@@ -1103,7 +1103,7 @@ raptor_json_writer.i: raptor_json_writer.c.i
 
 # target to preprocess a source file
 raptor_json_writer.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_json_writer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_json_writer.c.i
 .PHONY : raptor_json_writer.c.i
 
 raptor_json_writer.s: raptor_json_writer.c.s
@@ -1112,7 +1112,7 @@ raptor_json_writer.s: raptor_json_writer.c.s
 
 # target to generate assembly for a file
 raptor_json_writer.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_json_writer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_json_writer.c.s
 .PHONY : raptor_json_writer.c.s
 
 raptor_librdfa.o: raptor_librdfa.c.o
@@ -1121,7 +1121,7 @@ raptor_librdfa.o: raptor_librdfa.c.o
 
 # target to build an object file
 raptor_librdfa.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_librdfa.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_librdfa.c.o
 .PHONY : raptor_librdfa.c.o
 
 raptor_librdfa.i: raptor_librdfa.c.i
@@ -1130,7 +1130,7 @@ raptor_librdfa.i: raptor_librdfa.c.i
 
 # target to preprocess a source file
 raptor_librdfa.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_librdfa.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_librdfa.c.i
 .PHONY : raptor_librdfa.c.i
 
 raptor_librdfa.s: raptor_librdfa.c.s
@@ -1139,7 +1139,7 @@ raptor_librdfa.s: raptor_librdfa.c.s
 
 # target to generate assembly for a file
 raptor_librdfa.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_librdfa.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_librdfa.c.s
 .PHONY : raptor_librdfa.c.s
 
 raptor_locator.o: raptor_locator.c.o
@@ -1148,7 +1148,7 @@ raptor_locator.o: raptor_locator.c.o
 
 # target to build an object file
 raptor_locator.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_locator.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_locator.c.o
 .PHONY : raptor_locator.c.o
 
 raptor_locator.i: raptor_locator.c.i
@@ -1157,7 +1157,7 @@ raptor_locator.i: raptor_locator.c.i
 
 # target to preprocess a source file
 raptor_locator.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_locator.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_locator.c.i
 .PHONY : raptor_locator.c.i
 
 raptor_locator.s: raptor_locator.c.s
@@ -1166,7 +1166,7 @@ raptor_locator.s: raptor_locator.c.s
 
 # target to generate assembly for a file
 raptor_locator.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_locator.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_locator.c.s
 .PHONY : raptor_locator.c.s
 
 raptor_log.o: raptor_log.c.o
@@ -1175,7 +1175,7 @@ raptor_log.o: raptor_log.c.o
 
 # target to build an object file
 raptor_log.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_log.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_log.c.o
 .PHONY : raptor_log.c.o
 
 raptor_log.i: raptor_log.c.i
@@ -1184,7 +1184,7 @@ raptor_log.i: raptor_log.c.i
 
 # target to preprocess a source file
 raptor_log.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_log.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_log.c.i
 .PHONY : raptor_log.c.i
 
 raptor_log.s: raptor_log.c.s
@@ -1193,7 +1193,7 @@ raptor_log.s: raptor_log.c.s
 
 # target to generate assembly for a file
 raptor_log.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_log.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_log.c.s
 .PHONY : raptor_log.c.s
 
 raptor_memstr.o: raptor_memstr.c.o
@@ -1202,7 +1202,7 @@ raptor_memstr.o: raptor_memstr.c.o
 
 # target to build an object file
 raptor_memstr.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_memstr.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_memstr.c.o
 .PHONY : raptor_memstr.c.o
 
 raptor_memstr.i: raptor_memstr.c.i
@@ -1211,7 +1211,7 @@ raptor_memstr.i: raptor_memstr.c.i
 
 # target to preprocess a source file
 raptor_memstr.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_memstr.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_memstr.c.i
 .PHONY : raptor_memstr.c.i
 
 raptor_memstr.s: raptor_memstr.c.s
@@ -1220,7 +1220,7 @@ raptor_memstr.s: raptor_memstr.c.s
 
 # target to generate assembly for a file
 raptor_memstr.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_memstr.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_memstr.c.s
 .PHONY : raptor_memstr.c.s
 
 raptor_namespace.o: raptor_namespace.c.o
@@ -1229,8 +1229,8 @@ raptor_namespace.o: raptor_namespace.c.o
 
 # target to build an object file
 raptor_namespace.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/raptor_namespace.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_namespace.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/raptor_namespace.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_namespace.c.o
 .PHONY : raptor_namespace.c.o
 
 raptor_namespace.i: raptor_namespace.c.i
@@ -1239,8 +1239,8 @@ raptor_namespace.i: raptor_namespace.c.i
 
 # target to preprocess a source file
 raptor_namespace.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/raptor_namespace.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_namespace.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/raptor_namespace.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_namespace.c.i
 .PHONY : raptor_namespace.c.i
 
 raptor_namespace.s: raptor_namespace.c.s
@@ -1249,8 +1249,8 @@ raptor_namespace.s: raptor_namespace.c.s
 
 # target to generate assembly for a file
 raptor_namespace.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/raptor_namespace.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_namespace.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_namespace_test.dir/build.make src/CMakeFiles/raptor_namespace_test.dir/raptor_namespace.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_namespace.c.s
 .PHONY : raptor_namespace.c.s
 
 raptor_ntriples.o: raptor_ntriples.c.o
@@ -1259,7 +1259,7 @@ raptor_ntriples.o: raptor_ntriples.c.o
 
 # target to build an object file
 raptor_ntriples.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_ntriples.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_ntriples.c.o
 .PHONY : raptor_ntriples.c.o
 
 raptor_ntriples.i: raptor_ntriples.c.i
@@ -1268,7 +1268,7 @@ raptor_ntriples.i: raptor_ntriples.c.i
 
 # target to preprocess a source file
 raptor_ntriples.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_ntriples.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_ntriples.c.i
 .PHONY : raptor_ntriples.c.i
 
 raptor_ntriples.s: raptor_ntriples.c.s
@@ -1277,7 +1277,7 @@ raptor_ntriples.s: raptor_ntriples.c.s
 
 # target to generate assembly for a file
 raptor_ntriples.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_ntriples.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_ntriples.c.s
 .PHONY : raptor_ntriples.c.s
 
 raptor_option.o: raptor_option.c.o
@@ -1286,7 +1286,7 @@ raptor_option.o: raptor_option.c.o
 
 # target to build an object file
 raptor_option.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_option.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_option.c.o
 .PHONY : raptor_option.c.o
 
 raptor_option.i: raptor_option.c.i
@@ -1295,7 +1295,7 @@ raptor_option.i: raptor_option.c.i
 
 # target to preprocess a source file
 raptor_option.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_option.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_option.c.i
 .PHONY : raptor_option.c.i
 
 raptor_option.s: raptor_option.c.s
@@ -1304,7 +1304,7 @@ raptor_option.s: raptor_option.c.s
 
 # target to generate assembly for a file
 raptor_option.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_option.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_option.c.s
 .PHONY : raptor_option.c.s
 
 raptor_parse.o: raptor_parse.c.o
@@ -1313,8 +1313,8 @@ raptor_parse.o: raptor_parse.c.o
 
 # target to build an object file
 raptor_parse.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_parse.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/raptor_parse.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_parse.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/raptor_parse.c.o
 .PHONY : raptor_parse.c.o
 
 raptor_parse.i: raptor_parse.c.i
@@ -1323,8 +1323,8 @@ raptor_parse.i: raptor_parse.c.i
 
 # target to preprocess a source file
 raptor_parse.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_parse.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/raptor_parse.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_parse.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/raptor_parse.c.i
 .PHONY : raptor_parse.c.i
 
 raptor_parse.s: raptor_parse.c.s
@@ -1333,8 +1333,8 @@ raptor_parse.s: raptor_parse.c.s
 
 # target to generate assembly for a file
 raptor_parse.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_parse.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/raptor_parse.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_parse.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_parse_test.dir/build.make src/CMakeFiles/raptor_parse_test.dir/raptor_parse.c.s
 .PHONY : raptor_parse.c.s
 
 raptor_permute_test.o: raptor_permute_test.c.o
@@ -1343,7 +1343,7 @@ raptor_permute_test.o: raptor_permute_test.c.o
 
 # target to build an object file
 raptor_permute_test.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/raptor_permute_test.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/raptor_permute_test.c.o
 .PHONY : raptor_permute_test.c.o
 
 raptor_permute_test.i: raptor_permute_test.c.i
@@ -1352,7 +1352,7 @@ raptor_permute_test.i: raptor_permute_test.c.i
 
 # target to preprocess a source file
 raptor_permute_test.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/raptor_permute_test.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/raptor_permute_test.c.i
 .PHONY : raptor_permute_test.c.i
 
 raptor_permute_test.s: raptor_permute_test.c.s
@@ -1361,7 +1361,7 @@ raptor_permute_test.s: raptor_permute_test.c.s
 
 # target to generate assembly for a file
 raptor_permute_test.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/raptor_permute_test.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_permute_test.dir/build.make src/CMakeFiles/raptor_permute_test.dir/raptor_permute_test.c.s
 .PHONY : raptor_permute_test.c.s
 
 raptor_qname.o: raptor_qname.c.o
@@ -1370,7 +1370,7 @@ raptor_qname.o: raptor_qname.c.o
 
 # target to build an object file
 raptor_qname.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_qname.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_qname.c.o
 .PHONY : raptor_qname.c.o
 
 raptor_qname.i: raptor_qname.c.i
@@ -1379,7 +1379,7 @@ raptor_qname.i: raptor_qname.c.i
 
 # target to preprocess a source file
 raptor_qname.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_qname.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_qname.c.i
 .PHONY : raptor_qname.c.i
 
 raptor_qname.s: raptor_qname.c.s
@@ -1388,7 +1388,7 @@ raptor_qname.s: raptor_qname.c.s
 
 # target to generate assembly for a file
 raptor_qname.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_qname.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_qname.c.s
 .PHONY : raptor_qname.c.s
 
 raptor_rfc2396.o: raptor_rfc2396.c.o
@@ -1397,8 +1397,8 @@ raptor_rfc2396.o: raptor_rfc2396.c.o
 
 # target to build an object file
 raptor_rfc2396.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/raptor_rfc2396.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/raptor_rfc2396.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.o
 .PHONY : raptor_rfc2396.c.o
 
 raptor_rfc2396.i: raptor_rfc2396.c.i
@@ -1407,8 +1407,8 @@ raptor_rfc2396.i: raptor_rfc2396.c.i
 
 # target to preprocess a source file
 raptor_rfc2396.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/raptor_rfc2396.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/raptor_rfc2396.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.i
 .PHONY : raptor_rfc2396.c.i
 
 raptor_rfc2396.s: raptor_rfc2396.c.s
@@ -1417,8 +1417,8 @@ raptor_rfc2396.s: raptor_rfc2396.c.s
 
 # target to generate assembly for a file
 raptor_rfc2396.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/raptor_rfc2396.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_rfc2396_test.dir/build.make src/CMakeFiles/raptor_rfc2396_test.dir/raptor_rfc2396.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.s
 .PHONY : raptor_rfc2396.c.s
 
 raptor_rss.o: raptor_rss.c.o
@@ -1427,7 +1427,7 @@ raptor_rss.o: raptor_rss.c.o
 
 # target to build an object file
 raptor_rss.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss.c.o
 .PHONY : raptor_rss.c.o
 
 raptor_rss.i: raptor_rss.c.i
@@ -1436,7 +1436,7 @@ raptor_rss.i: raptor_rss.c.i
 
 # target to preprocess a source file
 raptor_rss.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss.c.i
 .PHONY : raptor_rss.c.i
 
 raptor_rss.s: raptor_rss.c.s
@@ -1445,7 +1445,7 @@ raptor_rss.s: raptor_rss.c.s
 
 # target to generate assembly for a file
 raptor_rss.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss.c.s
 .PHONY : raptor_rss.c.s
 
 raptor_rss_common.o: raptor_rss_common.c.o
@@ -1454,7 +1454,7 @@ raptor_rss_common.o: raptor_rss_common.c.o
 
 # target to build an object file
 raptor_rss_common.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss_common.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss_common.c.o
 .PHONY : raptor_rss_common.c.o
 
 raptor_rss_common.i: raptor_rss_common.c.i
@@ -1463,7 +1463,7 @@ raptor_rss_common.i: raptor_rss_common.c.i
 
 # target to preprocess a source file
 raptor_rss_common.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss_common.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss_common.c.i
 .PHONY : raptor_rss_common.c.i
 
 raptor_rss_common.s: raptor_rss_common.c.s
@@ -1472,7 +1472,7 @@ raptor_rss_common.s: raptor_rss_common.c.s
 
 # target to generate assembly for a file
 raptor_rss_common.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss_common.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_rss_common.c.s
 .PHONY : raptor_rss_common.c.s
 
 raptor_sax2.o: raptor_sax2.c.o
@@ -1481,7 +1481,7 @@ raptor_sax2.o: raptor_sax2.c.o
 
 # target to build an object file
 raptor_sax2.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sax2.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sax2.c.o
 .PHONY : raptor_sax2.c.o
 
 raptor_sax2.i: raptor_sax2.c.i
@@ -1490,7 +1490,7 @@ raptor_sax2.i: raptor_sax2.c.i
 
 # target to preprocess a source file
 raptor_sax2.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sax2.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sax2.c.i
 .PHONY : raptor_sax2.c.i
 
 raptor_sax2.s: raptor_sax2.c.s
@@ -1499,7 +1499,7 @@ raptor_sax2.s: raptor_sax2.c.s
 
 # target to generate assembly for a file
 raptor_sax2.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sax2.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sax2.c.s
 .PHONY : raptor_sax2.c.s
 
 raptor_sequence.o: raptor_sequence.c.o
@@ -1508,8 +1508,8 @@ raptor_sequence.o: raptor_sequence.c.o
 
 # target to build an object file
 raptor_sequence.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/raptor_sequence.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sequence.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/raptor_sequence.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sequence.c.o
 .PHONY : raptor_sequence.c.o
 
 raptor_sequence.i: raptor_sequence.c.i
@@ -1518,8 +1518,8 @@ raptor_sequence.i: raptor_sequence.c.i
 
 # target to preprocess a source file
 raptor_sequence.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/raptor_sequence.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sequence.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/raptor_sequence.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sequence.c.i
 .PHONY : raptor_sequence.c.i
 
 raptor_sequence.s: raptor_sequence.c.s
@@ -1528,8 +1528,8 @@ raptor_sequence.s: raptor_sequence.c.s
 
 # target to generate assembly for a file
 raptor_sequence.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/raptor_sequence.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sequence.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sequence_test.dir/build.make src/CMakeFiles/raptor_sequence_test.dir/raptor_sequence.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_sequence.c.s
 .PHONY : raptor_sequence.c.s
 
 raptor_serialize.o: raptor_serialize.c.o
@@ -1538,7 +1538,7 @@ raptor_serialize.o: raptor_serialize.c.o
 
 # target to build an object file
 raptor_serialize.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize.c.o
 .PHONY : raptor_serialize.c.o
 
 raptor_serialize.i: raptor_serialize.c.i
@@ -1547,7 +1547,7 @@ raptor_serialize.i: raptor_serialize.c.i
 
 # target to preprocess a source file
 raptor_serialize.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize.c.i
 .PHONY : raptor_serialize.c.i
 
 raptor_serialize.s: raptor_serialize.c.s
@@ -1556,7 +1556,7 @@ raptor_serialize.s: raptor_serialize.c.s
 
 # target to generate assembly for a file
 raptor_serialize.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize.c.s
 .PHONY : raptor_serialize.c.s
 
 raptor_serialize_dot.o: raptor_serialize_dot.c.o
@@ -1565,7 +1565,7 @@ raptor_serialize_dot.o: raptor_serialize_dot.c.o
 
 # target to build an object file
 raptor_serialize_dot.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.o
 .PHONY : raptor_serialize_dot.c.o
 
 raptor_serialize_dot.i: raptor_serialize_dot.c.i
@@ -1574,7 +1574,7 @@ raptor_serialize_dot.i: raptor_serialize_dot.c.i
 
 # target to preprocess a source file
 raptor_serialize_dot.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.i
 .PHONY : raptor_serialize_dot.c.i
 
 raptor_serialize_dot.s: raptor_serialize_dot.c.s
@@ -1583,7 +1583,7 @@ raptor_serialize_dot.s: raptor_serialize_dot.c.s
 
 # target to generate assembly for a file
 raptor_serialize_dot.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.s
 .PHONY : raptor_serialize_dot.c.s
 
 raptor_serialize_html.o: raptor_serialize_html.c.o
@@ -1592,7 +1592,7 @@ raptor_serialize_html.o: raptor_serialize_html.c.o
 
 # target to build an object file
 raptor_serialize_html.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.o
 .PHONY : raptor_serialize_html.c.o
 
 raptor_serialize_html.i: raptor_serialize_html.c.i
@@ -1601,7 +1601,7 @@ raptor_serialize_html.i: raptor_serialize_html.c.i
 
 # target to preprocess a source file
 raptor_serialize_html.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.i
 .PHONY : raptor_serialize_html.c.i
 
 raptor_serialize_html.s: raptor_serialize_html.c.s
@@ -1610,7 +1610,7 @@ raptor_serialize_html.s: raptor_serialize_html.c.s
 
 # target to generate assembly for a file
 raptor_serialize_html.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.s
 .PHONY : raptor_serialize_html.c.s
 
 raptor_serialize_json.o: raptor_serialize_json.c.o
@@ -1619,7 +1619,7 @@ raptor_serialize_json.o: raptor_serialize_json.c.o
 
 # target to build an object file
 raptor_serialize_json.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.o
 .PHONY : raptor_serialize_json.c.o
 
 raptor_serialize_json.i: raptor_serialize_json.c.i
@@ -1628,7 +1628,7 @@ raptor_serialize_json.i: raptor_serialize_json.c.i
 
 # target to preprocess a source file
 raptor_serialize_json.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.i
 .PHONY : raptor_serialize_json.c.i
 
 raptor_serialize_json.s: raptor_serialize_json.c.s
@@ -1637,7 +1637,7 @@ raptor_serialize_json.s: raptor_serialize_json.c.s
 
 # target to generate assembly for a file
 raptor_serialize_json.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.s
 .PHONY : raptor_serialize_json.c.s
 
 raptor_serialize_ntriples.o: raptor_serialize_ntriples.c.o
@@ -1646,7 +1646,7 @@ raptor_serialize_ntriples.o: raptor_serialize_ntriples.c.o
 
 # target to build an object file
 raptor_serialize_ntriples.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.o
 .PHONY : raptor_serialize_ntriples.c.o
 
 raptor_serialize_ntriples.i: raptor_serialize_ntriples.c.i
@@ -1655,7 +1655,7 @@ raptor_serialize_ntriples.i: raptor_serialize_ntriples.c.i
 
 # target to preprocess a source file
 raptor_serialize_ntriples.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.i
 .PHONY : raptor_serialize_ntriples.c.i
 
 raptor_serialize_ntriples.s: raptor_serialize_ntriples.c.s
@@ -1664,7 +1664,7 @@ raptor_serialize_ntriples.s: raptor_serialize_ntriples.c.s
 
 # target to generate assembly for a file
 raptor_serialize_ntriples.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.s
 .PHONY : raptor_serialize_ntriples.c.s
 
 raptor_serialize_rdfxml.o: raptor_serialize_rdfxml.c.o
@@ -1673,7 +1673,7 @@ raptor_serialize_rdfxml.o: raptor_serialize_rdfxml.c.o
 
 # target to build an object file
 raptor_serialize_rdfxml.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.o
 .PHONY : raptor_serialize_rdfxml.c.o
 
 raptor_serialize_rdfxml.i: raptor_serialize_rdfxml.c.i
@@ -1682,7 +1682,7 @@ raptor_serialize_rdfxml.i: raptor_serialize_rdfxml.c.i
 
 # target to preprocess a source file
 raptor_serialize_rdfxml.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.i
 .PHONY : raptor_serialize_rdfxml.c.i
 
 raptor_serialize_rdfxml.s: raptor_serialize_rdfxml.c.s
@@ -1691,7 +1691,7 @@ raptor_serialize_rdfxml.s: raptor_serialize_rdfxml.c.s
 
 # target to generate assembly for a file
 raptor_serialize_rdfxml.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.s
 .PHONY : raptor_serialize_rdfxml.c.s
 
 raptor_serialize_rdfxmla.o: raptor_serialize_rdfxmla.c.o
@@ -1700,7 +1700,7 @@ raptor_serialize_rdfxmla.o: raptor_serialize_rdfxmla.c.o
 
 # target to build an object file
 raptor_serialize_rdfxmla.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.o
 .PHONY : raptor_serialize_rdfxmla.c.o
 
 raptor_serialize_rdfxmla.i: raptor_serialize_rdfxmla.c.i
@@ -1709,7 +1709,7 @@ raptor_serialize_rdfxmla.i: raptor_serialize_rdfxmla.c.i
 
 # target to preprocess a source file
 raptor_serialize_rdfxmla.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.i
 .PHONY : raptor_serialize_rdfxmla.c.i
 
 raptor_serialize_rdfxmla.s: raptor_serialize_rdfxmla.c.s
@@ -1718,7 +1718,7 @@ raptor_serialize_rdfxmla.s: raptor_serialize_rdfxmla.c.s
 
 # target to generate assembly for a file
 raptor_serialize_rdfxmla.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.s
 .PHONY : raptor_serialize_rdfxmla.c.s
 
 raptor_serialize_rss.o: raptor_serialize_rss.c.o
@@ -1727,7 +1727,7 @@ raptor_serialize_rss.o: raptor_serialize_rss.c.o
 
 # target to build an object file
 raptor_serialize_rss.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.o
 .PHONY : raptor_serialize_rss.c.o
 
 raptor_serialize_rss.i: raptor_serialize_rss.c.i
@@ -1736,7 +1736,7 @@ raptor_serialize_rss.i: raptor_serialize_rss.c.i
 
 # target to preprocess a source file
 raptor_serialize_rss.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.i
 .PHONY : raptor_serialize_rss.c.i
 
 raptor_serialize_rss.s: raptor_serialize_rss.c.s
@@ -1745,7 +1745,7 @@ raptor_serialize_rss.s: raptor_serialize_rss.c.s
 
 # target to generate assembly for a file
 raptor_serialize_rss.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.s
 .PHONY : raptor_serialize_rss.c.s
 
 raptor_serialize_turtle.o: raptor_serialize_turtle.c.o
@@ -1754,7 +1754,7 @@ raptor_serialize_turtle.o: raptor_serialize_turtle.c.o
 
 # target to build an object file
 raptor_serialize_turtle.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.o
 .PHONY : raptor_serialize_turtle.c.o
 
 raptor_serialize_turtle.i: raptor_serialize_turtle.c.i
@@ -1763,7 +1763,7 @@ raptor_serialize_turtle.i: raptor_serialize_turtle.c.i
 
 # target to preprocess a source file
 raptor_serialize_turtle.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.i
 .PHONY : raptor_serialize_turtle.c.i
 
 raptor_serialize_turtle.s: raptor_serialize_turtle.c.s
@@ -1772,7 +1772,7 @@ raptor_serialize_turtle.s: raptor_serialize_turtle.c.s
 
 # target to generate assembly for a file
 raptor_serialize_turtle.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.s
 .PHONY : raptor_serialize_turtle.c.s
 
 raptor_set.o: raptor_set.c.o
@@ -1781,7 +1781,7 @@ raptor_set.o: raptor_set.c.o
 
 # target to build an object file
 raptor_set.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_set.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_set.c.o
 .PHONY : raptor_set.c.o
 
 raptor_set.i: raptor_set.c.i
@@ -1790,7 +1790,7 @@ raptor_set.i: raptor_set.c.i
 
 # target to preprocess a source file
 raptor_set.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_set.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_set.c.i
 .PHONY : raptor_set.c.i
 
 raptor_set.s: raptor_set.c.s
@@ -1799,7 +1799,7 @@ raptor_set.s: raptor_set.c.s
 
 # target to generate assembly for a file
 raptor_set.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_set.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_set.c.s
 .PHONY : raptor_set.c.s
 
 raptor_statement.o: raptor_statement.c.o
@@ -1808,7 +1808,7 @@ raptor_statement.o: raptor_statement.c.o
 
 # target to build an object file
 raptor_statement.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_statement.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_statement.c.o
 .PHONY : raptor_statement.c.o
 
 raptor_statement.i: raptor_statement.c.i
@@ -1817,7 +1817,7 @@ raptor_statement.i: raptor_statement.c.i
 
 # target to preprocess a source file
 raptor_statement.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_statement.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_statement.c.i
 .PHONY : raptor_statement.c.i
 
 raptor_statement.s: raptor_statement.c.s
@@ -1826,7 +1826,7 @@ raptor_statement.s: raptor_statement.c.s
 
 # target to generate assembly for a file
 raptor_statement.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_statement.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_statement.c.s
 .PHONY : raptor_statement.c.s
 
 raptor_stringbuffer.o: raptor_stringbuffer.c.o
@@ -1835,8 +1835,8 @@ raptor_stringbuffer.o: raptor_stringbuffer.c.o
 
 # target to build an object file
 raptor_stringbuffer.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/raptor_stringbuffer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/raptor_stringbuffer.c.o
 .PHONY : raptor_stringbuffer.c.o
 
 raptor_stringbuffer.i: raptor_stringbuffer.c.i
@@ -1845,8 +1845,8 @@ raptor_stringbuffer.i: raptor_stringbuffer.c.i
 
 # target to preprocess a source file
 raptor_stringbuffer.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/raptor_stringbuffer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/raptor_stringbuffer.c.i
 .PHONY : raptor_stringbuffer.c.i
 
 raptor_stringbuffer.s: raptor_stringbuffer.c.s
@@ -1855,8 +1855,8 @@ raptor_stringbuffer.s: raptor_stringbuffer.c.s
 
 # target to generate assembly for a file
 raptor_stringbuffer.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/raptor_stringbuffer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_stringbuffer_test.dir/build.make src/CMakeFiles/raptor_stringbuffer_test.dir/raptor_stringbuffer.c.s
 .PHONY : raptor_stringbuffer.c.s
 
 raptor_syntax_description.o: raptor_syntax_description.c.o
@@ -1865,7 +1865,7 @@ raptor_syntax_description.o: raptor_syntax_description.c.o
 
 # target to build an object file
 raptor_syntax_description.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.o
 .PHONY : raptor_syntax_description.c.o
 
 raptor_syntax_description.i: raptor_syntax_description.c.i
@@ -1874,7 +1874,7 @@ raptor_syntax_description.i: raptor_syntax_description.c.i
 
 # target to preprocess a source file
 raptor_syntax_description.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.i
 .PHONY : raptor_syntax_description.c.i
 
 raptor_syntax_description.s: raptor_syntax_description.c.s
@@ -1883,7 +1883,7 @@ raptor_syntax_description.s: raptor_syntax_description.c.s
 
 # target to generate assembly for a file
 raptor_syntax_description.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.s
 .PHONY : raptor_syntax_description.c.s
 
 raptor_term.o: raptor_term.c.o
@@ -1892,8 +1892,8 @@ raptor_term.o: raptor_term.c.o
 
 # target to build an object file
 raptor_term.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_term.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/raptor_term.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_term.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/raptor_term.c.o
 .PHONY : raptor_term.c.o
 
 raptor_term.i: raptor_term.c.i
@@ -1902,8 +1902,8 @@ raptor_term.i: raptor_term.c.i
 
 # target to preprocess a source file
 raptor_term.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_term.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/raptor_term.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_term.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/raptor_term.c.i
 .PHONY : raptor_term.c.i
 
 raptor_term.s: raptor_term.c.s
@@ -1912,8 +1912,8 @@ raptor_term.s: raptor_term.c.s
 
 # target to generate assembly for a file
 raptor_term.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_term.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/raptor_term.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_term.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_term_test.dir/build.make src/CMakeFiles/raptor_term_test.dir/raptor_term.c.s
 .PHONY : raptor_term.c.s
 
 raptor_turtle_writer.o: raptor_turtle_writer.c.o
@@ -1922,8 +1922,8 @@ raptor_turtle_writer.o: raptor_turtle_writer.c.o
 
 # target to build an object file
 raptor_turtle_writer.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.o
 .PHONY : raptor_turtle_writer.c.o
 
 raptor_turtle_writer.i: raptor_turtle_writer.c.i
@@ -1932,8 +1932,8 @@ raptor_turtle_writer.i: raptor_turtle_writer.c.i
 
 # target to preprocess a source file
 raptor_turtle_writer.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.i
 .PHONY : raptor_turtle_writer.c.i
 
 raptor_turtle_writer.s: raptor_turtle_writer.c.s
@@ -1942,8 +1942,8 @@ raptor_turtle_writer.s: raptor_turtle_writer.c.s
 
 # target to generate assembly for a file
 raptor_turtle_writer.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_turtle_writer_test.dir/build.make src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.s
 .PHONY : raptor_turtle_writer.c.s
 
 raptor_unicode.o: raptor_unicode.c.o
@@ -1952,7 +1952,7 @@ raptor_unicode.o: raptor_unicode.c.o
 
 # target to build an object file
 raptor_unicode.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_unicode.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_unicode.c.o
 .PHONY : raptor_unicode.c.o
 
 raptor_unicode.i: raptor_unicode.c.i
@@ -1961,7 +1961,7 @@ raptor_unicode.i: raptor_unicode.c.i
 
 # target to preprocess a source file
 raptor_unicode.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_unicode.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_unicode.c.i
 .PHONY : raptor_unicode.c.i
 
 raptor_unicode.s: raptor_unicode.c.s
@@ -1970,7 +1970,7 @@ raptor_unicode.s: raptor_unicode.c.s
 
 # target to generate assembly for a file
 raptor_unicode.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_unicode.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_unicode.c.s
 .PHONY : raptor_unicode.c.s
 
 raptor_uri.o: raptor_uri.c.o
@@ -1979,8 +1979,8 @@ raptor_uri.o: raptor_uri.c.o
 
 # target to build an object file
 raptor_uri.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/raptor_uri.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_uri.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/raptor_uri.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_uri.c.o
 .PHONY : raptor_uri.c.o
 
 raptor_uri.i: raptor_uri.c.i
@@ -1989,8 +1989,8 @@ raptor_uri.i: raptor_uri.c.i
 
 # target to preprocess a source file
 raptor_uri.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/raptor_uri.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_uri.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/raptor_uri.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_uri.c.i
 .PHONY : raptor_uri.c.i
 
 raptor_uri.s: raptor_uri.c.s
@@ -1999,8 +1999,8 @@ raptor_uri.s: raptor_uri.c.s
 
 # target to generate assembly for a file
 raptor_uri.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/raptor_uri.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_uri.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_uri_test.dir/build.make src/CMakeFiles/raptor_uri_test.dir/raptor_uri.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_uri.c.s
 .PHONY : raptor_uri.c.s
 
 raptor_www.o: raptor_www.c.o
@@ -2009,7 +2009,7 @@ raptor_www.o: raptor_www.c.o
 
 # target to build an object file
 raptor_www.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_www.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_www.c.o
 .PHONY : raptor_www.c.o
 
 raptor_www.i: raptor_www.c.i
@@ -2018,7 +2018,7 @@ raptor_www.i: raptor_www.c.i
 
 # target to preprocess a source file
 raptor_www.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_www.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_www.c.i
 .PHONY : raptor_www.c.i
 
 raptor_www.s: raptor_www.c.s
@@ -2027,7 +2027,7 @@ raptor_www.s: raptor_www.c.s
 
 # target to generate assembly for a file
 raptor_www.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_www.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_www.c.s
 .PHONY : raptor_www.c.s
 
 raptor_www_test.o: raptor_www_test.c.o
@@ -2036,7 +2036,7 @@ raptor_www_test.o: raptor_www_test.c.o
 
 # target to build an object file
 raptor_www_test.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/raptor_www_test.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/raptor_www_test.c.o
 .PHONY : raptor_www_test.c.o
 
 raptor_www_test.i: raptor_www_test.c.i
@@ -2045,7 +2045,7 @@ raptor_www_test.i: raptor_www_test.c.i
 
 # target to preprocess a source file
 raptor_www_test.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/raptor_www_test.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/raptor_www_test.c.i
 .PHONY : raptor_www_test.c.i
 
 raptor_www_test.s: raptor_www_test.c.s
@@ -2054,7 +2054,7 @@ raptor_www_test.s: raptor_www_test.c.s
 
 # target to generate assembly for a file
 raptor_www_test.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/raptor_www_test.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_www_test.dir/build.make src/CMakeFiles/raptor_www_test.dir/raptor_www_test.c.s
 .PHONY : raptor_www_test.c.s
 
 raptor_xml.o: raptor_xml.c.o
@@ -2063,7 +2063,7 @@ raptor_xml.o: raptor_xml.c.o
 
 # target to build an object file
 raptor_xml.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml.c.o
 .PHONY : raptor_xml.c.o
 
 raptor_xml.i: raptor_xml.c.i
@@ -2072,7 +2072,7 @@ raptor_xml.i: raptor_xml.c.i
 
 # target to preprocess a source file
 raptor_xml.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml.c.i
 .PHONY : raptor_xml.c.i
 
 raptor_xml.s: raptor_xml.c.s
@@ -2081,7 +2081,7 @@ raptor_xml.s: raptor_xml.c.s
 
 # target to generate assembly for a file
 raptor_xml.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml.c.s
 .PHONY : raptor_xml.c.s
 
 raptor_xml_writer.o: raptor_xml_writer.c.o
@@ -2090,8 +2090,8 @@ raptor_xml_writer.o: raptor_xml_writer.c.o
 
 # target to build an object file
 raptor_xml_writer.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/raptor_xml_writer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/raptor_xml_writer.c.o
 .PHONY : raptor_xml_writer.c.o
 
 raptor_xml_writer.i: raptor_xml_writer.c.i
@@ -2100,8 +2100,8 @@ raptor_xml_writer.i: raptor_xml_writer.c.i
 
 # target to preprocess a source file
 raptor_xml_writer.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/raptor_xml_writer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/raptor_xml_writer.c.i
 .PHONY : raptor_xml_writer.c.i
 
 raptor_xml_writer.s: raptor_xml_writer.c.s
@@ -2110,8 +2110,8 @@ raptor_xml_writer.s: raptor_xml_writer.c.s
 
 # target to generate assembly for a file
 raptor_xml_writer.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/raptor_xml_writer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_xml_writer_test.dir/build.make src/CMakeFiles/raptor_xml_writer_test.dir/raptor_xml_writer.c.s
 .PHONY : raptor_xml_writer.c.s
 
 snprintf.o: snprintf.c.o
@@ -2120,8 +2120,8 @@ snprintf.o: snprintf.c.o
 
 # target to build an object file
 snprintf.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/snprintf.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/snprintf.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/snprintf.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/snprintf.c.o
 .PHONY : snprintf.c.o
 
 snprintf.i: snprintf.c.i
@@ -2130,8 +2130,8 @@ snprintf.i: snprintf.c.i
 
 # target to preprocess a source file
 snprintf.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/snprintf.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/snprintf.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/snprintf.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/snprintf.c.i
 .PHONY : snprintf.c.i
 
 snprintf.s: snprintf.c.s
@@ -2140,8 +2140,8 @@ snprintf.s: snprintf.c.s
 
 # target to generate assembly for a file
 snprintf.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/snprintf.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/snprintf.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/snprintf.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_snprintf_test.dir/build.make src/CMakeFiles/raptor_snprintf_test.dir/snprintf.c.s
 .PHONY : snprintf.c.s
 
 sort_r.o: sort_r.c.o
@@ -2150,8 +2150,8 @@ sort_r.o: sort_r.c.o
 
 # target to build an object file
 sort_r.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/sort_r.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/sort_r.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/sort_r.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/sort_r.c.o
 .PHONY : sort_r.c.o
 
 sort_r.i: sort_r.c.i
@@ -2160,8 +2160,8 @@ sort_r.i: sort_r.c.i
 
 # target to preprocess a source file
 sort_r.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/sort_r.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/sort_r.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/sort_r.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/sort_r.c.i
 .PHONY : sort_r.c.i
 
 sort_r.s: sort_r.c.s
@@ -2170,8 +2170,8 @@ sort_r.s: sort_r.c.s
 
 # target to generate assembly for a file
 sort_r.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/sort_r.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/sort_r.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/sort_r.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor_sort_r_test.dir/build.make src/CMakeFiles/raptor_sort_r_test.dir/sort_r.c.s
 .PHONY : sort_r.c.s
 
 strcasecmp.o: strcasecmp.c.o
@@ -2180,7 +2180,7 @@ strcasecmp.o: strcasecmp.c.o
 
 # target to build an object file
 strcasecmp.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/strcasecmp.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/strcasecmp.c.o
 .PHONY : strcasecmp.c.o
 
 strcasecmp.i: strcasecmp.c.i
@@ -2189,7 +2189,7 @@ strcasecmp.i: strcasecmp.c.i
 
 # target to preprocess a source file
 strcasecmp.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/strcasecmp.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/strcasecmp.c.i
 .PHONY : strcasecmp.c.i
 
 strcasecmp.s: strcasecmp.c.s
@@ -2198,7 +2198,7 @@ strcasecmp.s: strcasecmp.c.s
 
 # target to generate assembly for a file
 strcasecmp.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/strcasecmp.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/strcasecmp_test.dir/build.make src/CMakeFiles/strcasecmp_test.dir/strcasecmp.c.s
 .PHONY : strcasecmp.c.s
 
 turtle_common.o: turtle_common.c.o
@@ -2207,7 +2207,7 @@ turtle_common.o: turtle_common.c.o
 
 # target to build an object file
 turtle_common.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_common.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_common.c.o
 .PHONY : turtle_common.c.o
 
 turtle_common.i: turtle_common.c.i
@@ -2216,7 +2216,7 @@ turtle_common.i: turtle_common.c.i
 
 # target to preprocess a source file
 turtle_common.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_common.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_common.c.i
 .PHONY : turtle_common.c.i
 
 turtle_common.s: turtle_common.c.s
@@ -2225,7 +2225,7 @@ turtle_common.s: turtle_common.c.s
 
 # target to generate assembly for a file
 turtle_common.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_common.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_common.c.s
 .PHONY : turtle_common.c.s
 
 turtle_lexer.o: turtle_lexer.c.o
@@ -2234,8 +2234,8 @@ turtle_lexer.o: turtle_lexer.c.o
 
 # target to build an object file
 turtle_lexer.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/turtle_lexer.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_lexer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/turtle_lexer.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_lexer.c.o
 .PHONY : turtle_lexer.c.o
 
 turtle_lexer.i: turtle_lexer.c.i
@@ -2244,8 +2244,8 @@ turtle_lexer.i: turtle_lexer.c.i
 
 # target to preprocess a source file
 turtle_lexer.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/turtle_lexer.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_lexer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/turtle_lexer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_lexer.c.i
 .PHONY : turtle_lexer.c.i
 
 turtle_lexer.s: turtle_lexer.c.s
@@ -2254,8 +2254,8 @@ turtle_lexer.s: turtle_lexer.c.s
 
 # target to generate assembly for a file
 turtle_lexer.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/turtle_lexer.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_lexer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_lexer_test.dir/build.make src/CMakeFiles/turtle_lexer_test.dir/turtle_lexer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_lexer.c.s
 .PHONY : turtle_lexer.c.s
 
 turtle_parser.o: turtle_parser.c.o
@@ -2264,8 +2264,8 @@ turtle_parser.o: turtle_parser.c.o
 
 # target to build an object file
 turtle_parser.c.o:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_parser.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_parser.c.o
 .PHONY : turtle_parser.c.o
 
 turtle_parser.i: turtle_parser.c.i
@@ -2274,8 +2274,8 @@ turtle_parser.i: turtle_parser.c.i
 
 # target to preprocess a source file
 turtle_parser.c.i:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.i
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_parser.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_parser.c.i
 .PHONY : turtle_parser.c.i
 
 turtle_parser.s: turtle_parser.c.s
@@ -2284,8 +2284,8 @@ turtle_parser.s: turtle_parser.c.s
 
 # target to generate assembly for a file
 turtle_parser.c.s:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.s
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_parser.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/turtle_parser_test.dir/build.make src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(MAKE) -f src/CMakeFiles/raptor2.dir/build.make src/CMakeFiles/raptor2.dir/turtle_parser.c.s
 .PHONY : turtle_parser.c.s
 
 # Help Target
@@ -2526,6 +2526,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

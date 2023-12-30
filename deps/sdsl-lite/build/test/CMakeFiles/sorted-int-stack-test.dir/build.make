@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for sorted-int-stack-test.
 
@@ -58,8 +58,8 @@ include test/CMakeFiles/sorted-int-stack-test.dir/progress.make
 
 test/CMakeFiles/sorted-int-stack-test: test/sorted_int_stack_test
 test/CMakeFiles/sorted-int-stack-test: test/sorted_int_stack_test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute sorted-int-stack-test."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/sorted_int_stack_test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute sorted-int-stack-test."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/sorted_int_stack_test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp
 
 sorted-int-stack-test: test/CMakeFiles/sorted-int-stack-test
 sorted-int-stack-test: test/CMakeFiles/sorted-int-stack-test.dir/build.make
@@ -72,10 +72,10 @@ test/CMakeFiles/sorted-int-stack-test.dir/build: sorted-int-stack-test
 .PHONY : test/CMakeFiles/sorted-int-stack-test.dir/build
 
 test/CMakeFiles/sorted-int-stack-test.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/sorted-int-stack-test.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/sorted-int-stack-test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/sorted-int-stack-test.dir/clean
 
 test/CMakeFiles/sorted-int-stack-test.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/sorted-int-stack-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/sorted-int-stack-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/sorted-int-stack-test.dir/depend
 

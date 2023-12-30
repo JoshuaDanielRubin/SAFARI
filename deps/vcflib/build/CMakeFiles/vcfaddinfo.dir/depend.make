@@ -12,15 +12,6 @@ CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: ../src/Variant.h
 CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: ../src/convert.h
 CMakeFiles/vcfaddinfo.dir/src/vcfaddinfo.cpp.o: ../src/join.h

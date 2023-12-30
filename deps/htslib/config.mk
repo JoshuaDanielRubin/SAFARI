@@ -28,7 +28,7 @@
 # in the Makefile to reflect your configuration choices.  If you don't run
 # configure, the main Makefile contains suitable conservative defaults.
 
-prefix       = /home/projects/MAAG/Magpie/Magpie/vg_corrected
+prefix       = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg
 exec_prefix  = ${prefix}
 bindir       = ${exec_prefix}/bin
 includedir   = ${prefix}/include
@@ -41,8 +41,8 @@ CC     = /usr/bin/gcc
 RANLIB = ranlib
 
 CPPFLAGS = 
-CFLAGS   =  -Wall -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/htslib -isystem /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/htslib -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/include  -fvisibility=hidden
-LDFLAGS  =  -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -Wl,-rpath,/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -fvisibility=hidden
+CFLAGS   =  -Wall -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/htslib -isystem /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/htslib -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include  -fvisibility=hidden
+LDFLAGS  =  -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -Wl,-rpath,/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -fvisibility=hidden
 LIBS     = -ldeflate -llzma -lbz2 -lz -lm 
 
 PLATFORM   = default

@@ -218,23 +218,23 @@ dynamic/internal/alphabet_encoder.hpp
 dynamic/internal/includes.hpp
 ../include/dynamic/internal/dynamic/internal/includes.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/benchmark.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/benchmark.cpp
 dynamic/internal/spsi.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/internal/spsi.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/internal/spsi.hpp
 dynamic/internal/spsi_check.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/internal/spsi_check.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/internal/spsi_check.hpp
 chrono
 -
 dynamic/dynamic.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/dynamic.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/dynamic.hpp
 dynamic/internal/alphabet_encoder.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/internal/alphabet_encoder.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/internal/alphabet_encoder.hpp
 dynamic/algorithms/rle_lz77_v1.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/algorithms/rle_lz77_v1.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/algorithms/rle_lz77_v1.hpp
 dynamic/algorithms/rle_lz77_v2.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/algorithms/rle_lz77_v2.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/algorithms/rle_lz77_v2.hpp
 dynamic/internal/packed_vector.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/internal/packed_vector.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/internal/packed_vector.hpp
 dynamic/internal/wt_string.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/internal/wt_string.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/internal/wt_string.hpp
 

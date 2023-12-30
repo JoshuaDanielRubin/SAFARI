@@ -12,15 +12,6 @@ CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: ../src/Variant.h
 CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: ../src/convert.h
 CMakeFiles/vcfkeepgeno.dir/src/vcfkeepgeno.cpp.o: ../src/join.h

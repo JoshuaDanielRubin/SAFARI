@@ -36,13 +36,13 @@ curl/curl.h
 
 ../src/turtle_common.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
 stdio.h
 -
 stdarg.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.c
 raptor_config.h
 -
 stdio.h
@@ -72,9 +72,9 @@ stdlib.h
 setjmp.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor_internal.h
 turtle_parser.h
 -
 turtle_common.h

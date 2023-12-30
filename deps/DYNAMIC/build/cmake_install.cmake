@@ -1,4 +1,4 @@
-# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

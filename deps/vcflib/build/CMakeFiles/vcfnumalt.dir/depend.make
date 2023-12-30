@@ -12,15 +12,6 @@ CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: ../src/Variant.h
 CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: ../src/convert.h
 CMakeFiles/vcfnumalt.dir/src/vcfnumalt.cpp.o: ../src/join.h

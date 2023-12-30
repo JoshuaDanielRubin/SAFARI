@@ -12,15 +12,6 @@ CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: ../src/Variant.h
 CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: ../src/cdflib.hpp
 CMakeFiles/hapLrt.dir/src/hapLrt.cpp.o: ../src/convert.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build
 
 # Utility rule file for turtle_lexer_tgt.
 
@@ -67,10 +67,10 @@ src/CMakeFiles/turtle_lexer_tgt.dir/build: turtle_lexer_tgt
 .PHONY : src/CMakeFiles/turtle_lexer_tgt.dir/build
 
 src/CMakeFiles/turtle_lexer_tgt.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/turtle_lexer_tgt.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/turtle_lexer_tgt.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/turtle_lexer_tgt.dir/clean
 
 src/CMakeFiles/turtle_lexer_tgt.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/CMakeFiles/turtle_lexer_tgt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/CMakeFiles/turtle_lexer_tgt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/turtle_lexer_tgt.dir/depend
 

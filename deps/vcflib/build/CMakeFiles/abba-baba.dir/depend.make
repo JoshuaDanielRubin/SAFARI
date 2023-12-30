@@ -12,15 +12,6 @@ CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: ../src/Variant.h
 CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: ../src/abba-baba.cpp
 CMakeFiles/abba-baba.dir/src/abba-baba.cpp.o: ../src/cdflib.hpp

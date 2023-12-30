@@ -20,10 +20,12 @@ obj/minimizer_mapper.o: src/minimizer_mapper.cpp src/minimizer_mapper.hpp \
  src/mem.hpp src/mem_accelerator.hpp src/cluster.hpp src/handle.hpp \
  src/snarl_distance_index.hpp src/path_component_index.hpp \
  src/haplotypes.hpp src/snarls.hpp src/tree_subgraph.hpp src/funnel.hpp \
- src/annotation.hpp src/path_subgraph.hpp src/multipath_alignment.hpp \
- src/path.hpp src/alignment.hpp src/utility.hpp \
- src/split_strand_graph.hpp src/subgraph.hpp src/statistics.hpp \
- src/algorithms/count_covered.hpp \
+ src/annotation.hpp src/miscfunc.hpp src/libgab.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gzstream.hpp \
+ src/gzstream.hpp src/damage.hpp src/path_subgraph.hpp \
+ src/multipath_alignment.hpp src/path.hpp src/alignment.hpp \
+ src/utility.hpp src/split_strand_graph.hpp src/subgraph.hpp \
+ src/statistics.hpp src/algorithms/count_covered.hpp \
  src/algorithms/intersect_path_offsets.hpp \
  src/algorithms/nearest_offsets_in_paths.hpp \
  src/algorithms/path_string.hpp
@@ -123,6 +125,16 @@ src/tree_subgraph.hpp:
 src/funnel.hpp:
 
 src/annotation.hpp:
+
+src/miscfunc.hpp:
+
+src/libgab.hpp:
+
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gzstream.hpp:
+
+src/gzstream.hpp:
+
+src/damage.hpp:
 
 src/path_subgraph.hpp:
 

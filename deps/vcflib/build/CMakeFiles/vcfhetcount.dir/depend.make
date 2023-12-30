@@ -12,15 +12,6 @@ CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: ../src/Variant.h
 CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: ../src/convert.h
 CMakeFiles/vcfhetcount.dir/src/vcfhetcount.cpp.o: ../src/join.h

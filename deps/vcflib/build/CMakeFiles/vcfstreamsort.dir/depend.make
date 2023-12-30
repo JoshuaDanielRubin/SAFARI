@@ -12,15 +12,6 @@ CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: ../src/Variant.h
 CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: ../src/convert.h
 CMakeFiles/vcfstreamsort.dir/src/vcfstreamsort.cpp.o: ../src/join.h

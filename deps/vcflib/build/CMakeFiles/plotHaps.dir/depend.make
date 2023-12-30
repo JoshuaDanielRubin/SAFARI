@@ -12,15 +12,6 @@ CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: ../src/Variant.h
 CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: ../src/cdflib.hpp
 CMakeFiles/plotHaps.dir/src/plotHaps.cpp.o: ../src/convert.h

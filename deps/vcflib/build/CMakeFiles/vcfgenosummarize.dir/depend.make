@@ -12,15 +12,6 @@ CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: ../smithwaterman/Mos
 CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: ../src/Variant.h
 CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: ../src/convert.h
 CMakeFiles/vcfgenosummarize.dir/src/vcfgenosummarize.cpp.o: ../src/join.h

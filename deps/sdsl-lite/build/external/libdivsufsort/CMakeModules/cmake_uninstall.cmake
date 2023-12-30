@@ -1,8 +1,8 @@
-IF(NOT EXISTS "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt")
+IF(NOT EXISTS "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt")
 
-FILE(READ "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt" files)
+FILE(READ "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 
 SET(NUM 0)
@@ -33,4 +33,4 @@ FOREACH(file ${files})
   MATH(EXPR NUM "1 + ${NUM}")
 ENDFOREACH(file)
 
-FILE(REMOVE "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt")
+FILE(REMOVE "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/install_manifest.txt")

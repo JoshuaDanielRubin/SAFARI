@@ -6,7 +6,7 @@ obj/subcommand/viz_main.o: src/subcommand/viz_main.cpp \
  src/subcommand/../utility.hpp src/subcommand/../path.hpp \
  src/subcommand/../position.hpp src/subcommand/../handle.hpp \
  src/subcommand/../nodetraversal.hpp src/subcommand/../graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp
 
 src/subcommand/subcommand.hpp:
 
@@ -36,4 +36,4 @@ src/subcommand/../nodetraversal.hpp:
 
 src/subcommand/../graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:

@@ -12,15 +12,6 @@ CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: ../smithwaterman/LeftAlign.h
 CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: ../src/Variant.h
 CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: ../src/convert.h
 CMakeFiles/vcfentropy.dir/src/vcfentropy.cpp.o: ../src/join.h

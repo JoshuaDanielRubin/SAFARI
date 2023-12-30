@@ -12,15 +12,6 @@ CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: ../src/Variant.h
 CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: ../src/convert.h
 CMakeFiles/vcfoverlay.dir/src/vcfoverlay.cpp.o: ../src/gpatInfo.hpp

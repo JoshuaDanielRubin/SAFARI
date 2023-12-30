@@ -217,6 +217,8 @@ index_haplotypes_rymer(const GBWTGraph& graph, MinimizerIndex<KeyType>& index,
   for_each_haplotype_window(graph, index.window_bp(), find_minimizers, (threads > 1), true);
   for(int thread_id = 0; thread_id < threads; thread_id++) { flush_cache(thread_id); }
 
+std::cerr << "Total RYmers indexed: " << rymer_count << std::endl;
+
 }
 
 

@@ -3,25 +3,25 @@
 
 external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.o
  ../external/libdivsufsort/include/divsufsort_private.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/divsufsort.c
  external/libdivsufsort/include/config.h
  external/libdivsufsort/include/divsufsort.h
  external/libdivsufsort/include/divsufsort64.h
 external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.o
  ../external/libdivsufsort/include/divsufsort_private.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/sssort.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/sssort.c
  external/libdivsufsort/include/config.h
  external/libdivsufsort/include/divsufsort.h
  external/libdivsufsort/include/divsufsort64.h
 external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.o
  ../external/libdivsufsort/include/divsufsort_private.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/trsort.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/trsort.c
  external/libdivsufsort/include/config.h
  external/libdivsufsort/include/divsufsort.h
  external/libdivsufsort/include/divsufsort64.h
 external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.o
  ../external/libdivsufsort/include/divsufsort_private.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/lib/utils.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/lib/utils.c
  external/libdivsufsort/include/config.h
  external/libdivsufsort/include/divsufsort.h
  external/libdivsufsort/include/divsufsort64.h

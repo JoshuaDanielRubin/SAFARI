@@ -4,9 +4,9 @@
 src/CMakeFiles/raptor2.dir/__/librdfa/context.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/context.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/context.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -33,10 +33,10 @@ src/CMakeFiles/raptor2.dir/__/librdfa/context.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/curie.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/curie.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -63,9 +63,9 @@ src/CMakeFiles/raptor2.dir/__/librdfa/curie.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/iri.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/iri.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -92,9 +92,9 @@ src/CMakeFiles/raptor2.dir/__/librdfa/iri.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/language.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/language.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/language.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -121,9 +121,9 @@ src/CMakeFiles/raptor2.dir/__/librdfa/language.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/lists.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/lists.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -150,9 +150,9 @@ src/CMakeFiles/raptor2.dir/__/librdfa/lists.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/namespace.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/namespace.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -179,10 +179,10 @@ src/CMakeFiles/raptor2.dir/__/librdfa/namespace.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -209,10 +209,10 @@ src/CMakeFiles/raptor2.dir/__/librdfa/rdfa.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -238,15 +238,15 @@ src/CMakeFiles/raptor2.dir/__/librdfa/rdfa_utils.c.o
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/__/librdfa/strtok_r.c.o
  ../librdfa/config.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/strtok_r.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/strtok_r.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/subject.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/subject.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -273,9 +273,9 @@ src/CMakeFiles/raptor2.dir/__/librdfa/subject.c.o
 src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.o
  ../librdfa/config.h
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/rdfa_utils.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/librdfa/triple.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/rdfa_utils.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/librdfa/triple.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -300,8 +300,8 @@ src/CMakeFiles/raptor2.dir/__/librdfa/triple.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/ntriples_parse.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/ntriples_parse.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/ntriples_parse.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -327,8 +327,8 @@ src/CMakeFiles/raptor2.dir/ntriples_parse.c.o
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/parsedate.c.o
  ../src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -352,8 +352,8 @@ src/CMakeFiles/raptor2.dir/parsedate.c.o
  /usr/include/libxml2/libxml/xmlversion.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_abbrev.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_abbrev.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_abbrev.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -378,8 +378,8 @@ src/CMakeFiles/raptor2.dir/raptor_abbrev.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_avltree.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_avltree.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_avltree.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -404,8 +404,8 @@ src/CMakeFiles/raptor2.dir/raptor_avltree.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_concepts.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_concepts.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_concepts.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -430,8 +430,8 @@ src/CMakeFiles/raptor2.dir/raptor_concepts.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_escaped.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_escaped.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_escaped.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -456,8 +456,8 @@ src/CMakeFiles/raptor2.dir/raptor_escaped.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_general.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_general.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_general.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -482,8 +482,8 @@ src/CMakeFiles/raptor2.dir/raptor_general.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_guess.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_guess.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_guess.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -508,8 +508,8 @@ src/CMakeFiles/raptor2.dir/raptor_guess.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_iostream.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_iostream.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_iostream.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -534,8 +534,8 @@ src/CMakeFiles/raptor2.dir/raptor_iostream.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_json_writer.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_json_writer.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_json_writer.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -562,8 +562,8 @@ src/CMakeFiles/raptor2.dir/raptor_json_writer.c.o
 src/CMakeFiles/raptor2.dir/raptor_librdfa.c.o
  ../librdfa/rdfa.h
  ../librdfa/rdfa_utils.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_librdfa.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_librdfa.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -588,8 +588,8 @@ src/CMakeFiles/raptor2.dir/raptor_librdfa.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_locator.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_locator.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_locator.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -614,8 +614,8 @@ src/CMakeFiles/raptor2.dir/raptor_locator.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_log.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_log.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_log.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -640,8 +640,8 @@ src/CMakeFiles/raptor2.dir/raptor_log.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_memstr.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_memstr.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_memstr.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -666,8 +666,8 @@ src/CMakeFiles/raptor2.dir/raptor_memstr.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_namespace.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_namespace.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_namespace.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -692,8 +692,8 @@ src/CMakeFiles/raptor2.dir/raptor_namespace.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_ntriples.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_ntriples.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_ntriples.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -718,8 +718,8 @@ src/CMakeFiles/raptor2.dir/raptor_ntriples.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_option.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_option.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_option.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -744,8 +744,8 @@ src/CMakeFiles/raptor2.dir/raptor_option.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_parse.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_parse.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_parse.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -770,8 +770,8 @@ src/CMakeFiles/raptor2.dir/raptor_parse.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_qname.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_qname.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_qname.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -796,8 +796,8 @@ src/CMakeFiles/raptor2.dir/raptor_qname.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rfc2396.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rfc2396.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -822,9 +822,9 @@ src/CMakeFiles/raptor2.dir/raptor_rfc2396.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_rss.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -849,9 +849,9 @@ src/CMakeFiles/raptor2.dir/raptor_rss.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_rss_common.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss_common.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss_common.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -876,8 +876,8 @@ src/CMakeFiles/raptor2.dir/raptor_rss_common.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_sax2.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_sax2.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_sax2.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -902,8 +902,8 @@ src/CMakeFiles/raptor2.dir/raptor_sax2.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_sequence.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_sequence.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_sequence.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -928,8 +928,8 @@ src/CMakeFiles/raptor2.dir/raptor_sequence.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -954,8 +954,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_dot.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_dot.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -980,8 +980,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_dot.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_html.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_html.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1006,8 +1006,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_html.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_json.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_json.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1032,8 +1032,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_json.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_ntriples.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_ntriples.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1058,8 +1058,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_ntriples.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_rdfxml.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_rdfxml.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1084,8 +1084,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxml.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_rdfxmla.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_rdfxmla.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1110,9 +1110,9 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_rdfxmla.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rss.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_rss.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rss.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_rss.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1137,8 +1137,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_rss.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_serialize_turtle.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_serialize_turtle.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1163,8 +1163,8 @@ src/CMakeFiles/raptor2.dir/raptor_serialize_turtle.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_set.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_set.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_set.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1189,8 +1189,8 @@ src/CMakeFiles/raptor2.dir/raptor_set.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_statement.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_statement.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_statement.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1215,8 +1215,8 @@ src/CMakeFiles/raptor2.dir/raptor_statement.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_stringbuffer.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_stringbuffer.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1241,8 +1241,8 @@ src/CMakeFiles/raptor2.dir/raptor_stringbuffer.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_syntax_description.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_syntax_description.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1267,8 +1267,8 @@ src/CMakeFiles/raptor2.dir/raptor_syntax_description.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_term.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_term.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_term.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1293,8 +1293,8 @@ src/CMakeFiles/raptor2.dir/raptor_term.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_turtle_writer.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_turtle_writer.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1319,8 +1319,8 @@ src/CMakeFiles/raptor2.dir/raptor_turtle_writer.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_unicode.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_unicode.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_unicode.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1345,8 +1345,8 @@ src/CMakeFiles/raptor2.dir/raptor_unicode.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_uri.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_uri.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_uri.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1371,8 +1371,8 @@ src/CMakeFiles/raptor2.dir/raptor_uri.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_www.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_www.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_www.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1397,8 +1397,8 @@ src/CMakeFiles/raptor2.dir/raptor_www.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_xml.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_xml.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_xml.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1423,8 +1423,8 @@ src/CMakeFiles/raptor2.dir/raptor_xml.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_xml_writer.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_xml_writer.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1449,8 +1449,8 @@ src/CMakeFiles/raptor2.dir/raptor_xml_writer.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/snprintf.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/snprintf.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/snprintf.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1475,10 +1475,10 @@ src/CMakeFiles/raptor2.dir/snprintf.c.o
  src/raptor2.h
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/sort_r.c.o
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/sort_r.c
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/sort_r.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/ssort.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/sort_r.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/sort_r.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/ssort.h
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1504,8 +1504,8 @@ src/CMakeFiles/raptor2.dir/sort_r.c.o
  src/raptor_config.h
 src/CMakeFiles/raptor2.dir/turtle_common.c.o
  ../src/turtle_common.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_common.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_common.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1534,8 +1534,8 @@ src/CMakeFiles/raptor2.dir/turtle_common.c.o
 src/CMakeFiles/raptor2.dir/turtle_lexer.c.o
  ../src/raptor_internal.h
  ../src/turtle_common.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h
@@ -1562,8 +1562,8 @@ src/CMakeFiles/raptor2.dir/turtle_lexer.c.o
 src/CMakeFiles/raptor2.dir/turtle_parser.c.o
  ../src/raptor_internal.h
  ../src/turtle_common.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h

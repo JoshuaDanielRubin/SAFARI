@@ -4,8 +4,8 @@
 src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o
  ../src/raptor_internal.h
  ../src/turtle_common.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/raptor2.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/raptor2.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h

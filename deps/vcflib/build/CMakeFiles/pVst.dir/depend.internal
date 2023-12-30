@@ -13,22 +13,13 @@ CMakeFiles/pVst.dir/src/pVst.cpp.o
  ../smithwaterman/Repeats.h
  ../smithwaterman/SmithWatermanGotoh.h
  ../smithwaterman/disorder.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/Variant.h
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/cdflib.hpp
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/convert.h
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/gpatInfo.hpp
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/join.h
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/pVst.cpp
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/pdflib.hpp
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/split.h
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/ssw_cpp.hpp
- /home/projects2/vgan_ancient/vg/deps/vcflib/src/var.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/Variant.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/cdflib.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/convert.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/gpatInfo.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/join.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/pVst.cpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/pdflib.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/split.h
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/ssw_cpp.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/var.hpp

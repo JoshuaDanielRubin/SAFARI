@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/gpatInfo.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/gpatInfo.hpp
 iostream
 -
 stdlib.h
@@ -14,11 +14,11 @@ stdlib.h
 stdio.h
 -
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/permuteSmooth.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/permuteSmooth.cpp
 fstream
 -
 split.h
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/split.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/split.h
 vector
 -
 map
@@ -42,11 +42,11 @@ unistd.h
 stdlib.h
 -
 gpatInfo.hpp
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/gpatInfo.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/gpatInfo.hpp
 omp.h
 -
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/split.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/split.h
 string
 -
 vector

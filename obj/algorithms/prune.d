@@ -1,34 +1,34 @@
 obj/algorithms/prune.o: src/algorithms/prune.cpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/prune.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../handle.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../hash_map.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../wang_hash.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../types.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/utility.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/source_sink_overlay.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/prune.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../hash_map.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../wang_hash.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../types.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/utility.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/source_sink_overlay.hpp
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/prune.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/prune.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../handle.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../hash_map.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../hash_map.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../wang_hash.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../wang_hash.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../types.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../types.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/hash_map.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/hash_map.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/position.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/position.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/types.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/types.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/utility.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/utility.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/source_sink_overlay.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/source_sink_overlay.hpp:

@@ -34,4 +34,4 @@ external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
  ../external/googletest/googletest/src/gtest-test-part.cc
  ../external/googletest/googletest/src/gtest-typed-test.cc
  ../external/googletest/googletest/src/gtest.cc
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/googletest/googletest/src/gtest-all.cc
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/googletest/googletest/src/gtest-all.cc

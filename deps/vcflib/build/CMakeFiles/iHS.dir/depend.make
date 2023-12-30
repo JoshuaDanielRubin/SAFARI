@@ -12,15 +12,6 @@ CMakeFiles/iHS.dir/src/iHS.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/iHS.dir/src/iHS.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/iHS.dir/src/iHS.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/iHS.dir/src/iHS.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/iHS.dir/src/iHS.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/iHS.dir/src/iHS.cpp.o: ../src/Variant.h
 CMakeFiles/iHS.dir/src/iHS.cpp.o: ../src/cdflib.hpp
 CMakeFiles/iHS.dir/src/iHS.cpp.o: ../src/convert.h

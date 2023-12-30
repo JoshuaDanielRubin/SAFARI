@@ -13,15 +13,6 @@ CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: ../src/BedReader.h
 CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: ../src/Variant.h
 CMakeFiles/vcfannotate.dir/src/vcfannotate.cpp.o: ../src/convert.h

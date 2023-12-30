@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/nn_dict_dynamic_test.cpp" "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/nn_dict_dynamic_test.dir/nn_dict_dynamic_test.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/nn_dict_dynamic_test.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/nn_dict_dynamic_test.dir/nn_dict_dynamic_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,10 +23,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/lib/CMakeFiles/sdsl.dir/DependInfo.cmake"
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/DependInfo.cmake"
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/DependInfo.cmake"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/lib/CMakeFiles/sdsl.dir/DependInfo.cmake"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/DependInfo.cmake"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

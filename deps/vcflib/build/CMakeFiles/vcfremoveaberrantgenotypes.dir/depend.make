@@ -12,15 +12,6 @@ CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: 
 CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: ../src/Variant.h
 CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: ../src/convert.h
 CMakeFiles/vcfremoveaberrantgenotypes.dir/src/vcfremoveaberrantgenotypes.cpp.o: ../src/join.h

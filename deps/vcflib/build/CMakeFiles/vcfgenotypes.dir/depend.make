@@ -12,15 +12,6 @@ CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: ../src/Variant.h
 CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: ../src/convert.h
 CMakeFiles/vcfgenotypes.dir/src/vcfgenotypes.cpp.o: ../src/join.h

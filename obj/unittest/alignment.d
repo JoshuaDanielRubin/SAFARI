@@ -10,7 +10,7 @@ obj/unittest/alignment.o: src/unittest/alignment.cpp \
  src/unittest/../alignment.hpp src/unittest/../progressive.hpp \
  src/unittest/../swap_remove.hpp src/unittest/../pictographs.hpp \
  src/unittest/../colors.hpp src/unittest/../nodeside.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
  src/unittest/catch.hpp
 
 src/unittest/../alignment.hpp:
@@ -57,6 +57,6 @@ src/unittest/../colors.hpp:
 
 src/unittest/../nodeside.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
 
 src/unittest/catch.hpp:

@@ -1,4 +1,4 @@
-# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/tests/rdfa11
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/tests/rdfa11
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -11,10 +11,10 @@ obj/subcommand/dotplot_main.o: src/subcommand/dotplot_main.cpp \
  src/subcommand/../progressive.hpp src/subcommand/../swap_remove.hpp \
  src/subcommand/../pictographs.hpp src/subcommand/../colors.hpp \
  src/subcommand/../nodeside.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp \
  src/subcommand/../position.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/nearest_offsets_in_paths.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../handle.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/nearest_offsets_in_paths.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../handle.hpp
 
 src/subcommand/subcommand.hpp:
 
@@ -60,10 +60,10 @@ src/subcommand/../colors.hpp:
 
 src/subcommand/../nodeside.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include/dynamic/../xg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic/../xg.hpp:
 
 src/subcommand/../position.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/nearest_offsets_in_paths.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/nearest_offsets_in_paths.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/../handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/../handle.hpp:

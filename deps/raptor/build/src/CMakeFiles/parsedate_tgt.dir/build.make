@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build
 
 # Utility rule file for parsedate_tgt.
 
@@ -58,8 +58,8 @@ src/CMakeFiles/parsedate_tgt: src/parsedate.h
 
 
 src/parsedate.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating parsedate.c"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /home/ctools/bin/perl /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/scripts/fix-bison.pl /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating parsedate.c"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /home/ctools/bin/perl /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/scripts/fix-bison.pl /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c
 
 parsedate_tgt: src/CMakeFiles/parsedate_tgt
 parsedate_tgt: src/parsedate.c
@@ -73,10 +73,10 @@ src/CMakeFiles/parsedate_tgt.dir/build: parsedate_tgt
 .PHONY : src/CMakeFiles/parsedate_tgt.dir/build
 
 src/CMakeFiles/parsedate_tgt.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/parsedate_tgt.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/parsedate_tgt.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/parsedate_tgt.dir/clean
 
 src/CMakeFiles/parsedate_tgt.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/CMakeFiles/parsedate_tgt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/CMakeFiles/parsedate_tgt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/parsedate_tgt.dir/depend
 

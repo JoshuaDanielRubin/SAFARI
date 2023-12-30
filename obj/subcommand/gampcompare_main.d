@@ -1,5 +1,5 @@
 obj/subcommand/gampcompare_main.o: src/subcommand/gampcompare_main.cpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/subcommand/subcommand.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/subcommand/subcommand.hpp \
  src/subcommand/../algorithms/alignment_path_offsets.hpp \
  src/subcommand/../algorithms/../handle.hpp \
  src/subcommand/../algorithms/../hash_map.hpp \
@@ -29,7 +29,7 @@ obj/subcommand/gampcompare_main.o: src/subcommand/gampcompare_main.cpp \
  src/subcommand/../colors.hpp src/subcommand/../nodetraversal.hpp \
  src/subcommand/../nodeside.hpp
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/subcommand/subcommand.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/subcommand/subcommand.hpp:
 
 src/subcommand/../algorithms/alignment_path_offsets.hpp:
 

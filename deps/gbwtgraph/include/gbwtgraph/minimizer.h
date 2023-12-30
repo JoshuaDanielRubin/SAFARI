@@ -941,7 +941,7 @@ std::vector<minimizer_type> rymers(std::string::const_iterator begin, std::strin
     Calls syncmers() if the index uses closed syncmers but leaves the start
     and length fields empty.
   */
-  std::vector<std::tuple<minimizer_type, size_t, size_t>> minimizer_regions(std::string::const_iterator begin, std::string::const_iterator end) const
+  std::vector<std::tuple<minimizer_type, size_t, size_t>> minimizer_regions(std::string::const_iterator begin, std::string::const_iterator end, bool rymer=false) const
   {
     std::vector<std::tuple<minimizer_type, size_t, size_t>> result;
     if(this->uses_syncmers())
@@ -972,8 +972,15 @@ std::vector<minimizer_type> rymers(std::string::const_iterator begin, std::strin
       //std::cerr << "MINIMIZER REVERSE KEY BEFORE: " << reverse_key << std::endl;
 
       // Get the forward and reverse strand minimizer candidates
-      forward_key.forward(this->k(), *iter, valid_chars);
-      reverse_key.reverse(this->k(), *iter);
+      if (rymer){
+          forward_key.forward_rymer(this->k(), *iter, valid_chars);
+          reverse_key.reverse_rymer(this->k(), *iter);
+                }
+
+      else{
+          forward_key.forward(this->k(), *iter, valid_chars);
+          reverse_key.reverse(this->k(), *iter);
+          }
 
       //std::cerr << "MINIMIZER FORWARD KEY AFTER: " << forward_key << std::endl;
       //std::cerr << "MINIMIZER REVERSE KEY AFTER: " << reverse_key << std::endl;
@@ -1011,26 +1018,25 @@ std::vector<minimizer_type> rymers(std::string::const_iterator begin, std::strin
           // 1) this is the first minimizer we encounter;
           // 2) the last reported minimizer had the same hash (we may have new occurrences); or
           // 3) the first candidate is located after the last reported minimizer.
+
           if(result.empty() ||
-            std::get<0>(result.back()).hash == buffer.front().hash ||
-            std::get<0>(result.back()).offset < buffer.front().offset)
+             std::get<0>(result.back()).hash == buffer.front().hash ||
+             std::get<0>(result.back()).offset < buffer.front().offset)
+         {
+
+          // Insert all new occurrences of the minimizer in the window.
+          for(size_t i = buffer.begin(); i < buffer.end() && buffer.at(i).hash == buffer.front().hash; i++)
           {
-            // Insert all new occurrences of the minimizer in the window.
-            for(size_t i = buffer.begin(); i < buffer.end() && buffer.at(i).hash == buffer.front().hash; i++)
-            {
-              if(buffer.at(i).offset >= next_read_offset)
-              {
-                // Insert the minimizer instance, with its region starting
-                // where the window covered by the buffer starts.
+        if(buffer.at(i).offset >= next_read_offset)
+        {
 
-                result.emplace_back(buffer.at(i), window_start, 0);
-                 //result.emplace_back(buffer.at(i), start_pos, 0);
+            result.emplace_back(buffer.at(i), window_start, 0);
 
-                // There can only ever really be one minimizer at a given start
-                // position. So look for the next one 1 base to the right.
-                next_read_offset = buffer.at(i).offset + 1;
-              }
-            }
+            // There can only ever really be one minimizer at a given start
+            // position. So look for the next one 1 base to the right.
+            next_read_offset = buffer.at(i).offset + 1;
+        }
+    }
             
             // If new minimizers beat out old ones, finish off the old ones.
             while(!result.empty() &&

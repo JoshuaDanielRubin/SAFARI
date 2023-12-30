@@ -13,7 +13,7 @@ obj/unittest/vg.o: src/unittest/vg.cpp src/unittest/catch.hpp \
  src/unittest/../utility.hpp src/unittest/../algorithms/normalize.hpp \
  src/unittest/../algorithms/../handle.hpp \
  src/unittest/../algorithms/disjoint_components.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp
 
 src/unittest/catch.hpp:
 
@@ -69,4 +69,4 @@ src/unittest/../algorithms/../handle.hpp:
 
 src/unittest/../algorithms/disjoint_components.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:

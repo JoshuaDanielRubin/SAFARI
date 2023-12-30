@@ -13,15 +13,6 @@ CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: ../src/BedReader.h
 CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: ../src/Variant.h
 CMakeFiles/vcfroc.dir/src/vcfroc.cpp.o: ../src/convert.h

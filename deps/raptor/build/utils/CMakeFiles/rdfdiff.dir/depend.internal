@@ -4,7 +4,7 @@
 utils/CMakeFiles/rdfdiff.dir/rdfdiff.c.o
  ../src/raptor_internal.h
  ../utils/raptor_getopt.h
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/utils/rdfdiff.c
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/utils/rdfdiff.c
  /usr/include/libxml2/libxml/SAX2.h
  /usr/include/libxml2/libxml/dict.h
  /usr/include/libxml2/libxml/encoding.h

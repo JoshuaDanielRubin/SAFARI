@@ -1,8 +1,8 @@
-# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/libdivsufsort/include
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/libdivsufsort/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/projects/MAAG/Magpie/Magpie/vg_corrected")
+  set(CMAKE_INSTALL_PREFIX "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,25 +39,25 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/projects/MAAG/Magpie/Magpie/vg_corrected/include/divsufsort.h")
+   "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/divsufsort.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/projects/MAAG/Magpie/Magpie/vg_corrected/include" TYPE FILE FILES "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/include/divsufsort.h")
+file(INSTALL DESTINATION "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include" TYPE FILE FILES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/include/divsufsort.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/projects/MAAG/Magpie/Magpie/vg_corrected/include/divsufsort64.h")
+   "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/divsufsort64.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/projects/MAAG/Magpie/Magpie/vg_corrected/include" TYPE FILE FILES "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/libdivsufsort/include/divsufsort64.h")
+file(INSTALL DESTINATION "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include" TYPE FILE FILES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/libdivsufsort/include/divsufsort64.h")
 endif()
 

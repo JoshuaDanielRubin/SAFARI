@@ -2,7 +2,7 @@
 SET(rdfdiff_status -1)
 
 EXECUTE_PROCESS(
-	COMMAND /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/utils/rapper -f noNet -q -i rdfa10 -I http://rdfa.info/test-suite/test-cases/xhtml1/rdfa1.0/0042.xml -o ntriples /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/tests/rdfa/0042.xml
+	COMMAND /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/utils/rapper -f noNet -q -i rdfa10 -I http://rdfa.info/test-suite/test-cases/xhtml1/rdfa1.0/0042.xml -o ntriples /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/tests/rdfa/0042.xml
 	TIMEOUT 10
 	OUTPUT_FILE 0042-res.nt
 	ERROR_QUIET
@@ -11,7 +11,7 @@ EXECUTE_PROCESS(
 
 IF(rapper_status EQUAL 0 OR rapper_status EQUAL 2)
 	EXECUTE_PROCESS(
-		COMMAND /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/utils/rdfdiff -f ntriples -u http://rdfa.info/test-suite/test-cases/xhtml1/rdfa1.0/0042.xml -t ntriples /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/tests/rdfa/0042.out 0042-res.nt
+		COMMAND /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/utils/rdfdiff -f ntriples -u http://rdfa.info/test-suite/test-cases/xhtml1/rdfa1.0/0042.xml -t ntriples /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/tests/rdfa/0042.out 0042-res.nt
 		TIMEOUT 10
 		OUTPUT_QUIET
 		ERROR_QUIET

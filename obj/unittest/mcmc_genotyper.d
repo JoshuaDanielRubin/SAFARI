@@ -30,7 +30,7 @@ obj/unittest/mcmc_genotyper.o: src/unittest/mcmc_genotyper.cpp \
  src/unittest/../sparse_union_find.hpp src/unittest/../snarls.hpp \
  src/unittest/../integrated_snarl_finder.hpp \
  src/unittest/../genotypekit.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/min_cut_graph.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/min_cut_graph.hpp \
  src/unittest/../cactus_snarl_finder.hpp src/unittest/catch.hpp
 
 src/unittest/../multipath_mapper.hpp:
@@ -147,7 +147,7 @@ src/unittest/../integrated_snarl_finder.hpp:
 
 src/unittest/../genotypekit.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/algorithms/min_cut_graph.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/algorithms/min_cut_graph.hpp:
 
 src/unittest/../cactus_snarl_finder.hpp:
 

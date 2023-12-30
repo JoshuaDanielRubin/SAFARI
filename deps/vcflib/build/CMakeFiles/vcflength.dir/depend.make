@@ -12,15 +12,6 @@ CMakeFiles/vcflength.dir/src/vcflength.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcflength.dir/src/vcflength.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcflength.dir/src/vcflength.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcflength.dir/src/vcflength.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcflength.dir/src/vcflength.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcflength.dir/src/vcflength.cpp.o: ../src/Variant.h
 CMakeFiles/vcflength.dir/src/vcflength.cpp.o: ../src/convert.h
 CMakeFiles/vcflength.dir/src/vcflength.cpp.o: ../src/join.h

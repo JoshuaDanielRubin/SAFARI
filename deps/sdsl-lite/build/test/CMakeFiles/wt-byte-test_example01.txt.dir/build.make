@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for wt-byte-test_example01.txt.
 
@@ -59,8 +59,8 @@ include test/CMakeFiles/wt-byte-test_example01.txt.dir/progress.make
 test/CMakeFiles/wt-byte-test_example01.txt: ../test/test_cases/example01.txt
 test/CMakeFiles/wt-byte-test_example01.txt: ../test/tmp
 test/CMakeFiles/wt-byte-test_example01.txt: test/wt_byte_test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute wt-byte-test on example01.txt."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/wt_byte_test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/example01.txt /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp/wt_byte_test_example01.txt /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute wt-byte-test on example01.txt."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/wt_byte_test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/example01.txt /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp/wt_byte_test_example01.txt /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp
 
 wt-byte-test_example01.txt: test/CMakeFiles/wt-byte-test_example01.txt
 wt-byte-test_example01.txt: test/CMakeFiles/wt-byte-test_example01.txt.dir/build.make
@@ -73,10 +73,10 @@ test/CMakeFiles/wt-byte-test_example01.txt.dir/build: wt-byte-test_example01.txt
 .PHONY : test/CMakeFiles/wt-byte-test_example01.txt.dir/build
 
 test/CMakeFiles/wt-byte-test_example01.txt.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/wt-byte-test_example01.txt.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/wt-byte-test_example01.txt.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/wt-byte-test_example01.txt.dir/clean
 
 test/CMakeFiles/wt-byte-test_example01.txt.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/wt-byte-test_example01.txt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/wt-byte-test_example01.txt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/wt-byte-test_example01.txt.dir/depend
 

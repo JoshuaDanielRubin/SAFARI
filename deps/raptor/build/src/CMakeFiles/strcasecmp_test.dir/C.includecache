@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/strcasecmp.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/strcasecmp.c
 raptor_config.h
 -
 stdio.h

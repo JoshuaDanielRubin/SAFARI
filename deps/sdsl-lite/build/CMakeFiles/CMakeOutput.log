@@ -10,11 +10,11 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/gcc 
-Build flags: -I;/home/projects/MAAG/Magpie/Magpie/vg_corrected/include;
+Build flags: -I;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include;
 Id flags:  
 
 The output was:
@@ -23,43 +23,43 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0d612/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_0d612.dir/build.make CMakeFiles/cmTC_0d612.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0d612.dir/testCXXCompiler.cxx.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -o CMakeFiles/cmTC_0d612.dir/testCXXCompiler.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_0d612
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d612.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2     -rdynamic CMakeFiles/cmTC_0d612.dir/testCXXCompiler.cxx.o  -o cmTC_0d612 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_64a11/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_64a11.dir/build.make CMakeFiles/cmTC_64a11.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64a11.dir/testCXXCompiler.cxx.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -o CMakeFiles/cmTC_64a11.dir/testCXXCompiler.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_64a11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64a11.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2     -rdynamic CMakeFiles/cmTC_64a11.dir/testCXXCompiler.cxx.o  -o cmTC_64a11 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_907f1/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_907f1.dir/build.make CMakeFiles/cmTC_907f1.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_316ad/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_316ad.dir/build.make CMakeFiles/cmTC_316ad.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccq5hBM5.s
-GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGrq4Rr.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -77,37 +77,37 @@ ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- as -v --64 -o CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq5hBM5.s
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGrq4Rr.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-Linking CXX executable cmTC_907f1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_907f1.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -rdynamic CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_907f1 
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_316ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_316ad.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -rdynamic CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_316ad 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-rdynamic' '-o' 'cmTC_907f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXNg7P3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_907f1 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-rdynamic' '-o' 'cmTC_907f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-rdynamic' '-o' 'cmTC_316ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm3xAh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_316ad /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-rdynamic' '-o' 'cmTC_316ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -134,24 +134,24 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_907f1/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_907f1.dir/build.make CMakeFiles/cmTC_907f1.dir/build]
-  ignore line: [make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_316ad/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_316ad.dir/build.make CMakeFiles/cmTC_316ad.dir/build]
+  ignore line: [make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccq5hBM5.s]
-  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccGrq4Rr.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -169,39 +169,39 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 65fe925b83d3956b533de4aaba7dace0]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccq5hBM5.s]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGrq4Rr.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_907f1]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_907f1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -rdynamic CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_907f1 ]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_316ad]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_316ad.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -rdynamic CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_316ad ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-rdynamic' '-o' 'cmTC_907f1' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXNg7P3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_907f1 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-rdynamic' '-o' 'cmTC_316ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccm3xAh4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_316ad /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccXNg7P3.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccm3xAh4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -221,12 +221,12 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_907f1] ==> ignore
+    arg [cmTC_316ad] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
-    arg [-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
@@ -234,10 +234,10 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_907f1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_316ad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]
@@ -250,7 +250,7 @@ Parsed CXX implicit link information from above output:
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
-  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -258,48 +258,48 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
-  implicit dirs: [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_65b9c/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_65b9c.dir/build.make CMakeFiles/cmTC_65b9c.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_65b9c.dir/testCCompiler.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_65b9c.dir/testCCompiler.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_65b9c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65b9c.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_65b9c.dir/testCCompiler.c.o  -o cmTC_65b9c 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_f5d5c/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f5d5c.dir/build.make CMakeFiles/cmTC_f5d5c.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5d5c.dir/testCCompiler.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include    -o CMakeFiles/cmTC_f5d5c.dir/testCCompiler.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f5d5c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d5c.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include     -rdynamic CMakeFiles/cmTC_f5d5c.dir/testCCompiler.c.o  -o cmTC_f5d5c 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_9a6b6/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_9a6b6.dir/build.make CMakeFiles/cmTC_9a6b6.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -o CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make cmTC_d43ed/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d43ed.dir/build.make CMakeFiles/cmTC_d43ed.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include    -v -o CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
-COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpiMPTu.s
-GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-o' 'CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqquaMv.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -308,82 +308,82 @@ ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
 ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/include
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include
  /usr/lib/gcc/x86_64-linux-gnu/9/include
  /usr/local/include
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b
-COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include --64 -o CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o /tmp/ccpiMPTu.s
+Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-o' 'CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include --64 -o CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o /tmp/ccqquaMv.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_9a6b6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6b6.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -rdynamic CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o  -o cmTC_9a6b6 
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-o' 'CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_d43ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d43ed.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include    -v -rdynamic CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o  -o cmTC_d43ed 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-rdynamic' '-o' 'cmTC_9a6b6' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXBmxA4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9a6b6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-rdynamic' '-o' 'cmTC_9a6b6' '-mtune=generic' '-march=x86-64'
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-rdynamic' '-o' 'cmTC_d43ed' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJOnRvJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d43ed /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-rdynamic' '-o' 'cmTC_d43ed' '-mtune=generic' '-march=x86-64'
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include]
+    add: [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include]
     add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
     add: [/usr/local/include]
     add: [/usr/include/x86_64-linux-gnu]
     add: [/usr/include]
   end of search list found
-  collapse include dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include]
+  collapse include dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include]
   collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
   collapse include dir [/usr/local/include] ==> [/usr/local/include]
   collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
   collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/home/projects/MAAG/Magpie/Magpie/vg_corrected/include;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+  implicit include dirs: [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_9a6b6/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9a6b6.dir/build.make CMakeFiles/cmTC_9a6b6.dir/build]
-  ignore line: [make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -o CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d43ed/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d43ed.dir/build.make CMakeFiles/cmTC_d43ed.dir/build]
+  ignore line: [make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include    -v -o CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccpiMPTu.s]
-  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-o' 'CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqquaMv.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -392,44 +392,44 @@ Parsed C implicit link information from above output:
   ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /home/projects/MAAG/Magpie/Magpie/vg_corrected/include]
+  ignore line: [ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include]
   ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
   ignore line: [ /usr/local/include]
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b]
-  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include --64 -o CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o /tmp/ccpiMPTu.s]
+  ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-o' 'CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include --64 -o CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o /tmp/ccqquaMv.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-o' 'CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_9a6b6]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6b6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -v -rdynamic CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o  -o cmTC_9a6b6 ]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-o' 'CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_d43ed]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d43ed.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include    -v -rdynamic CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o  -o cmTC_d43ed ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vg_corrected/include' '-v' '-rdynamic' '-o' 'cmTC_9a6b6' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXBmxA4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9a6b6 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include' '-v' '-rdynamic' '-o' 'cmTC_d43ed' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJOnRvJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d43ed /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccXBmxA4.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJOnRvJ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -448,11 +448,11 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9a6b6] ==> ignore
+    arg [cmTC_d43ed] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
-    arg [-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
@@ -460,10 +460,10 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_9a6b6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d43ed.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -477,7 +477,7 @@ Parsed C implicit link information from above output:
     arg [--pop-state] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib/../lib] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -485,64 +485,64 @@ Parsed C implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Performing C++ SOURCE FILE Test HAVE_GCC_STD=C__14__WALL__WEXTRA__DNDEBUG succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4107f/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_4107f.dir/build.make CMakeFiles/cmTC_4107f.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4107f.dir/src.cxx.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DHAVE_GCC_STD=C__14__WALL__WEXTRA__DNDEBUG -std=c++14 -Wall -Wextra -DNDEBUG   -o CMakeFiles/cmTC_4107f.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_4107f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4107f.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DHAVE_GCC_STD=C__14__WALL__WEXTRA__DNDEBUG -std=c++14 -Wall -Wextra -DNDEBUG    -rdynamic CMakeFiles/cmTC_4107f.dir/src.cxx.o  -o cmTC_4107f 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_cfb55/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cfb55.dir/build.make CMakeFiles/cmTC_cfb55.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cfb55.dir/src.cxx.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DHAVE_GCC_STD=C__14__WALL__WEXTRA__DNDEBUG -std=c++14 -Wall -Wextra -DNDEBUG   -o CMakeFiles/cmTC_cfb55.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cfb55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfb55.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DHAVE_GCC_STD=C__14__WALL__WEXTRA__DNDEBUG -std=c++14 -Wall -Wextra -DNDEBUG    -rdynamic CMakeFiles/cmTC_cfb55.dir/src.cxx.o  -o cmTC_cfb55 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_GCC_O3__FFAST_MATH__FUNROLL_LOOPS succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_239ad/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_239ad.dir/build.make CMakeFiles/cmTC_239ad.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_239ad.dir/src.cxx.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_O3__FFAST_MATH__FUNROLL_LOOPS -O3 -ffast-math -funroll-loops   -o CMakeFiles/cmTC_239ad.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_239ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_239ad.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_O3__FFAST_MATH__FUNROLL_LOOPS -O3 -ffast-math -funroll-loops    -rdynamic CMakeFiles/cmTC_239ad.dir/src.cxx.o  -o cmTC_239ad 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_c884e/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c884e.dir/build.make CMakeFiles/cmTC_c884e.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c884e.dir/src.cxx.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_O3__FFAST_MATH__FUNROLL_LOOPS -O3 -ffast-math -funroll-loops   -o CMakeFiles/cmTC_c884e.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c884e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c884e.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_O3__FFAST_MATH__FUNROLL_LOOPS -O3 -ffast-math -funroll-loops    -rdynamic CMakeFiles/cmTC_c884e.dir/src.cxx.o  -o cmTC_c884e 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXA_DEMANGLE succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_42fcd/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_42fcd.dir/build.make CMakeFiles/cmTC_42fcd.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_42fcd.dir/src.cxx.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_CXA_DEMANGLE   -o CMakeFiles/cmTC_42fcd.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx:6:11: warning: unused variable ‘demangled’ [-Wunused-variable]
+Run Build Command(s):/usr/bin/make cmTC_7d6c6/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7d6c6.dir/build.make CMakeFiles/cmTC_7d6c6.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d6c6.dir/src.cxx.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_CXA_DEMANGLE   -o CMakeFiles/cmTC_7d6c6.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx:6:11: warning: unused variable ‘demangled’ [-Wunused-variable]
     6 |     char *demangled = abi::__cxa_demangle( foo, 0, 0, &status );
       |           ^~~~~~~~~
-Linking CXX executable cmTC_42fcd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42fcd.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_CXA_DEMANGLE    -rdynamic CMakeFiles/cmTC_42fcd.dir/src.cxx.o  -o cmTC_42fcd 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_7d6c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d6c6.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_CXA_DEMANGLE    -rdynamic CMakeFiles/cmTC_7d6c6.dir/src.cxx.o  -o cmTC_7d6c6 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
@@ -554,283 +554,283 @@ int main(void){
     char *demangled = abi::__cxa_demangle( foo, 0, 0, &status );
 }
 Performing C++ SOURCE FILE Test HAVE_GCC_DHAVE_CXA_DEMANGLE succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_73b51/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_73b51.dir/build.make CMakeFiles/cmTC_73b51.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_73b51.dir/src.cxx.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_DHAVE_CXA_DEMANGLE -DHAVE_CXA_DEMANGLE   -o CMakeFiles/cmTC_73b51.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_73b51
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73b51.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_DHAVE_CXA_DEMANGLE -DHAVE_CXA_DEMANGLE    -rdynamic CMakeFiles/cmTC_73b51.dir/src.cxx.o  -o cmTC_73b51 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_14292/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_14292.dir/build.make CMakeFiles/cmTC_14292.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14292.dir/src.cxx.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_DHAVE_CXA_DEMANGLE -DHAVE_CXA_DEMANGLE   -o CMakeFiles/cmTC_14292.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_14292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14292.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG -DHAVE_GCC_DHAVE_CXA_DEMANGLE -DHAVE_CXA_DEMANGLE    -rdynamic CMakeFiles/cmTC_14292.dir/src.cxx.o  -o cmTC_14292 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ef9a0/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ef9a0.dir/build.make CMakeFiles/cmTC_ef9a0.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef9a0.dir/src.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DHAVE_GCC_WALL -Wall   -o CMakeFiles/cmTC_ef9a0.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_ef9a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef9a0.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DHAVE_GCC_WALL -Wall    -rdynamic CMakeFiles/cmTC_ef9a0.dir/src.c.o  -o cmTC_ef9a0 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_12a4d/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_12a4d.dir/build.make CMakeFiles/cmTC_12a4d.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12a4d.dir/src.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -DHAVE_GCC_WALL -Wall   -o CMakeFiles/cmTC_12a4d.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_12a4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12a4d.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -DHAVE_GCC_WALL -Wall    -rdynamic CMakeFiles/cmTC_12a4d.dir/src.c.o  -o cmTC_12a4d 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_FOMIT_FRAME_POINTER succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_59d6a/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_59d6a.dir/build.make CMakeFiles/cmTC_59d6a.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_59d6a.dir/src.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer   -o CMakeFiles/cmTC_59d6a.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_59d6a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59d6a.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer    -rdynamic CMakeFiles/cmTC_59d6a.dir/src.c.o  -o cmTC_59d6a 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_e2b04/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e2b04.dir/build.make CMakeFiles/cmTC_e2b04.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2b04.dir/src.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer   -o CMakeFiles/cmTC_e2b04.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e2b04
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2b04.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer    -rdynamic CMakeFiles/cmTC_e2b04.dir/src.c.o  -o cmTC_e2b04 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_50994/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_50994.dir/build.make CMakeFiles/cmTC_50994.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_50994.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_50994.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_50994
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50994.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_50994.dir/CheckIncludeFile.c.o  -o cmTC_50994 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_3471d/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3471d.dir/build.make CMakeFiles/cmTC_3471d.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3471d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_3471d.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3471d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3471d.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_3471d.dir/CheckIncludeFile.c.o  -o cmTC_3471d 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file memory.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_368f9/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_368f9.dir/build.make CMakeFiles/cmTC_368f9.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_368f9.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_368f9.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_368f9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_368f9.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_368f9.dir/CheckIncludeFile.c.o  -o cmTC_368f9 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_424fb/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_424fb.dir/build.make CMakeFiles/cmTC_424fb.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_424fb.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_424fb.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_424fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_424fb.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_424fb.dir/CheckIncludeFile.c.o  -o cmTC_424fb 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5f17e/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_5f17e.dir/build.make CMakeFiles/cmTC_5f17e.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5f17e.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_5f17e.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5f17e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f17e.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_5f17e.dir/CheckIncludeFile.c.o  -o cmTC_5f17e 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_545c0/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_545c0.dir/build.make CMakeFiles/cmTC_545c0.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_545c0.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_545c0.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_545c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_545c0.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_545c0.dir/CheckIncludeFile.c.o  -o cmTC_545c0 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ef652/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_ef652.dir/build.make CMakeFiles/cmTC_ef652.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef652.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_ef652.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ef652
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef652.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_ef652.dir/CheckIncludeFile.c.o  -o cmTC_ef652 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_cc9de/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cc9de.dir/build.make CMakeFiles/cmTC_cc9de.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc9de.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_cc9de.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cc9de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc9de.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_cc9de.dir/CheckIncludeFile.c.o  -o cmTC_cc9de 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdlib.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a993b/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_a993b.dir/build.make CMakeFiles/cmTC_a993b.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a993b.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_a993b.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a993b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a993b.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_a993b.dir/CheckIncludeFile.c.o  -o cmTC_a993b 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_d9b6c/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d9b6c.dir/build.make CMakeFiles/cmTC_d9b6c.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9b6c.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_d9b6c.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d9b6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9b6c.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_d9b6c.dir/CheckIncludeFile.c.o  -o cmTC_d9b6c 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file string.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d5858/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_d5858.dir/build.make CMakeFiles/cmTC_d5858.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d5858.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_d5858.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_d5858
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5858.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_d5858.dir/CheckIncludeFile.c.o  -o cmTC_d5858 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_2ca57/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2ca57.dir/build.make CMakeFiles/cmTC_2ca57.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ca57.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_2ca57.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2ca57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ca57.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_2ca57.dir/CheckIncludeFile.c.o  -o cmTC_2ca57 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file strings.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e841d/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e841d.dir/build.make CMakeFiles/cmTC_e841d.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e841d.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_e841d.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e841d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e841d.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_e841d.dir/CheckIncludeFile.c.o  -o cmTC_e841d 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_3b91b/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3b91b.dir/build.make CMakeFiles/cmTC_3b91b.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b91b.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_3b91b.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3b91b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b91b.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_3b91b.dir/CheckIncludeFile.c.o  -o cmTC_3b91b 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f5201/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f5201.dir/build.make CMakeFiles/cmTC_f5201.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f5201.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_f5201.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f5201
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5201.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_f5201.dir/CheckIncludeFile.c.o  -o cmTC_f5201 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_f747d/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f747d.dir/build.make CMakeFiles/cmTC_f747d.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f747d.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_f747d.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f747d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f747d.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_f747d.dir/CheckIncludeFile.c.o  -o cmTC_f747d 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d9a5e/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_d9a5e.dir/build.make CMakeFiles/cmTC_d9a5e.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d9a5e.dir/src.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE_INLINE   -o CMakeFiles/cmTC_d9a5e.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d9a5e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a5e.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE_INLINE    -rdynamic CMakeFiles/cmTC_d9a5e.dir/src.c.o  -o cmTC_d9a5e 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_7ad84/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7ad84.dir/build.make CMakeFiles/cmTC_7ad84.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ad84.dir/src.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE_INLINE   -o CMakeFiles/cmTC_7ad84.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7ad84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ad84.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE_INLINE    -rdynamic CMakeFiles/cmTC_7ad84.dir/src.c.o  -o cmTC_7ad84 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 inline void func(); void func() { } int main() { func(); return 0; }
 Performing C SOURCE FILE Test HAVE___INLINE succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7e876/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_7e876.dir/build.make CMakeFiles/cmTC_7e876.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e876.dir/src.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE___INLINE   -o CMakeFiles/cmTC_7e876.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_7e876
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e876.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE___INLINE    -rdynamic CMakeFiles/cmTC_7e876.dir/src.c.o  -o cmTC_7e876 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_da4b7/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_da4b7.dir/build.make CMakeFiles/cmTC_da4b7.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da4b7.dir/src.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE___INLINE   -o CMakeFiles/cmTC_da4b7.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_da4b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da4b7.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE___INLINE    -rdynamic CMakeFiles/cmTC_da4b7.dir/src.c.o  -o cmTC_da4b7 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 __inline void func(); void func() { } int main() { func(); return 0; }
 Performing C SOURCE FILE Test HAVE___INLINE__ succeeded with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a2499/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_a2499.dir/build.make CMakeFiles/cmTC_a2499.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2499.dir/src.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE___INLINE__   -o CMakeFiles/cmTC_a2499.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a2499
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2499.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall -DHAVE___INLINE__    -rdynamic CMakeFiles/cmTC_a2499.dir/src.c.o  -o cmTC_a2499 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_7a952/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7a952.dir/build.make CMakeFiles/cmTC_7a952.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a952.dir/src.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE___INLINE__   -o CMakeFiles/cmTC_7a952.dir/src.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7a952
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a952.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall -DHAVE___INLINE__    -rdynamic CMakeFiles/cmTC_7a952.dir/src.c.o  -o cmTC_7a952 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 __inline__ void func(); void func() { } int main() { func(); return 0; }
 Determining size of uint8_t passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e52c4/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e52c4.dir/build.make CMakeFiles/cmTC_e52c4.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e52c4.dir/UINT8_T.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_e52c4.dir/UINT8_T.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CheckTypeSize/UINT8_T.c
-Linking C executable cmTC_e52c4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e52c4.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_e52c4.dir/UINT8_T.c.o  -o cmTC_e52c4 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_611aa/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_611aa.dir/build.make CMakeFiles/cmTC_611aa.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_611aa.dir/UINT8_T.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_611aa.dir/UINT8_T.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTC_611aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_611aa.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_611aa.dir/UINT8_T.c.o  -o cmTC_611aa 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining size of int32_t passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_fa9e3/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_fa9e3.dir/build.make CMakeFiles/cmTC_fa9e3.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fa9e3.dir/INT32_T.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_fa9e3.dir/INT32_T.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CheckTypeSize/INT32_T.c
-Linking C executable cmTC_fa9e3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa9e3.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_fa9e3.dir/INT32_T.c.o  -o cmTC_fa9e3 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_2a3bb/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2a3bb.dir/build.make CMakeFiles/cmTC_2a3bb.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a3bb.dir/INT32_T.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_2a3bb.dir/INT32_T.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CheckTypeSize/INT32_T.c
+Linking C executable cmTC_2a3bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a3bb.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_2a3bb.dir/INT32_T.c.o  -o cmTC_2a3bb 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the PRId32 exist passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1d2bb/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_1d2bb.dir/build.make CMakeFiles/cmTC_1d2bb.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d2bb.dir/CheckSymbolExists.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_1d2bb.dir/CheckSymbolExists.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_1d2bb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d2bb.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_1d2bb.dir/CheckSymbolExists.c.o  -o cmTC_1d2bb 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_04168/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_04168.dir/build.make CMakeFiles/cmTC_04168.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04168.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_04168.dir/CheckSymbolExists.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_04168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04168.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_04168.dir/CheckSymbolExists.c.o  -o cmTC_04168 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
-File /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <inttypes.h>
 
@@ -845,37 +845,37 @@ int main(int argc, char** argv)
 #endif
 }
 Determining size of int64_t passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_7b613/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_7b613.dir/build.make CMakeFiles/cmTC_7b613.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7b613.dir/INT64_T.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_7b613.dir/INT64_T.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CheckTypeSize/INT64_T.c
-Linking C executable cmTC_7b613
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b613.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_7b613.dir/INT64_T.c.o  -o cmTC_7b613 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_9a6d0/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9a6d0.dir/build.make CMakeFiles/cmTC_9a6d0.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a6d0.dir/INT64_T.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_9a6d0.dir/INT64_T.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CheckTypeSize/INT64_T.c
+Linking C executable cmTC_9a6d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6d0.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_9a6d0.dir/INT64_T.c.o  -o cmTC_9a6d0 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the PRId64 exist passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_85178/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_85178.dir/build.make CMakeFiles/cmTC_85178.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_85178.dir/CheckSymbolExists.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall    -o CMakeFiles/cmTC_85178.dir/CheckSymbolExists.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_85178
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85178.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -Wall     -rdynamic CMakeFiles/cmTC_85178.dir/CheckSymbolExists.c.o  -o cmTC_85178 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_ce1c7/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ce1c7.dir/build.make CMakeFiles/cmTC_ce1c7.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce1c7.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall    -o CMakeFiles/cmTC_ce1c7.dir/CheckSymbolExists.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ce1c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce1c7.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -Wall     -rdynamic CMakeFiles/cmTC_ce1c7.dir/CheckSymbolExists.c.o  -o cmTC_ce1c7 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
-File /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <inttypes.h>
 
@@ -890,50 +890,50 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e0477/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e0477.dir/build.make CMakeFiles/cmTC_e0477.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e0477.dir/CheckIncludeFile.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include    -o CMakeFiles/cmTC_e0477.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e0477
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0477.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include     -rdynamic CMakeFiles/cmTC_e0477.dir/CheckIncludeFile.c.o  -o cmTC_e0477 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_5593a/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5593a.dir/build.make CMakeFiles/cmTC_5593a.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5593a.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include    -o CMakeFiles/cmTC_5593a.dir/CheckIncludeFile.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5593a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5593a.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include     -rdynamic CMakeFiles/cmTC_5593a.dir/CheckIncludeFile.c.o  -o cmTC_5593a 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3d0b2/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_3d0b2.dir/build.make CMakeFiles/cmTC_3d0b2.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d0b2.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3d0b2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3d0b2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d0b2.dir/link.txt --verbose=1
-/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3d0b2.dir/CheckFunctionExists.c.o  -o cmTC_3d0b2  -lpthread 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_a0666/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a0666.dir/build.make CMakeFiles/cmTC_a0666.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0666.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a0666.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0666.dir/link.txt --verbose=1
+/usr/bin/gcc -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a0666.dir/CheckFunctionExists.c.o  -o cmTC_a0666  -lpthread 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file cstdio exists passed with the following output:
-Change Dir: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_72161/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_72161.dir/build.make CMakeFiles/cmTC_72161.dir/build
-make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_72161.dir/CheckIncludeFile.cxx.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG    -o CMakeFiles/cmTC_72161.dir/CheckIncludeFile.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_72161
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72161.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG     -rdynamic CMakeFiles/cmTC_72161.dir/CheckIncludeFile.cxx.o  -o cmTC_72161 
-make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_01dcb/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_01dcb.dir/build.make CMakeFiles/cmTC_01dcb.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01dcb.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG    -o CMakeFiles/cmTC_01dcb.dir/CheckIncludeFile.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_01dcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01dcb.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG     -rdynamic CMakeFiles/cmTC_01dcb.dir/CheckIncludeFile.cxx.o  -o cmTC_01dcb 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles/CMakeTmp'
 
 
 

@@ -13,24 +13,24 @@ CXX := /usr/bin/g++ -std=c++14
 
 # Configuration parameters.
 DESTDIR =
-BINDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/bin
-INCLUDEDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/include
-LIBDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/lib
-DATADIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/share
-MANDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/share/man
+BINDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/bin
+INCLUDEDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/include
+LIBDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/lib
+DATADIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/share
+MANDIR := $(DESTDIR)/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/share/man
 srcroot := 
 objroot := 
-abs_srcroot := /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/
-abs_objroot := /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/
+abs_srcroot := /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/
+abs_objroot := /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/
 
 # Build parameters.
 CPPFLAGS := -D_GNU_SOURCE -D_REENTRANT -I$(objroot)include -I$(srcroot)include
 CONFIGURE_CFLAGS := -std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops
-SPECIFIED_CFLAGS := -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include 
+SPECIFIED_CFLAGS := -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include 
 EXTRA_CFLAGS := 
 CFLAGS := $(strip $(CONFIGURE_CFLAGS) $(SPECIFIED_CFLAGS) $(EXTRA_CFLAGS))
 CONFIGURE_CXXFLAGS := -Wall -Wextra -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3
-SPECIFIED_CXXFLAGS := -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2
+SPECIFIED_CXXFLAGS := -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2
 EXTRA_CXXFLAGS := 
 CXXFLAGS := $(strip $(CONFIGURE_CXXFLAGS) $(SPECIFIED_CXXFLAGS) $(EXTRA_CXXFLAGS))
 LDFLAGS := 

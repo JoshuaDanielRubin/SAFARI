@@ -1,8 +1,8 @@
-# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/include
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/projects/MAAG/Magpie/Magpie/vg_corrected")
+  set(CMAKE_INSTALL_PREFIX "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/include/sdsl/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/include/sdsl/cmake_install.cmake")
 
 endif()
 

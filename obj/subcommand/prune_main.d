@@ -14,9 +14,9 @@ obj/subcommand/prune_main.o: src/subcommand/prune_main.cpp \
  src/subcommand/subcommand.hpp src/subcommand/../algorithms/prune.hpp \
  src/subcommand/../algorithms/../handle.hpp \
  src/subcommand/../io/save_handle_graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
  src/subcommand/../io/../algorithms/gfa_to_handle.hpp \
  src/subcommand/../io/../algorithms/../handle.hpp
 
@@ -74,11 +74,11 @@ src/subcommand/../algorithms/../handle.hpp:
 
 src/subcommand/../io/save_handle_graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
 src/subcommand/../io/../algorithms/gfa_to_handle.hpp:
 

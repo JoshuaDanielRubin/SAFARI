@@ -1,5 +1,5 @@
 Name: tabixpp
 Description: Self-packaged tabixpp
 Version: 1.0
-Cflags: -I/net/mimer/mnt/tank/projects2/vgan_ancient/vg/include
-Libs: -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib -ltabixpp
+Cflags: -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include
+Libs: -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -ltabixpp

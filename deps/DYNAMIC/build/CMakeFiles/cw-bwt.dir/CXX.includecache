@@ -266,9 +266,9 @@ dynamic/internal/alphabet_encoder.hpp
 dynamic/internal/includes.hpp
 ../include/dynamic/internal/dynamic/internal/includes.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/cw-bwt.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/cw-bwt.cpp
 chrono
 -
 dynamic/algorithms/cw_bwt.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/algorithms/cw_bwt.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/algorithms/cw_bwt.hpp
 

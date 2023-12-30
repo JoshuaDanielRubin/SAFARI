@@ -716,7 +716,7 @@ extern int yylex \
 #undef yyTABLES_NAME
 #endif
 
-#line 542 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 542 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 
 
 #line 723 "turtle_lexer.h"

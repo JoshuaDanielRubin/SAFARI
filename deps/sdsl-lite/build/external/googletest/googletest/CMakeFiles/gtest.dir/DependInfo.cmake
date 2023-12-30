@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/googletest/googletest/src/gtest-all.cc" "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/googletest/googletest/src/gtest-all.cc" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

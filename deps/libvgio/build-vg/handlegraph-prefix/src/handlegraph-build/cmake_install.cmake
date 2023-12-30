@@ -1,8 +1,8 @@
-# Install script for directory: /home/projects2/vgan_ancient/vg/deps/libvgio/deps/libhandlegraph
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/deps/libhandlegraph
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix")
+  set(CMAKE_INSTALL_PREFIX "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhandlegraph.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/libhandlegraph.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/libhandlegraph.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhandlegraph.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhandlegraph.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -57,11 +57,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/libhandlegraph.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/libhandlegraph.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/projects2/vgan_ancient/vg/deps/libvgio/deps/libhandlegraph/src/include/handlegraph" FILES_MATCHING REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/deps/libhandlegraph/src/include/handlegraph" FILES_MATCHING REGEX "/[^/]*\\.hpp$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -72,5 +72,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -17,7 +17,7 @@ obj/unittest/snarl_seed_clusterer.o: \
  src/unittest/../statistics.hpp src/unittest/../path_index.hpp \
  src/unittest/../packer.hpp src/unittest/../graph.hpp \
  src/unittest/random_graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
  src/unittest/../snarl_seed_clusterer.hpp \
  src/unittest/../snarl_distance_index.hpp \
  src/unittest/../small_bitset.hpp
@@ -92,7 +92,7 @@ src/unittest/../graph.hpp:
 
 src/unittest/random_graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
 src/unittest/../snarl_seed_clusterer.hpp:
 

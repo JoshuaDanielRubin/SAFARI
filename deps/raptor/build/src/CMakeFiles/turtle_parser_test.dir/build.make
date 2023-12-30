@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/turtle_parser_test.dir/depend.make
@@ -58,21 +58,21 @@ include src/CMakeFiles/turtle_parser_test.dir/progress.make
 include src/CMakeFiles/turtle_parser_test.dir/flags.make
 
 src/turtle_parser.c:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating turtle_parser.c"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /home/ctools/bin/perl /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/scripts/fix-bison.pl /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating turtle_parser.c"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /home/ctools/bin/perl /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/scripts/fix-bison.pl /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c
 
 src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o: src/CMakeFiles/turtle_parser_test.dir/flags.make
 src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o: src/turtle_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/turtle_parser_test.dir/turtle_parser.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c
 
 src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/turtle_parser_test.dir/turtle_parser.c.i"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c > CMakeFiles/turtle_parser_test.dir/turtle_parser.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c > CMakeFiles/turtle_parser_test.dir/turtle_parser.c.i
 
 src/CMakeFiles/turtle_parser_test.dir/turtle_parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/turtle_parser_test.dir/turtle_parser.c.s"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c -o CMakeFiles/turtle_parser_test.dir/turtle_parser.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c -o CMakeFiles/turtle_parser_test.dir/turtle_parser.c.s
 
 # Object files for target turtle_parser_test
 turtle_parser_test_OBJECTS = \
@@ -86,8 +86,8 @@ src/turtle_parser_test: src/CMakeFiles/turtle_parser_test.dir/build.make
 src/turtle_parser_test: src/libraptor2.a
 src/turtle_parser_test: /usr/lib/x86_64-linux-gnu/libxml2.so
 src/turtle_parser_test: src/CMakeFiles/turtle_parser_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable turtle_parser_test"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtle_parser_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable turtle_parser_test"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtle_parser_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/turtle_parser_test.dir/build: src/turtle_parser_test
@@ -95,10 +95,10 @@ src/CMakeFiles/turtle_parser_test.dir/build: src/turtle_parser_test
 .PHONY : src/CMakeFiles/turtle_parser_test.dir/build
 
 src/CMakeFiles/turtle_parser_test.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/turtle_parser_test.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/turtle_parser_test.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/turtle_parser_test.dir/clean
 
 src/CMakeFiles/turtle_parser_test.dir/depend: src/turtle_parser.c
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/CMakeFiles/turtle_parser_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/CMakeFiles/turtle_parser_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/turtle_parser_test.dir/depend
 

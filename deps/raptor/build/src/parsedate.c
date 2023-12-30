@@ -72,7 +72,7 @@
 #define yynerrs         raptor_parsedate_nerrs
 
 /* First part of user prologue.  */
-#line 1 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 1 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
 
 /*
  * Imported from the public domain source in PHP 4.4
@@ -230,7 +230,7 @@ static int ToYear (int Year);
 static int LookupWord (YYSTYPE *lvalp, char *buff);
 
 
-#line 234 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 234 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -263,8 +263,8 @@ static int LookupWord (YYSTYPE *lvalp, char *buff);
 
 /* Use api.header.include to #include this header
    instead of duplicating it here.  */
-#ifndef YY_RAPTOR_PARSEDATE_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_PARSEDATE_H_INCLUDED
-# define YY_RAPTOR_PARSEDATE_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_PARSEDATE_H_INCLUDED
+#ifndef YY_RAPTOR_PARSEDATE_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_PARSEDATE_H_INCLUDED
+# define YY_RAPTOR_PARSEDATE_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_PARSEDATE_H_INCLUDED
 /* Debug traces.  */
 #ifndef RAPTOR_PARSEDATE_DEBUG
 # if defined YYDEBUG
@@ -314,7 +314,7 @@ extern int raptor_parsedate_debug;
 
 int raptor_parsedate_parse (struct date_yy *parm);
 
-#endif /* !YY_RAPTOR_PARSEDATE_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_PARSEDATE_H_INCLUDED  */
+#endif /* !YY_RAPTOR_PARSEDATE_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_PARSEDATE_H_INCLUDED  */
 
 
 
@@ -1552,123 +1552,123 @@ yyreduce:
   switch (yyn)
     {
   case 4:
-#line 197 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 197 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                {
 	    ((struct date_yy *)parm)->yyHaveTime++;
 	}
-#line 1560 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1560 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 5:
-#line 200 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 200 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                {
 	        ((struct date_yy *)parm)->yyHaveZone++;
 	}
-#line 1568 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1568 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 6:
-#line 203 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 203 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                {
 	    ((struct date_yy *)parm)->yyHaveDate++;
 	}
-#line 1576 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1576 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 7:
-#line 206 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 206 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
               {
 	    ((struct date_yy *)parm)->yyHaveDay++;
 	}
-#line 1584 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1584 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 8:
-#line 209 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 209 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
               {
 	    ((struct date_yy *)parm)->yyHaveRel++;
 	}
-#line 1592 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1592 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 11:
-#line 216 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 216 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                              {
 	    ((struct date_yy *)parm)->yyHour = (yyvsp[-1].Number);
 	    ((struct date_yy *)parm)->yyMinutes = 0;
 	    ((struct date_yy *)parm)->yySeconds = 0;
 	    ((struct date_yy *)parm)->yyMeridian = (yyvsp[0].Meridian);
 	}
-#line 1603 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1603 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 13:
-#line 226 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 226 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                             {
 	    ((struct date_yy *)parm)->yyMeridian = MER24;
 	}
-#line 1611 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1611 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 14:
-#line 229 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 229 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                   {
 	    ((struct date_yy *)parm)->yyMeridian = MER24;
 	    ((struct date_yy *)parm)->yySeconds = 0;
 	}
-#line 1620 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1620 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 15:
-#line 233 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 233 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                                {
 	    ((struct date_yy *)parm)->yyMeridian = MER24;
 	}
-#line 1628 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1628 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 16:
-#line 236 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 236 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                               {
 	    ((struct date_yy *)parm)->yyMeridian = MER24;
 	    ((struct date_yy *)parm)->yySeconds = 0;
 	}
-#line 1637 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1637 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 17:
-#line 242 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 242 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                 {
 		((struct date_yy *)parm)->yyHaveZone++;
 	}
-#line 1645 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1645 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 18:
-#line 245 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 245 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                       {
 		((struct date_yy *)parm)->yyHaveZone++;
 	}
-#line 1653 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1653 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 19:
-#line 248 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 248 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                {
 		((struct date_yy *)parm)->yyHaveZone++;
 	}
-#line 1661 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1661 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 21:
-#line 254 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 254 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                 {
 	}
-#line 1668 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1668 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 23:
-#line 259 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 259 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                          {
 		/* format: [+-]hhmm */
 		if((yyvsp[0].Number) <= -100 || (yyvsp[0].Number) >= 100) {
@@ -1677,123 +1677,123 @@ yyreduce:
 			((struct date_yy *)parm)->yyTimezone = -(yyvsp[0].Number) * 60;
 		}
 	}
-#line 1681 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1681 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 24:
-#line 269 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 269 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                    {
 		/* format: [+-]hh:mm */
 		((struct date_yy *)parm)->yyTimezone = -(yyvsp[-2].Number) * 60 + ((yyvsp[-2].Number) > 0 ? -(yyvsp[0].Number): (yyvsp[0].Number));
 	}
-#line 1690 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1690 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 25:
-#line 275 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 275 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                    {
 		/* format: hh:mm:ss */
 	    ((struct date_yy *)parm)->yySeconds = (yyvsp[0].Number);
 	}
-#line 1699 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1699 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 26:
-#line 281 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 281 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                          {
 		/* format: hh:mm */
 	    ((struct date_yy *)parm)->yyHour = (yyvsp[-2].Number);
 	    ((struct date_yy *)parm)->yyMinutes = (yyvsp[0].Number);
 	}
-#line 1709 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1709 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 27:
-#line 297 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 297 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                  {
 	    ((struct date_yy *)parm)->yyTimezone = (yyvsp[0].Number);
 	}
-#line 1717 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1717 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 28:
-#line 300 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 300 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                  {
 	    ((struct date_yy *)parm)->yyTimezone = (yyvsp[0].Number);
 	}
-#line 1725 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1725 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 29:
-#line 303 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 303 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                  {
 	    ((struct date_yy *)parm)->yyTimezone = (yyvsp[0].Number);
 	}
-#line 1733 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1733 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 30:
-#line 306 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 306 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                 {
 	    ((struct date_yy *)parm)->yyTimezone = (yyvsp[0].Number);
 	}
-#line 1741 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1741 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 31:
-#line 309 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 309 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                    {
 	    ((struct date_yy *)parm)->yyTimezone = (yyvsp[0].Number) - 60;
 	}
-#line 1749 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1749 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 32:
-#line 312 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 312 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                      {
 	    ((struct date_yy *)parm)->yyTimezone = (yyvsp[-1].Number) - 60;
 	}
-#line 1757 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1757 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 33:
-#line 317 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 317 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                {
 	    ((struct date_yy *)parm)->yyDayOrdinal = 1;
 	    ((struct date_yy *)parm)->yyDayNumber = (yyvsp[0].Number);
 	}
-#line 1766 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1766 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 34:
-#line 321 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 321 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                    {
 	    ((struct date_yy *)parm)->yyDayOrdinal = 1;
 	    ((struct date_yy *)parm)->yyDayNumber = (yyvsp[-1].Number);
 	}
-#line 1775 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1775 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 35:
-#line 325 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 325 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                         {
 	    ((struct date_yy *)parm)->yyDayOrdinal = (yyvsp[-1].Number);
 	    ((struct date_yy *)parm)->yyDayNumber = (yyvsp[0].Number);
 	}
-#line 1784 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1784 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 36:
-#line 331 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 331 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                 {
 	    ((struct date_yy *)parm)->yyMonth = (yyvsp[-2].Number);
 	    ((struct date_yy *)parm)->yyDay = (yyvsp[0].Number);
 	}
-#line 1793 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1793 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 37:
-#line 335 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 335 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                                       {
 		((struct date_yy *)parm)->yyYear = (yyvsp[0].Number);
 		((struct date_yy *)parm)->yyMonth = (yyvsp[-7].Number);
@@ -1805,11 +1805,11 @@ yyreduce:
 
 		((struct date_yy *)parm)->yyHaveTime = 1;
 	}
-#line 1809 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1809 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 38:
-#line 346 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 346 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                              {
 	  /* Interpret as YYYY/MM/DD if $1 >= 1000, otherwise as MM/DD/YY.
 	     The goal in recognizing YYYY/MM/DD is solely to support legacy
@@ -1828,40 +1828,40 @@ yyreduce:
 	      ((struct date_yy *)parm)->yyYear = (yyvsp[0].Number);
 	    }
 	}
-#line 1832 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1832 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 40:
-#line 365 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 365 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                           {
 			((struct date_yy *)parm)->yyHaveTime++;
     }
-#line 1840 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1840 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 41:
-#line 368 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 368 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                    {
 	    /* e.g. 17-JUN-1992.  */
 	    ((struct date_yy *)parm)->yyDay = (yyvsp[-2].Number);
 	    ((struct date_yy *)parm)->yyMonth = (yyvsp[-1].Number);
 	    ((struct date_yy *)parm)->yyYear = -(yyvsp[0].Number);
 	}
-#line 1851 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1851 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 42:
-#line 374 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 374 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                    {
 	    ((struct date_yy *)parm)->yyMonth = (yyvsp[-2].Number);
 	    ((struct date_yy *)parm)->yyDay = (yyvsp[-1].Number);
 		((struct date_yy *)parm)->yyYear = (yyvsp[0].Number);
 	}
-#line 1861 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1861 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 43:
-#line 379 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 379 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                           {
 	    ((struct date_yy *)parm)->yyMonth = (yyvsp[-1].Number);
 	    if((yyvsp[0].Number) > 1000) {
@@ -1870,21 +1870,21 @@ yyreduce:
 		((struct date_yy *)parm)->yyDay = (yyvsp[0].Number);
 	    }
 	}
-#line 1874 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1874 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 44:
-#line 387 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 387 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                        {
 	    ((struct date_yy *)parm)->yyMonth = (yyvsp[-3].Number);
 	    ((struct date_yy *)parm)->yyDay = (yyvsp[-2].Number);
 	    ((struct date_yy *)parm)->yyYear = (yyvsp[0].Number);
 	}
-#line 1884 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1884 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 45:
-#line 392 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 392 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                           {
 	    ((struct date_yy *)parm)->yyMonth = (yyvsp[0].Number);
 	    if((yyvsp[-1].Number) > 1000) {
@@ -1893,21 +1893,21 @@ yyreduce:
 		((struct date_yy *)parm)->yyDay = (yyvsp[-1].Number);
 	    }
 	}
-#line 1897 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1897 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 46:
-#line 400 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 400 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                    {
 	    ((struct date_yy *)parm)->yyMonth = (yyvsp[-1].Number);
 	    ((struct date_yy *)parm)->yyDay = (yyvsp[-2].Number);
 	    ((struct date_yy *)parm)->yyYear = (yyvsp[0].Number);
 	}
-#line 1907 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1907 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 48:
-#line 408 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 408 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                       {
 		int i = (yyvsp[-2].Number);
 
@@ -1925,33 +1925,33 @@ yyreduce:
 			((struct date_yy *)parm)->yyMonth = 1;
 		}
 	}
-#line 1929 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1929 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 49:
-#line 427 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 427 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                         {
 	    /* ISO 8601 format.  yyyy-mm-dd.  */
 	    ((struct date_yy *)parm)->yyYear = (yyvsp[-2].Number);
 	    ((struct date_yy *)parm)->yyMonth = -(yyvsp[-1].Number);
 	    ((struct date_yy *)parm)->yyDay = -(yyvsp[0].Number);
 	}
-#line 1940 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1940 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 50:
-#line 433 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 433 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                             {
 		/* ISO 8601 format   yyyy-mm */
 	    ((struct date_yy *)parm)->yyYear = (yyvsp[-1].Number);
 	    ((struct date_yy *)parm)->yyMonth = -(yyvsp[0].Number);
 	    ((struct date_yy *)parm)->yyDay = 1;
 	}
-#line 1951 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1951 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 51:
-#line 439 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 439 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                    {
 		const int om = (1 + 9) % 12; /* offset month */
 		const int oy = (yyvsp[-1].Number) - 1; /* offset year */
@@ -1962,27 +1962,27 @@ yyreduce:
 		((struct date_yy *)parm)->yyDay -= ((13 * om + 12) / 5 +
 					oy + oy / 4 + oy / 400 - oy / 100) % 7 - 1;
 	}
-#line 1966 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1966 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 52:
-#line 451 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 451 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                  {
 		((struct date_yy *)parm)->yyDay = ((yyvsp[0].Number) / 10) * 7 + ((yyvsp[0].Number) % 10) - 8;
 	}
-#line 1974 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1974 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 53:
-#line 454 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 454 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                    {
 		((struct date_yy *)parm)->yyDay = (yyvsp[-1].Number) * 7 - (yyvsp[0].Number) - 8;
 	}
-#line 1982 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 1982 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 55:
-#line 461 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 461 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                                      {
 		int i = (yyvsp[-2].Number);
 
@@ -2006,11 +2006,11 @@ yyreduce:
 		}
 	    ((struct date_yy *)parm)->yyMeridian = MER24;
 	}
-#line 2010 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2010 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 56:
-#line 486 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 486 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                        {
 	    ((struct date_yy *)parm)->yyRelSeconds =
 			-((struct date_yy *)parm)->yyRelSeconds;
@@ -2025,155 +2025,155 @@ yyreduce:
 	    ((struct date_yy *)parm)->yyRelYear =
 			-((struct date_yy *)parm)->yyRelYear;
 	}
-#line 2029 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2029 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 58:
-#line 503 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 503 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                               {
 	    ((struct date_yy *)parm)->yyRelYear += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2037 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2037 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 59:
-#line 506 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 506 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                               {
 	    ((struct date_yy *)parm)->yyRelYear += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2045 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2045 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 60:
-#line 509 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 509 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                      {
 	    ((struct date_yy *)parm)->yyRelYear += (yyvsp[0].Number);
 	}
-#line 2053 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2053 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 61:
-#line 512 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 512 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                {
 	    ((struct date_yy *)parm)->yyRelMonth += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2061 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2061 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 62:
-#line 515 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 515 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                {
 	    ((struct date_yy *)parm)->yyRelMonth += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2069 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2069 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 63:
-#line 518 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 518 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                       {
 	    ((struct date_yy *)parm)->yyRelMonth += (yyvsp[0].Number);
 	}
-#line 2077 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2077 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 64:
-#line 521 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 521 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                              {
 	    ((struct date_yy *)parm)->yyRelDay += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2085 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2085 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 65:
-#line 524 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 524 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                              {
 	    ((struct date_yy *)parm)->yyRelDay += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2093 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2093 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 66:
-#line 527 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 527 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                     {
 	    ((struct date_yy *)parm)->yyRelDay += (yyvsp[0].Number);
 	}
-#line 2101 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2101 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 67:
-#line 530 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 530 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                               {
 	    ((struct date_yy *)parm)->yyRelHour += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2109 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2109 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 68:
-#line 533 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 533 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                               {
 	    ((struct date_yy *)parm)->yyRelHour += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2117 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2117 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 69:
-#line 536 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 536 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                      {
 	    ((struct date_yy *)parm)->yyRelHour += (yyvsp[0].Number);
 	}
-#line 2125 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2125 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 70:
-#line 539 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 539 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                 {
 	    ((struct date_yy *)parm)->yyRelMinutes += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2133 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2133 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 71:
-#line 542 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 542 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                                 {
 	    ((struct date_yy *)parm)->yyRelMinutes += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2141 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2141 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 72:
-#line 545 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 545 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                        {
 	    ((struct date_yy *)parm)->yyRelMinutes += (yyvsp[0].Number);
 	}
-#line 2149 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2149 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 73:
-#line 548 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 548 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                              {
 	    ((struct date_yy *)parm)->yyRelSeconds += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2157 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2157 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 74:
-#line 551 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 551 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                              {
 	    ((struct date_yy *)parm)->yyRelSeconds += (yyvsp[-1].Number) * (yyvsp[0].Number);
 	}
-#line 2165 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2165 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 75:
-#line 554 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 554 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
                     {
 	    ((struct date_yy *)parm)->yyRelSeconds += (yyvsp[0].Number);
 	}
-#line 2173 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2173 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 76:
-#line 560 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 560 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
           {
 	    if(((struct date_yy *)parm)->yyHaveTime && 
 			((struct date_yy *)parm)->yyHaveDate && 
@@ -2206,19 +2206,19 @@ yyreduce:
 		  }
 	      }
 	  }
-#line 2210 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2210 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
   case 77:
-#line 595 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 595 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
           {
 			 ((struct date_yy *)parm)->yyMeridian = (yyvsp[0].Meridian);
 		  }
-#line 2218 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2218 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
     break;
 
 
-#line 2222 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/parsedate.c"
+#line 2222 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/parsedate.c"
 
       default: break;
     }
@@ -2450,7 +2450,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 600 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/parsedate.y"
+#line 600 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/parsedate.y"
 
 
 time_t get_date (char *p, time_t *now);

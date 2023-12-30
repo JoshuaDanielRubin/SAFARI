@@ -210,24 +210,24 @@ am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/config/depcomp \
 	$(top_srcdir)/config/eu.am $(top_srcdir)/config/ylwrap \
 	ChangeLog i386_lex.c i386_parse.c
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/config/missing aclocal-1.16
+ACLOCAL = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/config/missing aclocal-1.16
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
-AUTOCONF = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/config/missing autoconf
-AUTOHEADER = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/config/missing autoheader
-AUTOMAKE = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/config/missing automake-1.16
+AUTOCONF = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/config/missing autoconf
+AUTOHEADER = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/config/missing autoheader
+AUTOMAKE = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/config/missing automake-1.16
 AWK = gawk
 BZ2_LIB = -lbz2 
 CC = /usr/bin/gcc
 CCDEPMODE = depmode=gcc3
 CC_BIARCH = /usr/bin/gcc -m32
-CFLAGS = -D_FORTIFY_SOURCE=2 -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include 
+CFLAGS = -D_FORTIFY_SOURCE=2 -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include 
 CPP = /usr/bin/gcc -E
 CPPFLAGS = 
 CXX = /usr/bin/g++
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2
+CXXFLAGS = -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2
 CYGPATH_W = echo
 DEBUGINFOD_URLS = 
 DEBUGPRED = 0
@@ -274,7 +274,7 @@ LTLIBICONV = -liconv
 LTLIBINTL = 
 LTLIBOBJS = 
 MAINT = 
-MAKEINFO = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/config/missing makeinfo
+MAKEINFO = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/config/missing makeinfo
 MKDIR_P = /usr/bin/mkdir -p
 MSGFMT = /usr/bin/msgfmt
 MSGFMT_015 = /usr/bin/msgfmt
@@ -306,10 +306,10 @@ XGETTEXT_015 = /usr/bin/xgettext
 XGETTEXT_EXTRA_OPTIONS = 
 YACC = bison -y
 YFLAGS = 
-abs_builddir = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/libcpu
-abs_srcdir = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/libcpu
-abs_top_builddir = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils
-abs_top_srcdir = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils
+abs_builddir = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/libcpu
+abs_srcdir = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/libcpu
+abs_top_builddir = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils
+abs_top_srcdir = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils
 ac_ct_AR = ar
 ac_ct_CC = /usr/bin/gcc
 ac_ct_CXX = 
@@ -344,7 +344,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/elfutils/config/install-sh
+install_sh = ${SHELL} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/elfutils/config/install-sh
 libarchive_CFLAGS = 
 libarchive_LIBS = 
 libcurl_CFLAGS = 
@@ -360,7 +360,7 @@ mkdir_p = $(MKDIR_P)
 obstack_LIBS = 
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/projects/MAAG/Magpie/Magpie/vg_corrected
+prefix = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg
 program_transform_name = s&^&eu-&
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run

@@ -1,5 +1,5 @@
-LIB_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/lib
-INC_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/include
+LIB_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib
+INC_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include
 MY_CXX_FLAGS=-O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=c++14 -Wall -Wextra -DNDEBUG $(CODE_COVER)
 MY_CXX_OPT_FLAGS= -O3 -ffast-math -funroll-loops -DHAVE_CXA_DEMANGLE
 MY_CXX=/usr/bin/g++

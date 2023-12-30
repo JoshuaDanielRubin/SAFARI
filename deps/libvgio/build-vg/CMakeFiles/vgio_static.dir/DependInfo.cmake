@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/alignment_emitter.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/alignment_emitter.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/alignment_io.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/alignment_io.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/basic_stream.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/basic_stream.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/blocked_gzip_input_stream.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/blocked_gzip_input_stream.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/blocked_gzip_output_stream.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/blocked_gzip_output_stream.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/edit.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/edit.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/hfile_cppstream.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/hfile_cppstream.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/json2pb.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/json2pb.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/message_emitter.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/message_emitter.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/message_iterator.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/message_iterator.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/registry.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/registry.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/stream.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/stream.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/stream_multiplexer.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/stream_multiplexer.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/src/vpkg.cpp" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/vpkg.cpp.o"
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/vg.pb.cc" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/vg.pb.cc.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/alignment_emitter.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/alignment_emitter.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/alignment_io.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/alignment_io.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/basic_stream.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/basic_stream.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/blocked_gzip_input_stream.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/blocked_gzip_input_stream.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/blocked_gzip_output_stream.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/blocked_gzip_output_stream.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/edit.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/edit.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/hfile_cppstream.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/hfile_cppstream.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/json2pb.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/json2pb.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/message_emitter.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/message_emitter.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/message_iterator.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/message_iterator.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/registry.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/registry.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/stream.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/stream.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/stream_multiplexer.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/stream_multiplexer.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src/vpkg.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/src/vpkg.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/vg.pb.cc" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/vgio_static.dir/vg.pb.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -26,14 +26,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "."
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/include"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include"
   "handlegraph-prefix/include"
   "../src"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/vg.pb.cc" "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/vg.pb.h"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/vg.pb.cc" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/vg.pb.h"
   )
 
 

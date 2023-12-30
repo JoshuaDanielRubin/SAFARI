@@ -6,119 +6,119 @@
 
 #IncludeRegexTransform: 
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/bits.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/bits.cpp
 sdsl/bits.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/bits.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/bits.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/bp_support_algorithm.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/bp_support_algorithm.cpp
 sdsl/bp_support_algorithm.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/bp_support_algorithm.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/bp_support_algorithm.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/coder_elias_delta.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/coder_elias_delta.cpp
 sdsl/coder_elias_delta.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/coder_elias_delta.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/coder_elias_delta.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/coder_elias_gamma.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/coder_elias_gamma.cpp
 sdsl/coder_elias_gamma.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/coder_elias_gamma.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/coder_elias_gamma.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/coder_fibonacci.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/coder_fibonacci.cpp
 sdsl/coder_fibonacci.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/coder_fibonacci.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/coder_fibonacci.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/config.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/config.cpp
 sdsl/config.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/config.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/config.hpp
 sdsl/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/util.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/construct_config.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/construct_config.cpp
 sdsl/construct_config.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/construct_config.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/construct_config.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/construct_isa.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/construct_isa.cpp
 sdsl/construct_isa.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/construct_isa.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/construct_isa.hpp
 string
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/construct_lcp.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/construct_lcp.cpp
 sdsl/construct_lcp.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/construct_lcp.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/construct_lcp.hpp
 sdsl/construct.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/construct.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/construct.hpp
 stdexcept
 -
 algorithm
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/construct_lcp_helper.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/construct_lcp_helper.cpp
 sdsl/construct_lcp_helper.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/construct_lcp_helper.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/construct_lcp_helper.hpp
 sdsl/int_vector.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/int_vector.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/int_vector.hpp
 algorithm
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/construct_sa.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/construct_sa.cpp
 sdsl/construct_sa.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/construct_sa.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/construct_sa.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/construct_sa_se.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/construct_sa_se.cpp
 sdsl/construct_sa_se.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/construct_sa_se.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/construct_sa_se.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/csa_alphabet_strategy.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/csa_alphabet_strategy.cpp
 sdsl/csa_alphabet_strategy.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/csa_alphabet_strategy.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/csa_alphabet_strategy.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/io.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/io.cpp
 sdsl/io.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/io.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/io.hpp
 sdsl/sfstream.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/sfstream.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/sfstream.hpp
 sdsl/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/util.hpp
 vector
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/lcp_support_tree.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/lcp_support_tree.cpp
 sdsl/lcp_support_tree.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/lcp_support_tree.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/lcp_support_tree.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/louds_tree.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/louds_tree.cpp
 sdsl/louds_tree.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/louds_tree.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/louds_tree.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/memory_management.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/memory_management.cpp
 chrono
 -
 algorithm
 -
 sdsl/memory_management.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/memory_management.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/memory_management.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/nn_dict_dynamic.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/nn_dict_dynamic.cpp
 sdsl/nn_dict_dynamic.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/nn_dict_dynamic.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/nn_dict_dynamic.hpp
 sdsl/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/util.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/ram_filebuf.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/ram_filebuf.cpp
 sdsl/ram_filebuf.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/ram_filebuf.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/ram_filebuf.hpp
 iostream
 -
 limits
 -
 iso646.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/iso646.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/iso646.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/ram_fs.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/ram_fs.cpp
 sdsl/ram_fs.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/ram_fs.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/ram_fs.hpp
 sdsl/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/util.hpp
 cstdio
 -
 iostream
@@ -126,49 +126,49 @@ iostream
 algorithm
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/rrr_vector_15.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/rrr_vector_15.cpp
 sdsl/rrr_vector_15.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/rrr_vector_15.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/rrr_vector_15.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sd_vector.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sd_vector.cpp
 sdsl/sd_vector.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/sd_vector.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/sd_vector.hpp
 sdsl/simple_sds.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/simple_sds.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/simple_sds.hpp
 cassert
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sfstream.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sfstream.cpp
 sdsl/sfstream.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/sfstream.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/sfstream.hpp
 sdsl/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/util.hpp
 iostream
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/simple_sds.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/simple_sds.cpp
 sdsl/simple_sds.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/simple_sds.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/simple_sds.hpp
 algorithm
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/structure_tree.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/structure_tree.cpp
 sdsl/structure_tree.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/structure_tree.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/structure_tree.hpp
 sdsl/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/util.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/uint128_t.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/uint128_t.cpp
 sdsl/uint128_t.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/uint128_t.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/uint128_t.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/uint256_t.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/uint256_t.cpp
 sdsl/uint256_t.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/uint256_t.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/uint256_t.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/util.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/util.cpp
 sdsl/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/util.hpp
 sys/types.h
 -
 sys/stat.h
@@ -186,9 +186,9 @@ typeinfo
 cxxabi.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/wt_helper.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/wt_helper.cpp
 sdsl/wt_helper.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib/sdsl/wt_helper.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib/sdsl/wt_helper.hpp
 
 external/libdivsufsort/include/divsufsort.h
 inttypes.h

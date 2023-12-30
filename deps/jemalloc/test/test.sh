@@ -45,11 +45,11 @@ for t in $@; do
     enable_prof=0 \
     . ${t}.sh && \
     export_malloc_conf && \
-    $JEMALLOC_TEST_PREFIX ${t} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/ /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/
+    $JEMALLOC_TEST_PREFIX ${t} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/
   else
     export MALLOC_CONF= && \
     export_malloc_conf && \
-    $JEMALLOC_TEST_PREFIX ${t} /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/ /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/
+    $JEMALLOC_TEST_PREFIX ${t} /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/
   fi
   result_code=$?
   case ${result_code} in

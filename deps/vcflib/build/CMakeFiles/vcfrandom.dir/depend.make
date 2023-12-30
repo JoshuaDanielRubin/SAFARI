@@ -12,15 +12,6 @@ CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: ../src/Variant.h
 CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: ../src/convert.h
 CMakeFiles/vcfrandom.dir/src/vcfrandom.cpp.o: ../src/join.h

@@ -10,32 +10,32 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d3a8a/fast && make[1]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_d3a8a.dir/build.make CMakeFiles/cmTC_d3a8a.dir/build
-make[2]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d3a8a.dir/testCXXCompiler.cxx.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -o CMakeFiles/cmTC_d3a8a.dir/testCXXCompiler.cxx.o -c /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_d3a8a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a8a.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib  CMakeFiles/cmTC_d3a8a.dir/testCXXCompiler.cxx.o  -o cmTC_d3a8a 
-make[2]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_87e4c/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_87e4c.dir/build.make CMakeFiles/cmTC_87e4c.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87e4c.dir/testCXXCompiler.cxx.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -o CMakeFiles/cmTC_87e4c.dir/testCXXCompiler.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_87e4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87e4c.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib  CMakeFiles/cmTC_87e4c.dir/testCXXCompiler.cxx.o  -o cmTC_87e4c 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e23db/fast && make[1]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e23db.dir/build.make CMakeFiles/cmTC_e23db.dir/build
-make[2]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_9c825/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9c825.dir/build.make CMakeFiles/cmTC_9c825.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -44,8 +44,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAwpcdK.s
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJSk61i.s
 GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -69,15 +69,15 @@ GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- as -v --64 -o CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAwpcdK.s
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJSk61i.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-Linking CXX executable cmTC_e23db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e23db.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib -v CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e23db 
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_9c825
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c825.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -v CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9c825 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -88,13 +88,13 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib' '-v' '-o' 'cmTC_e23db' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBHKmje.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e23db /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib -L/home/projects2/vgan_ancient/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects2/vgan_ancient/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
-COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib' '-v' '-o' 'cmTC_e23db' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-make[2]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib' '-v' '-o' 'cmTC_9c825' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBFEaEc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9c825 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib' '-v' '-o' 'cmTC_9c825' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
 
 
 
@@ -121,13 +121,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e23db/fast && make[1]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e23db.dir/build.make CMakeFiles/cmTC_e23db.dir/build]
-  ignore line: [make[2]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_9c825/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9c825.dir/build.make CMakeFiles/cmTC_9c825.dir/build]
+  ignore line: [make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -v -o CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -136,8 +136,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAwpcdK.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o -ggdb -g -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJSk61i.s]
   ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -161,15 +161,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccAwpcdK.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJSk61i.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_e23db]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e23db.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib -v CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e23db ]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-v' '-o' 'CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_9c825]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c825.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -v CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9c825 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -180,15 +180,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib' '-v' '-o' 'cmTC_e23db' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBHKmje.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e23db /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib -L/home/projects2/vgan_ancient/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects2/vgan_ancient/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-fopenmp' '-msse4.2' '-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib' '-v' '-o' 'cmTC_9c825' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBFEaEc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9c825 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccBHKmje.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBFEaEc.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -207,13 +207,13 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e23db] ==> ignore
+    arg [cmTC_9c825] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
-    arg [-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib] ==> dir [/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib]
-    arg [-L/home/projects2/vgan_ancient/vg/lib/../lib] ==> dir [/home/projects2/vgan_ancient/vg/lib/../lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
@@ -221,10 +221,10 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/home/projects2/vgan_ancient/vg/lib] ==> dir [/home/projects2/vgan_ancient/vg/lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_e23db.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_9c825.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]
@@ -237,8 +237,8 @@ Parsed CXX implicit link information from above output:
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
-  collapse library dir [/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib] ==> [/home/projects2/vgan_ancient/vg/lib]
-  collapse library dir [/home/projects2/vgan_ancient/vg/lib/../lib] ==> [/home/projects2/vgan_ancient/vg/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -246,21 +246,21 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/home/projects2/vgan_ancient/vg/lib] ==> [/home/projects2/vgan_ancient/vg/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
-  implicit dirs: [/home/projects2/vgan_ancient/vg/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Detecting CXX OpenMP compiler ABI info compiled with the following output:
-Change Dir: /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f38c2/fast && make[1]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_f38c2.dir/build.make CMakeFiles/cmTC_f38c2.dir/build
-make[2]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o
-/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v   -o CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o -c /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Run Build Command(s):/usr/bin/make cmTC_c8303/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c8303.dir/build.make CMakeFiles/cmTC_c8303.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o
+/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v   -o CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 OFFLOAD_TARGET_NAMES=nvptx-none:hsa
@@ -269,8 +269,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
-COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o -g -ggdb -g -O3 -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbStDNQ.s
+COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o -g -ggdb -g -O3 -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSVvde0.s
 GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -294,15 +294,15 @@ GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
-COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- as -v --64 -o CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o /tmp/ccbStDNQ.s
+COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o /tmp/ccSVvde0.s
 GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-Linking CXX executable cmTC_f38c2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f38c2.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v  -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib  CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o  -o cmTC_f38c2  -v 
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_c8303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8303.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v  -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib  CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o  -o cmTC_c8303  -v 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
@@ -313,25 +313,25 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20
 Thread model: posix
 gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
 Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
-COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib' '-o' 'cmTC_f38c2' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
- /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNmWhm3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f38c2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib -L/home/projects2/vgan_ancient/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects2/vgan_ancient/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
-COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib' '-o' 'cmTC_f38c2' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
-make[2]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib' '-o' 'cmTC_c8303' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvD8I0D.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8303 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib' '-o' 'cmTC_c8303' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
 
 
 
 Parsed CXX OpenMP implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f38c2/fast && make[1]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f38c2.dir/build.make CMakeFiles/cmTC_f38c2.dir/build]
-  ignore line: [make[2]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o]
-  ignore line: [/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v   -o CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o -c /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c8303/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c8303.dir/build.make CMakeFiles/cmTC_c8303.dir/build]
+  ignore line: [make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v   -o CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
@@ -340,8 +340,8 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o -g -ggdb -g -O3 -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbStDNQ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -msse4.2 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o -g -ggdb -g -O3 -O3 -Werror=return-type -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccSVvde0.s]
   ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -365,15 +365,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o /tmp/ccbStDNQ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o /tmp/ccSVvde0.s]
   ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  ignore line: [Linking CXX executable cmTC_f38c2]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f38c2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v  -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib  CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o  -o cmTC_f38c2  -v ]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_c8303]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8303.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fopenmp -v  -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib  CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o  -o cmTC_c8303  -v ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
@@ -384,15 +384,15 @@ Parsed CXX OpenMP implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/home/projects2/vgan_ancient/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects2/vgan_ancient/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [LIBRARY_PATH=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
   ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib' '-o' 'cmTC_f38c2' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNmWhm3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f38c2 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib -L/home/projects2/vgan_ancient/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects2/vgan_ancient/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-g' '-O3' '-Werror=return-type' '-std=c++14' '-ggdb' '-g' '-msse4.2' '-fopenmp' '-v' '-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib' '-o' 'cmTC_c8303' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvD8I0D.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8303 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNmWhm3.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvD8I0D.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -411,13 +411,13 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f38c2] ==> ignore
+    arg [cmTC_c8303] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
-    arg [-L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib] ==> dir [/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib]
-    arg [-L/home/projects2/vgan_ancient/vg/lib/../lib] ==> dir [/home/projects2/vgan_ancient/vg/lib/../lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
@@ -425,10 +425,10 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/home/projects2/vgan_ancient/vg/lib] ==> dir [/home/projects2/vgan_ancient/vg/lib]
+    arg [-L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
     arg [-L.] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
-    arg [CMakeFiles/cmTC_f38c2.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_c8303.dir/OpenMPTryFlag.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgomp] ==> lib [gomp]
@@ -441,8 +441,8 @@ Parsed CXX OpenMP implicit link information from above output:
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
-  collapse library dir [/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib] ==> [/home/projects2/vgan_ancient/vg/lib]
-  collapse library dir [/home/projects2/vgan_ancient/vg/lib/../lib] ==> [/home/projects2/vgan_ancient/vg/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib/../lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
@@ -450,42 +450,42 @@ Parsed CXX OpenMP implicit link information from above output:
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/home/projects2/vgan_ancient/vg/lib] ==> [/home/projects2/vgan_ancient/vg/lib]
+  collapse library dir [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib] ==> [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
-  implicit dirs: [/home/projects2/vgan_ancient/vg/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib;/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_74b8e/fast && make[1]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_74b8e.dir/build.make CMakeFiles/cmTC_74b8e.dir/build
-make[2]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_74b8e.dir/CheckIncludeFile.cxx.o
-/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -std=gnu++14 -o CMakeFiles/cmTC_74b8e.dir/CheckIncludeFile.cxx.o -c /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_74b8e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74b8e.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib  CMakeFiles/cmTC_74b8e.dir/CheckIncludeFile.cxx.o  -o cmTC_74b8e 
-make[2]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_f0fec/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f0fec.dir/build.make CMakeFiles/cmTC_f0fec.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0fec.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2    -std=gnu++14 -o CMakeFiles/cmTC_f0fec.dir/CheckIncludeFile.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f0fec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0fec.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2   -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib  CMakeFiles/cmTC_f0fec.dir/CheckIncludeFile.cxx.o  -o cmTC_f0fec 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
 
 
 
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
+Change Dir: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6955d/fast && make[1]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_6955d.dir/build.make CMakeFiles/cmTC_6955d.dir/build
-make[2]: Entering directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6955d.dir/src.cxx.o
-/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu++14 -o CMakeFiles/cmTC_6955d.dir/src.cxx.o -c /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_6955d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6955d.dir/link.txt --verbose=1
-/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DCMAKE_HAVE_LIBC_PTHREAD  -L/net/mimer/mnt/tank/projects2/vgan_ancient/vg/lib  CMakeFiles/cmTC_6955d.dir/src.cxx.o  -o cmTC_6955d 
-make[2]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/net/mimer/mnt/tank/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_086e5/fast && make[1]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_086e5.dir/build.make CMakeFiles/cmTC_086e5.dir/build
+make[2]: Entering directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_086e5.dir/src.cxx.o
+/usr/bin/g++    -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu++14 -o CMakeFiles/cmTC_086e5.dir/src.cxx.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_086e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_086e5.dir/link.txt --verbose=1
+/usr/bin/g++  -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -DCMAKE_HAVE_LIBC_PTHREAD  -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib  CMakeFiles/cmTC_086e5.dir/src.cxx.o  -o cmTC_086e5 
+make[2]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/CMakeTmp'
 
 
 Source file was:

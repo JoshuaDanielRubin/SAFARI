@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/g++
-C_FLAGS = -I /home/projects2/vgan_ancient/vg/include  
+C_FLAGS = -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include  
 
 C_DEFINES = -DVCFLIB_VERSION=\"1.0.3\" -DVERSION=\"1.0.3\"
 
-C_INCLUDES = -I/home/projects2/vgan_ancient/vg/deps/vcflib/include -I/home/projects2/vgan_ancient/vg/deps/vcflib/fastahack -I/home/projects2/vgan_ancient/vg/deps/vcflib/intervaltree -I/home/projects2/vgan_ancient/vg/deps/vcflib/smithwaterman -I/home/projects2/vgan_ancient/vg/deps/vcflib/multichoose -I/home/projects2/vgan_ancient/vg/deps/vcflib/filevercmp 
+C_INCLUDES = -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/fastahack -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/intervaltree -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/smithwaterman -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/multichoose -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/filevercmp 
 
-CXX_FLAGS = -I /home/projects2/vgan_ancient/vg/include -I/home/projects2/vgan_ancient/vg/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fPIC -std=c++0x -D_FILE_OFFSET_BITS=64 -Isrc -O3  
+CXX_FLAGS = -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -fPIC -std=c++0x -D_FILE_OFFSET_BITS=64 -Isrc -O3  
 
 CXX_DEFINES = -DVCFLIB_VERSION=\"1.0.3\" -DVERSION=\"1.0.3\"
 
-CXX_INCLUDES = -I/home/projects2/vgan_ancient/vg/deps/vcflib/include -I/home/projects2/vgan_ancient/vg/deps/vcflib/fastahack -I/home/projects2/vgan_ancient/vg/deps/vcflib/intervaltree -I/home/projects2/vgan_ancient/vg/deps/vcflib/smithwaterman -I/home/projects2/vgan_ancient/vg/deps/vcflib/multichoose -I/home/projects2/vgan_ancient/vg/deps/vcflib/filevercmp 
+CXX_INCLUDES = -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/fastahack -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/intervaltree -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/smithwaterman -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/multichoose -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/filevercmp 
 

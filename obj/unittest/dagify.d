@@ -10,7 +10,7 @@ obj/unittest/dagify.o: src/unittest/dagify.cpp src/unittest/../vg.hpp \
  src/unittest/../swap_remove.hpp src/unittest/../pictographs.hpp \
  src/unittest/../colors.hpp src/unittest/../nodeside.hpp \
  src/unittest/../split_strand_graph.hpp src/unittest/random_graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
  src/unittest/catch.hpp
 
 src/unittest/../vg.hpp:
@@ -59,6 +59,6 @@ src/unittest/../split_strand_graph.hpp:
 
 src/unittest/random_graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
 src/unittest/catch.hpp:

@@ -8,7 +8,7 @@
 
 ../utils/raptor_getopt.h
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/utils/rapper.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/utils/rapper.c
 raptor_config.h
 -
 stdio.h

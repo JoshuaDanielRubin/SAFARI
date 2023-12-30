@@ -12,15 +12,6 @@ CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: ../smithwate
 CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: ../src/Variant.h
 CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: ../src/convert.h
 CMakeFiles/vcfallelicprimitives.dir/src/vcfallelicprimitives.cpp.o: ../src/join.h

@@ -13,15 +13,6 @@ CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: ../src/BedReader.h
 CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: ../src/Variant.h
 CMakeFiles/vcfintersect.dir/src/vcfintersect.cpp.o: ../src/convert.h

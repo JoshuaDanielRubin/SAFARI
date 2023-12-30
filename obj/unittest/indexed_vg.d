@@ -13,7 +13,7 @@ obj/unittest/indexed_vg.o: src/unittest/indexed_vg.cpp \
  src/unittest/../colors.hpp src/unittest/../nodeside.hpp \
  src/unittest/../utility.hpp src/unittest/../algorithms/id_sort.hpp \
  src/unittest/../algorithms/../handle.hpp src/unittest/random_graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
  src/unittest/catch.hpp
 
 src/unittest/../indexed_vg.hpp:
@@ -72,6 +72,6 @@ src/unittest/../algorithms/../handle.hpp:
 
 src/unittest/random_graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
 src/unittest/catch.hpp:

@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.
 
@@ -58,8 +58,8 @@ include test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/pr
 
 test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81: ../test/tmp
 test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81: test/k2_treap_test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute k2-treap-test on k2-100.16.r.42100.16.r.23100.8.r.81."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/k2_treap_test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/k2-100.16.r.42100.16.r.23100.8.r.81 /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp/k2_treap_test_k2-100.16.r.42100.16.r.23100.8.r.81
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute k2-treap-test on k2-100.16.r.42100.16.r.23100.8.r.81."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/k2_treap_test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/k2-100.16.r.42100.16.r.23100.8.r.81 /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp/k2_treap_test_k2-100.16.r.42100.16.r.23100.8.r.81
 
 k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81: test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81
 k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81: test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/build.make
@@ -72,10 +72,10 @@ test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/build: k2-
 .PHONY : test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/build
 
 test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/clean
 
 test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/k2-treap-test_k2-100.16.r.42100.16.r.23100.8.r.81.dir/depend
 

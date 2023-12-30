@@ -12,15 +12,6 @@ CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: ../src/Variant.h
 CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: ../src/convert.h
 CMakeFiles/vcfaltcount.dir/src/vcfaltcount.cpp.o: ../src/join.h

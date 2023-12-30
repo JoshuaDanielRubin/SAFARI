@@ -12,15 +12,6 @@ CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: ../src/Variant.h
 CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: ../src/convert.h
 CMakeFiles/vcfparsealts.dir/src/vcfparsealts.cpp.o: ../src/join.h

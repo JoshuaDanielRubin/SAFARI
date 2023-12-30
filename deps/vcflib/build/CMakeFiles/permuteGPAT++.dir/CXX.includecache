@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/permuteGPAT++.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/permuteGPAT++.cpp
 fstream
 -
 split.h
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/split.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/split.h
 vector
 -
 string
@@ -32,7 +32,7 @@ unistd.h
 stdlib.h
 -
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/split.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/split.h
 string
 -
 vector

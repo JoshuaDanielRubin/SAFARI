@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg
 
 # Utility rule file for handlegraph.
 
@@ -67,53 +67,53 @@ CMakeFiles/handlegraph-complete: handlegraph-prefix/src/handlegraph-stamp/handle
 CMakeFiles/handlegraph-complete: handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure
 CMakeFiles/handlegraph-complete: handlegraph-prefix/src/handlegraph-stamp/handlegraph-build
 CMakeFiles/handlegraph-complete: handlegraph-prefix/src/handlegraph-stamp/handlegraph-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'handlegraph'"
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles
-	/usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/handlegraph-complete
-	/usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'handlegraph'"
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles
+	/usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/handlegraph-complete
+	/usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-done
 
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-install: handlegraph-prefix/src/handlegraph-stamp/handlegraph-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'handlegraph'"
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && $(MAKE) install
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'handlegraph'"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && $(MAKE) install
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-install
 
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'handlegraph'"
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/deps/libhandlegraph
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src
-	/usr/bin/cmake -E make_directory /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp
-	/usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'handlegraph'"
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/deps/libhandlegraph
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src
+	/usr/bin/cmake -E make_directory /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp
+	/usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-mkdir
 
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-download: handlegraph-prefix/src/handlegraph-stamp/handlegraph-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'handlegraph'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'handlegraph'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-download
+	/usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-download
 
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-update: handlegraph-prefix/src/handlegraph-stamp/handlegraph-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'handlegraph'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'handlegraph'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-update
+	/usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-update
 
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-patch: handlegraph-prefix/src/handlegraph-stamp/handlegraph-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'handlegraph'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'handlegraph'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-patch
+	/usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-patch
 
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure: handlegraph-prefix/tmp/handlegraph-cfgcmd.txt
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure: handlegraph-prefix/src/handlegraph-stamp/handlegraph-update
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure: handlegraph-prefix/src/handlegraph-stamp/handlegraph-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'handlegraph'"
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix "-GUnix Makefiles" /home/projects2/vgan_ancient/vg/deps/libvgio/deps/libhandlegraph
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'handlegraph'"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix "-GUnix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/deps/libhandlegraph
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure
 
 handlegraph-prefix/src/handlegraph-stamp/handlegraph-build: handlegraph-prefix/src/handlegraph-stamp/handlegraph-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'handlegraph'"
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && $(MAKE)
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -E touch /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'handlegraph'"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && $(MAKE)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && /usr/bin/cmake -E touch /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-stamp/handlegraph-build
 
 handlegraph: CMakeFiles/handlegraph
 handlegraph: CMakeFiles/handlegraph-complete
@@ -138,6 +138,6 @@ CMakeFiles/handlegraph.dir/clean:
 .PHONY : CMakeFiles/handlegraph.dir/clean
 
 CMakeFiles/handlegraph.dir/depend:
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects2/vgan_ancient/vg/deps/libvgio /home/projects2/vgan_ancient/vg/deps/libvgio /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/CMakeFiles/handlegraph.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/CMakeFiles/handlegraph.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/handlegraph.dir/depend
 

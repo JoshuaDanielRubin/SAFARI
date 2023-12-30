@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/replace_int_vector_value.dir/depend.make
@@ -62,16 +62,16 @@ include test/CMakeFiles/replace_int_vector_value.dir/flags.make
 
 test/CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.o: test/CMakeFiles/replace_int_vector_value.dir/flags.make
 test/CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.o: ../test/replace_int_vector_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.o"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/replace_int_vector_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.o"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/replace_int_vector_value.cpp
 
 test/CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.i"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/replace_int_vector_value.cpp > CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/replace_int_vector_value.cpp > CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.i
 
 test/CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.s"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/replace_int_vector_value.cpp -o CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/replace_int_vector_value.cpp -o CMakeFiles/replace_int_vector_value.dir/replace_int_vector_value.cpp.s
 
 # Object files for target replace_int_vector_value
 replace_int_vector_value_OBJECTS = \
@@ -87,8 +87,8 @@ test/replace_int_vector_value: external/googletest/googletest/libgtest.a
 test/replace_int_vector_value: external/libdivsufsort/lib/libdivsufsort.a
 test/replace_int_vector_value: external/libdivsufsort/lib/libdivsufsort64.a
 test/replace_int_vector_value: test/CMakeFiles/replace_int_vector_value.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable replace_int_vector_value"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/replace_int_vector_value.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable replace_int_vector_value"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/replace_int_vector_value.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/replace_int_vector_value.dir/build: test/replace_int_vector_value
@@ -96,10 +96,10 @@ test/CMakeFiles/replace_int_vector_value.dir/build: test/replace_int_vector_valu
 .PHONY : test/CMakeFiles/replace_int_vector_value.dir/build
 
 test/CMakeFiles/replace_int_vector_value.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/replace_int_vector_value.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/replace_int_vector_value.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/replace_int_vector_value.dir/clean
 
 test/CMakeFiles/replace_int_vector_value.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/replace_int_vector_value.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/replace_int_vector_value.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/replace_int_vector_value.dir/depend
 

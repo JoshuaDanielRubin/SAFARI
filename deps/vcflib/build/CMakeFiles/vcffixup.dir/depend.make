@@ -12,15 +12,6 @@ CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: ../src/Variant.h
 CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: ../src/convert.h
 CMakeFiles/vcffixup.dir/src/vcffixup.cpp.o: ../src/join.h

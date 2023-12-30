@@ -13,15 +13,6 @@ CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: ../smithwaterman/Mosai
 CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: ../src/BedReader.h
 CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: ../src/Variant.h
 CMakeFiles/vcfrandomsample.dir/src/vcfrandomsample.cpp.o: ../src/convert.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio/deps/libhandlegraph
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/deps/libhandlegraph
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/handlegraph_shared.dir/depend.make
@@ -62,36 +62,36 @@ handlegraph_shared_OBJECTS =
 
 # External object files for target handlegraph_shared
 handlegraph_shared_EXTERNAL_OBJECTS = \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/deletable_handle_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/handle_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/mutable_handle_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/path_handle_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/path_position_handle_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/mutable_path_handle_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/ranked_handle_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/serializable.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/snarl_decomposition.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/trivially_serializable.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/types.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/copy_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/append_graph.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/are_equivalent.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/find_tips.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/topological_sort.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/apply_orientations.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/is_single_stranded.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/count_walks.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/eades_algorithm.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/dagify.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/strongly_connected_components.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/find_shortest_paths.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/dijkstra.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/is_acyclic.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/reverse_complement.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/split_strands.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/chop.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/weakly_connected_components.cpp.o" \
-"/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/extend.cpp.o"
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/deletable_handle_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/handle_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/mutable_handle_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/path_handle_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/path_position_handle_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/mutable_path_handle_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/ranked_handle_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/serializable.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/snarl_decomposition.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/trivially_serializable.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/types.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/copy_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/append_graph.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/are_equivalent.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/find_tips.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/topological_sort.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/apply_orientations.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/is_single_stranded.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/count_walks.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/eades_algorithm.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/dagify.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/strongly_connected_components.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/find_shortest_paths.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/dijkstra.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/is_acyclic.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/reverse_complement.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/split_strands.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/chop.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/weakly_connected_components.cpp.o" \
+"/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_objs.dir/src/extend.cpp.o"
 
 libhandlegraph.so: CMakeFiles/handlegraph_objs.dir/src/deletable_handle_graph.cpp.o
 libhandlegraph.so: CMakeFiles/handlegraph_objs.dir/src/handle_graph.cpp.o
@@ -125,7 +125,7 @@ libhandlegraph.so: CMakeFiles/handlegraph_objs.dir/src/weakly_connected_componen
 libhandlegraph.so: CMakeFiles/handlegraph_objs.dir/src/extend.cpp.o
 libhandlegraph.so: CMakeFiles/handlegraph_shared.dir/build.make
 libhandlegraph.so: CMakeFiles/handlegraph_shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library libhandlegraph.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX shared library libhandlegraph.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/handlegraph_shared.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/handlegraph_shared.dir/clean:
 .PHONY : CMakeFiles/handlegraph_shared.dir/clean
 
 CMakeFiles/handlegraph_shared.dir/depend:
-	cd /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects2/vgan_ancient/vg/deps/libvgio/deps/libhandlegraph /home/projects2/vgan_ancient/vg/deps/libvgio/deps/libhandlegraph /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build /home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_shared.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/deps/libhandlegraph /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/deps/libhandlegraph /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/src/handlegraph-build/CMakeFiles/handlegraph_shared.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/handlegraph_shared.dir/depend
 

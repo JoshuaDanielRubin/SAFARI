@@ -12,15 +12,6 @@ CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: ../src/Variant.h
 CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: ../src/convert.h
 CMakeFiles/vcfleftalign.dir/src/vcfleftalign.cpp.o: ../src/join.h

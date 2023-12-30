@@ -1,8 +1,8 @@
-# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/lib
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/projects/MAAG/Magpie/Magpie/vg_corrected")
+  set(CMAKE_INSTALL_PREFIX "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/lib/libsdsl.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/lib/libsdsl.a")
 endif()
 

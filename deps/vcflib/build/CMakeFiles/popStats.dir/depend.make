@@ -12,15 +12,6 @@ CMakeFiles/popStats.dir/src/popStats.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/popStats.dir/src/popStats.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/popStats.dir/src/popStats.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/popStats.dir/src/popStats.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/popStats.dir/src/popStats.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/popStats.dir/src/popStats.cpp.o: ../src/Variant.h
 CMakeFiles/popStats.dir/src/popStats.cpp.o: ../src/cdflib.hpp
 CMakeFiles/popStats.dir/src/popStats.cpp.o: ../src/convert.h

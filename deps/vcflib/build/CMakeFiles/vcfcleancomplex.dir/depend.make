@@ -12,15 +12,6 @@ CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: ../smithwaterman/Mosai
 CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: ../src/Variant.h
 CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: ../src/convert.h
 CMakeFiles/vcfcleancomplex.dir/src/vcfcleancomplex.cpp.o: ../src/join.h

@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/int_vector_mapper_test.dir/depend.make
@@ -62,16 +62,16 @@ include test/CMakeFiles/int_vector_mapper_test.dir/flags.make
 
 test/CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.o: test/CMakeFiles/int_vector_mapper_test.dir/flags.make
 test/CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.o: ../test/int_vector_mapper_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.o"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.o -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/int_vector_mapper_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.o"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.o -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/int_vector_mapper_test.cpp
 
 test/CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.i"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/int_vector_mapper_test.cpp > CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/int_vector_mapper_test.cpp > CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.i
 
 test/CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.s"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/int_vector_mapper_test.cpp -o CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/int_vector_mapper_test.cpp -o CMakeFiles/int_vector_mapper_test.dir/int_vector_mapper_test.cpp.s
 
 # Object files for target int_vector_mapper_test
 int_vector_mapper_test_OBJECTS = \
@@ -87,8 +87,8 @@ test/int_vector_mapper_test: external/googletest/googletest/libgtest.a
 test/int_vector_mapper_test: external/libdivsufsort/lib/libdivsufsort.a
 test/int_vector_mapper_test: external/libdivsufsort/lib/libdivsufsort64.a
 test/int_vector_mapper_test: test/CMakeFiles/int_vector_mapper_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable int_vector_mapper_test"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/int_vector_mapper_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable int_vector_mapper_test"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/int_vector_mapper_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/int_vector_mapper_test.dir/build: test/int_vector_mapper_test
@@ -96,10 +96,10 @@ test/CMakeFiles/int_vector_mapper_test.dir/build: test/int_vector_mapper_test
 .PHONY : test/CMakeFiles/int_vector_mapper_test.dir/build
 
 test/CMakeFiles/int_vector_mapper_test.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/int_vector_mapper_test.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/int_vector_mapper_test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/int_vector_mapper_test.dir/clean
 
 test/CMakeFiles/int_vector_mapper_test.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/int_vector_mapper_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/int_vector_mapper_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/int_vector_mapper_test.dir/depend
 

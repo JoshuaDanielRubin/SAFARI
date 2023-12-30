@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdlib.h
 -
 libxml/parser.h
@@ -34,7 +34,7 @@ libinn.h
 curl/curl.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_rfc2396.c
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_rfc2396.c
 raptor_config.h
 -
 stdio.h
@@ -48,9 +48,9 @@ stdarg.h
 stdlib.h
 -
 raptor2.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor2.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor2.h
 raptor_internal.h
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_internal.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_internal.h
 stdio.h
 -
 

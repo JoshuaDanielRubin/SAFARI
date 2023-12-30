@@ -246,21 +246,21 @@ handlegraph/types.hpp
 cassert
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/append_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/append_graph.cpp
 handlegraph/algorithms/append_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/append_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/append_graph.hpp
 handlegraph/algorithms/find_tips.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/find_tips.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/find_tips.hpp
 handlegraph/algorithms/copy_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/copy_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/copy_graph.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/apply_orientations.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/apply_orientations.cpp
 handlegraph/algorithms/apply_orientations.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/apply_orientations.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/apply_orientations.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/are_equivalent.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/are_equivalent.cpp
 handlegraph/algorithms/are_equivalent.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/are_equivalent.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/are_equivalent.hpp
 iostream
 -
 algorithm
@@ -270,11 +270,11 @@ vector
 cassert
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/chop.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/chop.cpp
 handlegraph/algorithms/chop.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/chop.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/chop.hpp
 handlegraph/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/util.hpp
 unordered_set
 -
 unordered_map
@@ -292,19 +292,19 @@ cassert
 algorithm
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/copy_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/copy_graph.cpp
 handlegraph/algorithms/copy_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/copy_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/copy_graph.hpp
 stdexcept
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/count_walks.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/count_walks.cpp
 handlegraph/algorithms/count_walks.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/count_walks.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/count_walks.hpp
 handlegraph/algorithms/topological_sort.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/topological_sort.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/topological_sort.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/dagify.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/dagify.cpp
 vector
 -
 unordered_set
@@ -312,27 +312,27 @@ unordered_set
 atomic
 -
 handlegraph/expanding_overlay_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/expanding_overlay_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/expanding_overlay_graph.hpp
 handlegraph/algorithms/dagify.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/dagify.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/dagify.hpp
 handlegraph/algorithms/is_single_stranded.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
 handlegraph/algorithms/strongly_connected_components.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/strongly_connected_components.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/strongly_connected_components.hpp
 handlegraph/algorithms/eades_algorithm.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/eades_algorithm.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/eades_algorithm.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/deletable_handle_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/deletable_handle_graph.cpp
 handlegraph/deletable_handle_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/deletable_handle_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/deletable_handle_graph.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/dijkstra.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/dijkstra.cpp
 handlegraph/algorithms/dijkstra.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/dijkstra.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/dijkstra.hpp
 queue
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/eades_algorithm.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/eades_algorithm.cpp
 list
 -
 unordered_map
@@ -340,35 +340,35 @@ unordered_map
 deque
 -
 handlegraph/algorithms/eades_algorithm.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/eades_algorithm.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/eades_algorithm.hpp
 handlegraph/algorithms/is_single_stranded.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/extend.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/extend.cpp
 handlegraph/algorithms/extend.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/extend.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/extend.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/find_shortest_paths.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/find_shortest_paths.cpp
 handlegraph/algorithms/find_shortest_paths.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/find_shortest_paths.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/find_shortest_paths.hpp
 handlegraph/algorithms/dijkstra.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/dijkstra.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/dijkstra.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/find_tips.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/find_tips.cpp
 handlegraph/algorithms/find_tips.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/find_tips.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/find_tips.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handle_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handle_graph.cpp
 handlegraph/handle_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/handle_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/handle_graph.hpp
 handlegraph/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/util.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/is_acyclic.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/is_acyclic.cpp
 handlegraph/algorithms/is_acyclic.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/is_acyclic.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/is_acyclic.hpp
 handlegraph/algorithms/is_single_stranded.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
 unordered_set
 -
 unordered_map
@@ -376,83 +376,83 @@ unordered_map
 vector
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/is_single_stranded.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/is_single_stranded.cpp
 handlegraph/algorithms/is_single_stranded.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/is_single_stranded.hpp
 unordered_map
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/mutable_handle_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/mutable_handle_graph.cpp
 handlegraph/mutable_handle_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/mutable_handle_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/mutable_handle_graph.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/mutable_path_handle_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/mutable_path_handle_graph.cpp
 handlegraph/mutable_path_handle_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/mutable_path_handle_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/mutable_path_handle_graph.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/mutable_path_metadata.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/mutable_path_metadata.cpp
 handlegraph/mutable_path_metadata.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/mutable_path_metadata.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/mutable_path_metadata.hpp
 sstream
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/path_handle_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/path_handle_graph.cpp
 handlegraph/path_handle_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/path_handle_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/path_handle_graph.hpp
 vector
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/path_metadata.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/path_metadata.cpp
 handlegraph/path_metadata.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/path_metadata.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/path_metadata.hpp
 sstream
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/path_position_handle_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/path_position_handle_graph.cpp
 handlegraph/path_position_handle_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/path_position_handle_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/path_position_handle_graph.hpp
 vector
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/ranked_handle_graph.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/ranked_handle_graph.cpp
 handlegraph/path_position_handle_graph.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/path_position_handle_graph.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/path_position_handle_graph.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/reverse_complement.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/reverse_complement.cpp
 handlegraph/algorithms/reverse_complement.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/reverse_complement.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/reverse_complement.hpp
 unordered_map
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/serializable.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/serializable.cpp
 handlegraph/serializable.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/serializable.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/serializable.hpp
 fstream
 -
 arpa/inet.h
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/snarl_decomposition.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/snarl_decomposition.cpp
 handlegraph/snarl_decomposition.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/snarl_decomposition.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/snarl_decomposition.hpp
 vector
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/split_strands.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/split_strands.cpp
 handlegraph/algorithms/split_strands.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/split_strands.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/split_strands.hpp
 unordered_set
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/strongly_connected_components.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/strongly_connected_components.cpp
 handlegraph/algorithms/strongly_connected_components.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/strongly_connected_components.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/strongly_connected_components.hpp
 unordered_map
 -
 deque
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/topological_sort.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/topological_sort.cpp
 unordered_map
 -
 map
@@ -460,13 +460,13 @@ map
 cassert
 -
 handlegraph/algorithms/topological_sort.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/topological_sort.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/topological_sort.hpp
 handlegraph/algorithms/find_tips.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/find_tips.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/find_tips.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/trivially_serializable.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/trivially_serializable.cpp
 handlegraph/trivially_serializable.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/trivially_serializable.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/trivially_serializable.hpp
 unistd.h
 -
 sys/types.h
@@ -486,13 +486,13 @@ cassert
 sstream
 -
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/types.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/types.cpp
 handlegraph/types.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/types.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/types.hpp
 handlegraph/util.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/util.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/util.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/weakly_connected_components.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/weakly_connected_components.cpp
 handlegraph/algorithms/weakly_connected_components.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/libhandlegraph/src/handlegraph/algorithms/weakly_connected_components.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libhandlegraph/src/handlegraph/algorithms/weakly_connected_components.hpp
 

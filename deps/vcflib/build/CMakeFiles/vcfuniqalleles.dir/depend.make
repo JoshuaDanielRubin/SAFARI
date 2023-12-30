@@ -12,15 +12,6 @@ CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: ../smithwaterman/Mosaik.
 CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: ../src/Variant.h
 CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: ../src/convert.h
 CMakeFiles/vcfuniqalleles.dir/src/vcfuniqalleles.cpp.o: ../src/join.h

@@ -6,7 +6,7 @@
 # such as $DEBUGINFOD_MAXSIZE, $DEBUGINFOD_MAXTIME, $DEBUGINFOD_PROGRESS.
 
 if [ -z "$DEBUGINFOD_URLS" ]; then
-    prefix="/home/projects/MAAG/Magpie/Magpie/vg_corrected"
+    prefix="/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg"
     debuginfod_urls=`sh -c "cat ${prefix}/etc/debuginfod/*.urls 2>/dev/null" | tr '\n' ' '`
     if [ -n "$debuginfod_urls" ]; then
         DEBUGINFOD_URLS="$debuginfod_urls"

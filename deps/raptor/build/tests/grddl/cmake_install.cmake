@@ -1,4 +1,4 @@
-# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/tests/grddl
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/tests/grddl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

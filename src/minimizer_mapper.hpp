@@ -16,7 +16,9 @@
 #include "snarls.hpp"
 #include "tree_subgraph.hpp"
 #include "funnel.hpp"
-
+#include "miscfunc.hpp"
+#include "libgab.hpp"
+#include "damage.hpp"
 #include <gbwtgraph/minimizer.h>
 #include <structures/immutable_list.hpp>
 
@@ -39,7 +41,9 @@ public:
          const gbwtgraph::DefaultMinimizerIndex& minimizer_index,
          const gbwtgraph::DefaultMinimizerIndex& rymer_index,
          SnarlDistanceIndex* distance_index,
-         const PathPositionHandleGraph* path_graph = nullptr);
+         const PathPositionHandleGraph* path_graph = nullptr,
+         string deam3pfreqE = "",
+         string deam5pfreqE = "");
 
     /**
      * Map the given read, and send output to the given AlignmentEmitter. May be run from any thread.
@@ -47,7 +51,8 @@ public:
      */
     
     void map(Alignment& aln, AlignmentEmitter& alignment_emitter);
-    
+
+
     /**
      * Map the given read. Return a vector of alignments that it maps to, winner first.
      */
@@ -85,7 +90,30 @@ public:
     // Mapping settings.
     // TODO: document each
 
+    std::unordered_map<std::string, std::vector<std::pair<std::string, size_t>>> rymer_to_kmers;
+
+    Damage dmg;
+
     size_t rymers_start_index = -1;
+    unsigned int MINLENGTHFRAGMENT  =    25;      // minimal length for fragment
+    unsigned int MAXLENGTHFRAGMENT  =    1000;    //  maximal length for fragment
+
+    string deam3pfreqE;
+    string deam5pfreqE;
+
+    //Substitution rates due to deamination
+    vector<probSubstition> sub5p;
+    vector<probSubstition> sub3p;
+    vector<diNucleotideProb> sub5pDiNuc;
+    vector<diNucleotideProb> sub3pDiNuc;
+
+    //first dimension is fragment length, second is position
+    vector< vector<probSubstition> > subDeam;
+    //first dimension is fragment length, second is position
+    vector <vector<diNucleotideProb> > subDeamDiNuc;
+
+    probSubstition   defaultSubMatch;
+    diNucleotideProb defaultSubMatchMatrix;
 
     /// Use all minimizers with at most hit_cap hits
     size_t hit_cap = 10;
@@ -94,10 +122,10 @@ public:
     size_t hard_hit_cap = 500;
 
     // For rymers, whats our posterior odds threshold?
-    double posterior_odds_threshold;
+    double posterior_odds_threshold = 0.5;
 
      // For rymers, whats our prior on spurious alignments?
-    double spurious_alignment_prior;
+    double spurious_alignment_prior = 0.5;
 
     /// Take minimizers between hit_cap and hard_hit_cap hits until this fraction
     /// of total score
@@ -106,7 +134,7 @@ public:
     /// Maximum number of distinct minimizers to take
     size_t max_unique_min = 500;
 
-    /// Number of minimzers to select based on read_len/num_min_per_bp
+    /// Number of minimizers to select based on read_len/num_min_per_bp
     size_t num_bp_per_min = 1000;
 
     /// If set, exclude overlapping minimizers
@@ -127,14 +155,12 @@ public:
     //If a cluster's score is smaller than the best score of any cluster by more than
     //this much, then don't extend it
     double cluster_score_threshold = 50;
-    double cluster_score_threshold_rymer = 50;
 
     //If the second best cluster's score is no more than this many points below
     //the cutoff set by cluster_score_threshold, snap that cutoff down to the
     //second best cluster's score, to avoid throwing away promising
     //secondaries.
     double pad_cluster_score_threshold = 20;
-    double pad_cluster_score_threshold_rymer = 20;
 
     //If the read coverage of a cluster is less than the best coverage of any cluster
     //by more than this much, don't extend it
@@ -267,6 +293,8 @@ protected:
         int32_t candidates_per_window; // How many minimizers compete to be the best (index's w), or 1 for syncmers.  
         double score; // Scores as 1 + ln(hard_hit_cap) - ln(hits).
         string kmer_seq;
+        int window_start;
+        int run_length;
 
         // Sort the minimizers in descending order by score and group identical minimizers together.
         inline bool operator< (const Minimizer& another) const {

@@ -12,15 +12,6 @@ CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: ../src/Variant.h
 CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: ../src/convert.h
 CMakeFiles/vcfbreakmulti.dir/src/vcfbreakmulti.cpp.o: ../src/join.h

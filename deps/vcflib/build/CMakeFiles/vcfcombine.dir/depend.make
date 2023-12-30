@@ -12,15 +12,6 @@ CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: ../src/Variant.h
 CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: ../src/convert.h
 CMakeFiles/vcfcombine.dir/src/vcfcombine.cpp.o: ../src/gpatInfo.hpp

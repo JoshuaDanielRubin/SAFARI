@@ -28,7 +28,11 @@ obj/subcommand/giraffe_main.o: src/subcommand/giraffe_main.cpp \
  src/subcommand/../algorithms/../snarl_seed_clusterer.hpp \
  src/subcommand/../gbwt_extender.hpp src/subcommand/../mapper.hpp \
  src/subcommand/../tree_subgraph.hpp src/subcommand/../funnel.hpp \
- src/subcommand/../annotation.hpp src/subcommand/../index_registry.hpp
+ src/subcommand/../annotation.hpp src/subcommand/../miscfunc.hpp \
+ src/subcommand/../libgab.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gzstream.hpp \
+ src/subcommand/../gzstream.hpp src/subcommand/../damage.hpp \
+ src/subcommand/../index_registry.hpp
 
 src/subcommand/subcommand.hpp:
 
@@ -123,5 +127,15 @@ src/subcommand/../tree_subgraph.hpp:
 src/subcommand/../funnel.hpp:
 
 src/subcommand/../annotation.hpp:
+
+src/subcommand/../miscfunc.hpp:
+
+src/subcommand/../libgab.hpp:
+
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gzstream.hpp:
+
+src/subcommand/../gzstream.hpp:
+
+src/subcommand/../damage.hpp:
 
 src/subcommand/../index_registry.hpp:

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -g -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.
 
 CXX_DEFINES = -Dvgio_EXPORTS
 
-CXX_INCLUDES = -I/home/projects2/vgan_ancient/vg/deps/libvgio/include -I/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/include -I/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/include -I/home/projects2/vgan_ancient/vg/deps/libvgio/src 
+CXX_INCLUDES = -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/src 
 

@@ -12,15 +12,6 @@ CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: ../smithwaterman/Mosaik.
 CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: ../src/Variant.h
 CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: ../src/convert.h
 CMakeFiles/vcfevenregions.dir/src/vcfevenregions.cpp.o: ../src/join.h

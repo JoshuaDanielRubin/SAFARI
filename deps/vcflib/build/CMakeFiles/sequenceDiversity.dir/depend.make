@@ -12,15 +12,6 @@ CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: ../smithwaterman/M
 CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: ../src/Variant.h
 CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: ../src/cdflib.hpp
 CMakeFiles/sequenceDiversity.dir/src/sequenceDiversity.cpp.o: ../src/convert.h

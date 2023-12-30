@@ -12,15 +12,6 @@ CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: ../smithwaterman/Mosaik.
 CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: ../src/Variant.h
 CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: ../src/convert.h
 CMakeFiles/vcfhethomratio.dir/src/vcfhethomratio.cpp.o: ../src/join.h

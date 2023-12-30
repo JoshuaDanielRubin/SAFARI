@@ -72,7 +72,7 @@
 #define yynerrs         turtle_parser_nerrs
 
 /* First part of user prologue.  */
-#line 31 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 31 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 
 #ifdef HAVE_CONFIG_H
 #include <raptor_config.h>
@@ -150,7 +150,7 @@ static void raptor_turtle_defer_statement(raptor_parser *parser, raptor_statemen
 static void raptor_turtle_handle_statement(raptor_parser *parser, raptor_statement *triple);
 
 
-#line 154 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 154 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -183,8 +183,8 @@ static void raptor_turtle_handle_statement(raptor_parser *parser, raptor_stateme
 
 /* Use api.header.include to #include this header
    instead of duplicating it here.  */
-#ifndef YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
-# define YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
+#ifndef YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
+# define YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
 /* Debug traces.  */
 #ifndef TURTLE_PARSER_DEBUG
 # if defined YYDEBUG
@@ -241,14 +241,14 @@ extern int turtle_parser_debug;
 #if ! defined TURTLE_PARSER_STYPE && ! defined TURTLE_PARSER_STYPE_IS_DECLARED
 union TURTLE_PARSER_STYPE
 {
-#line 143 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 143 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 
   unsigned char *string;
   raptor_term *identifier;
   raptor_sequence *sequence;
   raptor_uri *uri;
 
-#line 252 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 252 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
 
 };
 typedef union TURTLE_PARSER_STYPE TURTLE_PARSER_STYPE;
@@ -260,7 +260,7 @@ typedef union TURTLE_PARSER_STYPE TURTLE_PARSER_STYPE;
 
 int turtle_parser_parse (raptor_parser* rdf_parser, void* yyscanner);
 
-#endif /* !YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED  */
+#endif /* !YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED  */
 
 
 
@@ -1242,219 +1242,219 @@ yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep, raptor_parser* rdf
   switch (yytype)
     {
     case 20: /* "string literal"  */
-#line 194 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 194 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).string))
     RAPTOR_FREE(char*, ((*yyvaluep).string));
 }
-#line 1251 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1251 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 21: /* "identifier"  */
-#line 194 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 194 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).string))
     RAPTOR_FREE(char*, ((*yyvaluep).string));
 }
-#line 1260 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1260 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 22: /* "langtag"  */
-#line 194 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 194 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).string))
     RAPTOR_FREE(char*, ((*yyvaluep).string));
 }
-#line 1269 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1269 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 23: /* "integer literal"  */
-#line 194 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 194 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).string))
     RAPTOR_FREE(char*, ((*yyvaluep).string));
 }
-#line 1278 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1278 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 24: /* "floating point literal"  */
-#line 194 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 194 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).string))
     RAPTOR_FREE(char*, ((*yyvaluep).string));
 }
-#line 1287 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1287 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 25: /* "decimal literal"  */
-#line 194 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 194 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).string))
     RAPTOR_FREE(char*, ((*yyvaluep).string));
 }
-#line 1296 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1296 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 26: /* "blank node"  */
-#line 194 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 194 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).string))
     RAPTOR_FREE(char*, ((*yyvaluep).string));
 }
-#line 1305 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1305 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 27: /* "URI literal"  */
-#line 199 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 199 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).uri))
     raptor_free_uri(((*yyvaluep).uri));
 }
-#line 1314 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1314 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 28: /* "Graph URI literal {"  */
-#line 199 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 199 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).uri))
     raptor_free_uri(((*yyvaluep).uri));
 }
-#line 1323 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1323 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 29: /* "QName"  */
-#line 199 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 199 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).uri))
     raptor_free_uri(((*yyvaluep).uri));
 }
-#line 1332 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1332 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 41: /* triples  */
-#line 209 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 209 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).sequence))
     raptor_free_sequence(((*yyvaluep).sequence));
 }
-#line 1341 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1341 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 42: /* objectList  */
-#line 209 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 209 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).sequence))
     raptor_free_sequence(((*yyvaluep).sequence));
 }
-#line 1350 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1350 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 43: /* itemList  */
-#line 209 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 209 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).sequence))
     raptor_free_sequence(((*yyvaluep).sequence));
 }
-#line 1359 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1359 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 44: /* verb  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1368 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1368 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 45: /* predicateObjectList  */
-#line 209 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 209 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).sequence))
     raptor_free_sequence(((*yyvaluep).sequence));
 }
-#line 1377 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1377 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 49: /* subject  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1386 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1386 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 50: /* predicate  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1395 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1395 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 51: /* object  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1404 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1404 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 52: /* literal  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1413 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1413 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 53: /* resource  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1422 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1422 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 54: /* predicateObjectListOpt  */
-#line 209 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 209 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).sequence))
     raptor_free_sequence(((*yyvaluep).sequence));
 }
-#line 1431 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1431 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 55: /* blankNode  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1440 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1440 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 56: /* blankNodePropertyList  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1449 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1449 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
     case 57: /* collection  */
-#line 204 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 204 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
             {
   if(((*yyvaluep).identifier))
     raptor_free_term(((*yyvaluep).identifier));
 }
-#line 1458 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1458 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
         break;
 
       default:
@@ -1726,7 +1726,7 @@ yyreduce:
   switch (yyn)
     {
   case 3:
-#line 221 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 221 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
   {
     /* action in mid-rule so this is run BEFORE the triples in graphBody */
     raptor_turtle_parser* turtle_parser;
@@ -1743,11 +1743,11 @@ yyreduce:
                                 turtle_parser->graph_name->value.uri, 1);
     }
   }
-#line 1747 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1747 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 4:
-#line 238 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 238 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_turtle_parser* turtle_parser;
 
@@ -1761,11 +1761,11 @@ yyreduce:
     rdf_parser->emitted_default_graph = 0;
   }
 }
-#line 1765 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1765 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 5:
-#line 253 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 253 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
   {
     /* action in mid-rule so this is run BEFORE the triples in graphBody */
     raptor_turtle_parser* turtle_parser;
@@ -1778,11 +1778,11 @@ yyreduce:
       rdf_parser->emitted_default_graph++;
     }
   }
-#line 1782 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1782 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 6:
-#line 266 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 266 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_turtle_parser* turtle_parser;
 
@@ -1792,11 +1792,11 @@ yyreduce:
     rdf_parser->emitted_default_graph = 0;
   }
 }
-#line 1796 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1796 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 11:
-#line 287 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 287 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
 
@@ -1808,11 +1808,11 @@ yyreduce:
     raptor_free_sequence((yyvsp[0].sequence));
   }
 }
-#line 1812 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1812 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 12:
-#line 299 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 299 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
 
@@ -1824,11 +1824,11 @@ yyreduce:
     raptor_free_sequence((yyvsp[0].sequence));
   }
 }
-#line 1828 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1828 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 13:
-#line 313 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 313 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_turtle_parser* turtle_parser;
 
@@ -1838,11 +1838,11 @@ yyreduce:
   turtle_parser->processed = turtle_parser->consumed;
   turtle_parser->lineno_last_good = turtle_parser->lineno;
 }
-#line 1842 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1842 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 18:
-#line 329 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 329 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_turtle_parser* turtle_parser;
   int i;
@@ -1873,11 +1873,11 @@ yyreduce:
     turtle_parser->deferred = NULL;
   }
 }
-#line 1877 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1877 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 19:
-#line 362 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 362 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
 
@@ -1913,11 +1913,11 @@ yyreduce:
 
   (yyval.sequence) = (yyvsp[0].sequence);
 }
-#line 1917 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1917 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 20:
-#line 398 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 398 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
 
@@ -1953,19 +1953,19 @@ yyreduce:
 
   (yyval.sequence) = (yyvsp[0].sequence);
 }
-#line 1957 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1957 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 21:
-#line 434 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 434 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.sequence) = NULL;
 }
-#line 1965 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 1965 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 22:
-#line 441 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 441 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_statement *triple;
 
@@ -2005,11 +2005,11 @@ yyreduce:
 #endif
   }
 }
-#line 2009 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2009 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 23:
-#line 481 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 481 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_statement *triple;
 
@@ -2051,11 +2051,11 @@ yyreduce:
 #endif
   }
 }
-#line 2055 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2055 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 24:
-#line 525 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 525 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_statement *triple;
 
@@ -2095,11 +2095,11 @@ yyreduce:
 #endif
   }
 }
-#line 2099 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2099 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 25:
-#line 565 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 565 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_statement *triple;
 
@@ -2141,11 +2141,11 @@ yyreduce:
 #endif
   }
 }
-#line 2145 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2145 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 26:
-#line 609 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 609 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("verb predicate=");
@@ -2155,11 +2155,11 @@ yyreduce:
 
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2159 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2159 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 27:
-#line 619 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 619 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("verb predicate = rdf:type (a)\n");
@@ -2169,11 +2169,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2173 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2173 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 28:
-#line 632 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 632 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
   
@@ -2234,11 +2234,11 @@ yyreduce:
 
   (yyval.sequence) = (yyvsp[-3].sequence);
 }
-#line 2238 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2238 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 29:
-#line 693 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 693 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2270,11 +2270,11 @@ yyreduce:
 
   (yyval.sequence) = (yyvsp[0].sequence);
 }
-#line 2274 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2274 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 30:
-#line 725 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 725 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.sequence) = (yyvsp[-1].sequence);
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2283,11 +2283,11 @@ yyreduce:
   printf("\n\n");
 #endif
 }
-#line 2287 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2287 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 33:
-#line 739 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 739 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   unsigned char *prefix = (yyvsp[-2].string);
   raptor_turtle_parser* turtle_parser = (raptor_turtle_parser*)(rdf_parser->context);
@@ -2321,11 +2321,11 @@ yyreduce:
   if(!ns)
     YYERROR;
 }
-#line 2325 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2325 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 34:
-#line 773 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 773 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   unsigned char *prefix = (yyvsp[-1].string);
   raptor_turtle_parser* turtle_parser = (raptor_turtle_parser*)(rdf_parser->context);
@@ -2359,11 +2359,11 @@ yyreduce:
   if(!ns)
     YYERROR;
 }
-#line 2363 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2363 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 35:
-#line 810 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 810 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_uri *uri=(yyvsp[-1].uri);
 
@@ -2371,11 +2371,11 @@ yyreduce:
     raptor_free_uri(rdf_parser->base_uri);
   rdf_parser->base_uri = uri;
 }
-#line 2375 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2375 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 36:
-#line 818 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 818 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_uri *uri=(yyvsp[0].uri);
 
@@ -2383,75 +2383,75 @@ yyreduce:
     raptor_free_uri(rdf_parser->base_uri);
   rdf_parser->base_uri = uri;
 }
-#line 2387 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2387 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 37:
-#line 828 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 828 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2395 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2395 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 38:
-#line 832 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 832 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2403 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2403 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 39:
-#line 836 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 836 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2411 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2411 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 40:
-#line 843 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 843 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2419 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2419 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 41:
-#line 850 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 850 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2427 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2427 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 42:
-#line 854 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 854 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2435 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2435 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 43:
-#line 858 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 858 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2443 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2443 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 44:
-#line 862 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 862 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2451 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2451 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 45:
-#line 866 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 866 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("object literal=");
@@ -2461,11 +2461,11 @@ yyreduce:
 
   (yyval.identifier) = (yyvsp[0].identifier);
 }
-#line 2465 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2465 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 46:
-#line 879 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 879 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("literal + language string=\"%s\"\n", (yyvsp[-1].string));
@@ -2477,11 +2477,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2481 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2481 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 47:
-#line 891 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 891 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("literal + language=\"%s\" datatype string=\"%s\" uri=\"%s\"\n", (yyvsp[-3].string), (yyvsp[-2].string), raptor_uri_as_string((yyvsp[0].uri)));
@@ -2504,11 +2504,11 @@ yyreduce:
     (yyval.identifier) = NULL;
     
 }
-#line 2508 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2508 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 48:
-#line 914 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 914 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("literal + language=\"%s\" datatype string=\"%s\" qname URI=<%s>\n", (yyvsp[-3].string), (yyvsp[-2].string), raptor_uri_as_string((yyvsp[0].uri)));
@@ -2531,11 +2531,11 @@ yyreduce:
     (yyval.identifier) = NULL;
 
 }
-#line 2535 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2535 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 49:
-#line 937 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 937 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("literal + datatype string=\"%s\" uri=\"%s\"\n", (yyvsp[-2].string), raptor_uri_as_string((yyvsp[0].uri)));
@@ -2551,11 +2551,11 @@ yyreduce:
     (yyval.identifier) = NULL;
     
 }
-#line 2555 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2555 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 50:
-#line 953 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 953 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("literal + datatype string=\"%s\" qname URI=<%s>\n", (yyvsp[-2].string), raptor_uri_as_string((yyvsp[0].uri)));
@@ -2570,11 +2570,11 @@ yyreduce:
   } else
     (yyval.identifier) = NULL;
 }
-#line 2574 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2574 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 51:
-#line 968 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 968 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("literal string=\"%s\"\n", (yyvsp[0].string));
@@ -2585,11 +2585,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2589 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2589 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 52:
-#line 979 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 979 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_uri *uri;
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2602,11 +2602,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2606 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2606 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 53:
-#line 992 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 992 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_uri *uri;
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2619,11 +2619,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2623 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2623 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 54:
-#line 1005 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1005 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_uri *uri;
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2640,11 +2640,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2644 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2644 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 55:
-#line 1022 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1022 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_uri *uri;
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2657,11 +2657,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2661 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2661 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 56:
-#line 1035 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1035 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_uri *uri;
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2674,11 +2674,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2678 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2678 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 57:
-#line 1051 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1051 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("resource URI=<%s>\n", raptor_uri_as_string((yyvsp[0].uri)));
@@ -2692,11 +2692,11 @@ yyreduce:
   } else
     (yyval.identifier) = NULL;
 }
-#line 2696 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2696 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 58:
-#line 1065 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1065 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
   printf("resource qname URI=<%s>\n", raptor_uri_as_string((yyvsp[0].uri)));
@@ -2710,27 +2710,27 @@ yyreduce:
   } else
     (yyval.identifier) = NULL;
 }
-#line 2714 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2714 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 59:
-#line 1082 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1082 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.sequence) = (yyvsp[0].sequence);
 }
-#line 2722 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2722 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 60:
-#line 1086 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1086 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   (yyval.sequence) = NULL;
 }
-#line 2730 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2730 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 61:
-#line 1093 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1093 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   const unsigned char *id;
 #if defined(RAPTOR_DEBUG) && RAPTOR_DEBUG > 1  
@@ -2746,11 +2746,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2750 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2750 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 62:
-#line 1111 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1111 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
   const unsigned char *id;
@@ -2801,11 +2801,11 @@ yyreduce:
   }
   
 }
-#line 2805 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2805 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 63:
-#line 1165 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1165 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   int i;
   raptor_world* world = rdf_parser->world;
@@ -2907,11 +2907,11 @@ yyreduce:
     YYERROR_MSG(errmsg);
   }
 }
-#line 2911 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2911 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
   case 64:
-#line 1267 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1267 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 {
   raptor_world* world = rdf_parser->world;
 
@@ -2923,11 +2923,11 @@ yyreduce:
   if(!(yyval.identifier))
     YYERROR;
 }
-#line 2927 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2927 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
     break;
 
 
-#line 2931 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.c"
+#line 2931 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.c"
 
       default: break;
     }
@@ -3159,7 +3159,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 1281 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 1281 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 
 
 

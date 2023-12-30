@@ -12,15 +12,6 @@ CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: ../smithwaterman
 CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: ../src/Variant.h
 CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: ../src/convert.h
 CMakeFiles/vcfgenosamplenames.dir/src/vcfgenosamplenames.cpp.o: ../src/join.h

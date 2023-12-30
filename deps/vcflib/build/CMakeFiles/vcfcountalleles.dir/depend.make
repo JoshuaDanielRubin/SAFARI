@@ -12,15 +12,6 @@ CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: ../smithwaterman/Mosai
 CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: ../src/Variant.h
 CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: ../src/convert.h
 CMakeFiles/vcfcountalleles.dir/src/vcfcountalleles.cpp.o: ../src/join.h

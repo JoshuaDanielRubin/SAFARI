@@ -12,15 +12,6 @@ CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: ../smithwaterman/Mosaik.
 CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: ../src/Variant.h
 CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: ../src/convert.h
 CMakeFiles/vcfsamplenames.dir/src/vcfsamplenames.cpp.o: ../src/join.h

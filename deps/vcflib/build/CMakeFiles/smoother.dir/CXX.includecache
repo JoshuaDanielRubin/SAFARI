@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/gpatInfo.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/gpatInfo.hpp
 iostream
 -
 stdlib.h
@@ -14,7 +14,7 @@ stdlib.h
 stdio.h
 -
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/smoother.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/smoother.cpp
 iostream
 -
 fstream
@@ -30,17 +30,17 @@ vector
 string
 -
 split.h
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/split.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/split.h
 stdio.h
 -
 stdlib.h
 -
 gpatInfo.hpp
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/gpatInfo.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/gpatInfo.hpp
 math.h
 -
 
-/home/projects2/vgan_ancient/vg/deps/vcflib/src/split.h
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/src/split.h
 string
 -
 vector

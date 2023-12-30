@@ -208,7 +208,7 @@ dynamic/internal/alphabet_encoder.hpp
 dynamic/internal/includes.hpp
 ../include/dynamic/internal/dynamic/internal/includes.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/debug.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/debug.cpp
 iostream
 -
 chrono
@@ -216,5 +216,5 @@ chrono
 cstdlib
 -
 dynamic/dynamic.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/dynamic.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/dynamic.hpp
 

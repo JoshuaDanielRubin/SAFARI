@@ -208,9 +208,9 @@ dynamic/internal/alphabet_encoder.hpp
 dynamic/internal/includes.hpp
 ../include/dynamic/internal/dynamic/internal/includes.hpp
 
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/rle_bwt.cpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/rle_bwt.cpp
 chrono
 -
 dynamic/dynamic.hpp
-/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/dynamic/dynamic.hpp
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/dynamic/dynamic.hpp
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2 -std=
 
 CXX_DEFINES = -DMODE_TI
 
-CXX_INCLUDES = -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/../include -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/../external/libdivsufsort/include -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/external/googletest/googletest/include -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/include 
+CXX_INCLUDES = -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/../include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/../external/libdivsufsort/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/external/googletest/googletest/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/include 
 

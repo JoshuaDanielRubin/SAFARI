@@ -12,15 +12,6 @@ CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: ../smithwaterman/Mosaik.
 CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: ../src/Variant.h
 CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: ../src/convert.h
 CMakeFiles/vcfkeepsamples.dir/src/vcfkeepsamples.cpp.o: ../src/join.h

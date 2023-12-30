@@ -12,15 +12,6 @@ CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: ../src/Variant.h
 CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: ../src/convert.h
 CMakeFiles/vcfdistance.dir/src/vcfdistance.cpp.o: ../src/join.h

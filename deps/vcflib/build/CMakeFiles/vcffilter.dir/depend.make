@@ -12,15 +12,6 @@ CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: ../src/Variant.h
 CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: ../src/convert.h
 CMakeFiles/vcffilter.dir/src/vcffilter.cpp.o: ../src/join.h

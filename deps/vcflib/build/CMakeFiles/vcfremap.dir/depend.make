@@ -13,15 +13,6 @@ CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: ../src/BedReader.h
 CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: ../src/Variant.h
 CMakeFiles/vcfremap.dir/src/vcfremap.cpp.o: ../src/convert.h

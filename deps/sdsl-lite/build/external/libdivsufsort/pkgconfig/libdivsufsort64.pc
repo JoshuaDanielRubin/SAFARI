@@ -1,7 +1,7 @@
-prefix=/home/projects/MAAG/Magpie/Magpie/vg_corrected
+prefix=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg
 exec_prefix=${prefix}
-libdir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib
-includedir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/include
+libdir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib
+includedir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include
 
 Name: libdivsufsort64
 Description: A lightweight suffix sorting library

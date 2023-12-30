@@ -12,15 +12,6 @@ CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: ../src/Variant.h
 CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: ../src/convert.h
 CMakeFiles/vcfclassify.dir/src/vcfclassify.cpp.o: ../src/join.h

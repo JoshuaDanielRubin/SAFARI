@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects2/vgan_ancient/vg/deps/vcflib
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects2/vgan_ancient/vg/deps/vcflib/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build
 
 # Utility rule file for man.
 
@@ -57,12 +57,12 @@ CMAKE_BINARY_DIR = /home/projects2/vgan_ancient/vg/deps/vcflib/build
 include CMakeFiles/man.dir/progress.make
 
 CMakeFiles/man:
-	cd /home/projects2/vgan_ancient/vg/deps/vcflib && /usr/bin/pandoc ./test/pytest/vcfnulldotslashdot.md -s -t man -o ./man/vcfnulldotslashdot.1
-	cd /home/projects2/vgan_ancient/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb --man test/scripts/bin2md-template.erb
-	cd /home/projects2/vgan_ancient/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb --man --index
-	cd /home/projects2/vgan_ancient/vg/deps/vcflib && ruby ./test/scripts/md2man
-	cd /home/projects2/vgan_ancient/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb test/scripts/bin2md-template.erb
-	cd /home/projects2/vgan_ancient/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb --index
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib && /usr/bin/pandoc ./test/pytest/vcfnulldotslashdot.md -s -t man -o ./man/vcfnulldotslashdot.1
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb --man test/scripts/bin2md-template.erb
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb --man --index
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib && ruby ./test/scripts/md2man
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb test/scripts/bin2md-template.erb
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib && ruby ./test/scripts/bin2md.rb --index
 
 man: CMakeFiles/man
 man: CMakeFiles/man.dir/build.make
@@ -79,6 +79,6 @@ CMakeFiles/man.dir/clean:
 .PHONY : CMakeFiles/man.dir/clean
 
 CMakeFiles/man.dir/depend:
-	cd /home/projects2/vgan_ancient/vg/deps/vcflib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects2/vgan_ancient/vg/deps/vcflib /home/projects2/vgan_ancient/vg/deps/vcflib /home/projects2/vgan_ancient/vg/deps/vcflib/build /home/projects2/vgan_ancient/vg/deps/vcflib/build /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles/man.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles/man.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/man.dir/depend
 

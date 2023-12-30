@@ -12,15 +12,6 @@ CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: ../src/Variant.h
 CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: ../src/convert.h
 CMakeFiles/vcfecho.dir/src/vcfecho.cpp.o: ../src/join.h

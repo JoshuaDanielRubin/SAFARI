@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/raptor_turtle_writer_test.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/raptor_turtle_writer_test.dir/flags.make
 
 src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o: src/CMakeFiles/raptor_turtle_writer_test.dir/flags.make
 src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o: ../src/raptor_turtle_writer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o   -c /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_turtle_writer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.o   -c /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_turtle_writer.c
 
 src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.i"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_turtle_writer.c > CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.i
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_turtle_writer.c > CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.i
 
 src/CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.s"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/raptor_turtle_writer.c -o CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.s
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/raptor_turtle_writer.c -o CMakeFiles/raptor_turtle_writer_test.dir/raptor_turtle_writer.c.s
 
 # Object files for target raptor_turtle_writer_test
 raptor_turtle_writer_test_OBJECTS = \
@@ -82,8 +82,8 @@ src/raptor_turtle_writer_test: src/CMakeFiles/raptor_turtle_writer_test.dir/buil
 src/raptor_turtle_writer_test: src/libraptor2.a
 src/raptor_turtle_writer_test: /usr/lib/x86_64-linux-gnu/libxml2.so
 src/raptor_turtle_writer_test: src/CMakeFiles/raptor_turtle_writer_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable raptor_turtle_writer_test"
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raptor_turtle_writer_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable raptor_turtle_writer_test"
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raptor_turtle_writer_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/raptor_turtle_writer_test.dir/build: src/raptor_turtle_writer_test
@@ -91,10 +91,10 @@ src/CMakeFiles/raptor_turtle_writer_test.dir/build: src/raptor_turtle_writer_tes
 .PHONY : src/CMakeFiles/raptor_turtle_writer_test.dir/build
 
 src/CMakeFiles/raptor_turtle_writer_test.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/raptor_turtle_writer_test.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src && $(CMAKE_COMMAND) -P CMakeFiles/raptor_turtle_writer_test.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/raptor_turtle_writer_test.dir/clean
 
 src/CMakeFiles/raptor_turtle_writer_test.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/CMakeFiles/raptor_turtle_writer_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/CMakeFiles/raptor_turtle_writer_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/raptor_turtle_writer_test.dir/depend
 

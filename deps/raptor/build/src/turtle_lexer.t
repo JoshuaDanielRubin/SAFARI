@@ -1,6 +1,6 @@
-#line 2 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.t"
+#line 2 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.t"
 
-#line 4 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.t"
+#line 4 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.t"
 
 #define  YY_INT_ALIGNED short int
 
@@ -846,7 +846,7 @@ static const flex_int16_t yy_chk[676] =
 #define yymore() yymore_used_but_not_detected
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
-#line 1 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 1 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 /* -*- Mode: c; c-basic-offset: 2 -*-
  *
  * turtle_lexer.l - Raptor Turtle lexer - making tokens for turtle grammar generator
@@ -899,7 +899,7 @@ static const flex_int16_t yy_chk[676] =
 /* Makes yyget_lval() yyset_lval() and yylval appear */
 /* Makes yyget_lloc() yyset_lloc() and yylloc appear */
 /* %option bison-locations */
-#line 79 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 79 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
   /* definitions */
 
 /* NOTE: These headers are NOT included here but are inserted by
@@ -999,11 +999,11 @@ static char turtle_lexer_oom_text[]="turtle_lexer: Out of memory";
 #define YY_USER_ACTION				\
   turtle_parser->consumed += yyleng;
 
-#line 1003 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.t"
+#line 1003 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.t"
 /* Tokens from Turtle 2013 spec - lex-ifyed to remove unicode ranges */
 /* flex: only 1 level of definition expansion so have to expand PLX */
 
-#line 1007 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.t"
+#line 1007 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.t"
 
 #define INITIAL 0
 #define PREF 1
@@ -1276,9 +1276,9 @@ YY_DECL
 		}
 
 	{
-#line 209 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 209 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 
-#line 211 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 211 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
   /* rules */
 
 
@@ -1292,7 +1292,7 @@ YY_DECL
 
     
 
-#line 1296 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.t"
+#line 1296 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.t"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -1348,103 +1348,103 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 224 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 224 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { turtle_parser->lineno++; }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 226 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 226 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { /* empty */ }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 229 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 229 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return A; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 231 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 231 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return DOT; } 
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 232 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 232 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return COMMA; } 
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 233 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 233 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return SEMICOLON; }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 234 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 234 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return LEFT_SQUARE; }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 235 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 235 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return RIGHT_SQUARE; }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 236 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 236 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { BEGIN(PREF); return PREFIX; }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 237 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 237 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { BEGIN(PREF);
 		return SPARQL_PREFIX; }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 239 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 239 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return BASE; }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 240 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 240 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return SPARQL_BASE; }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 241 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 241 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return HAT; }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 242 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 242 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return LEFT_ROUND; }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 243 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 243 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return RIGHT_ROUND; }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 244 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 244 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return LEFT_CURLY; }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 245 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 245 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return RIGHT_CURLY; }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 246 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 246 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return TRUE_TOKEN; }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 247 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 247 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { return FALSE_TOKEN; }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 250 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 250 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string = turtle_copy_string_token(rdf_parser, (unsigned char*)yytext+1, yyleng-2, '"'); /* ' */
                                 if(!yylval->string)
                                   yyterminate();
@@ -1453,7 +1453,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 256 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 256 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string = turtle_copy_string_token(rdf_parser, (unsigned char*)yytext+1, yyleng-2, '"'); /* ' */
                                 if(!yylval->string)
                                   yyterminate();
@@ -1462,7 +1462,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 262 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 262 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { BEGIN(LONG_DLITERAL); 
                                   turtle_parser->sb = raptor_new_stringbuffer();
                                   if(!turtle_parser->sb)
@@ -1471,7 +1471,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 268 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 268 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
 		  size_t len;
      
@@ -1490,7 +1490,7 @@ YY_RULE_SETUP
 case 24:
 /* rule 24 can match eol */
 YY_RULE_SETUP
-#line 283 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 283 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
 		  char *p;
 
@@ -1518,7 +1518,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 308 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 308 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
      		/* this should only happen if \ is at the end of the file so the Turtle doc is illegal anyway */
                     BEGIN(INITIAL);
@@ -1529,7 +1529,7 @@ YY_RULE_SETUP
 }
 	YY_BREAK
 case YY_STATE_EOF(LONG_DLITERAL):
-#line 317 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 317 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
                     BEGIN(INITIAL);
                     raptor_free_stringbuffer(turtle_parser->sb);
@@ -1545,7 +1545,7 @@ case YY_STATE_EOF(LONG_DLITERAL):
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 330 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 330 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { BEGIN(LONG_SLITERAL); 
                                   turtle_parser->sb = raptor_new_stringbuffer();
                                   if(!turtle_parser->sb)
@@ -1554,7 +1554,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 336 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 336 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
 		  size_t len;
      
@@ -1573,7 +1573,7 @@ YY_RULE_SETUP
 case 28:
 /* rule 28 can match eol */
 YY_RULE_SETUP
-#line 351 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 351 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
 		  char *p;
 
@@ -1601,7 +1601,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 376 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 376 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
      		/* this should only happen if \ is at the end of the file so the Turtle doc is illegal anyway */
                     BEGIN(INITIAL);
@@ -1612,7 +1612,7 @@ YY_RULE_SETUP
 }
 	YY_BREAK
 case YY_STATE_EOF(LONG_SLITERAL):
-#line 385 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 385 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
                     BEGIN(INITIAL);
                     raptor_free_stringbuffer(turtle_parser->sb);
@@ -1628,7 +1628,7 @@ case YY_STATE_EOF(LONG_SLITERAL):
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 398 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 398 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string = turtle_copy_token((unsigned char*)yytext+2, yyleng-2);
           if(!yylval->string)
             YY_FATAL_ERROR_EOF("turtle_copy_token failed");
@@ -1636,7 +1636,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 403 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 403 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->uri = turtle_qname_to_uri(rdf_parser, (unsigned char*)yytext, yyleng);
           if(!yylval->uri) {
             turtle_lexer_error(yyscanner, RAPTOR_LOG_LEVEL_ERROR, "Failed to convert qname %s to URI", yytext);
@@ -1647,7 +1647,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 411 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 411 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string = turtle_copy_token((unsigned char*)yytext, yyleng);
                   if(!yylval->string)
                     YY_FATAL_ERROR_EOF("turtle_copy_token failed");
@@ -1656,7 +1656,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 417 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 417 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string = turtle_copy_token((unsigned char*)yytext, yyleng);
                   if(!yylval->string)
                     YY_FATAL_ERROR_EOF("turtle_copy_token failed");
@@ -1665,7 +1665,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 423 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 423 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string = turtle_copy_token((unsigned char*)yytext, yyleng);
                   if(!yylval->string)
                     YY_FATAL_ERROR_EOF("turtle_copy_token failed");
@@ -1673,12 +1673,12 @@ YY_RULE_SETUP
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 428 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 428 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { /* eat up leading whitespace */ }
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 429 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 429 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string=turtle_copy_token((unsigned char*)yytext, yyleng);
                             if(!yylval->string)
                               YY_FATAL_ERROR_EOF("turtle_copy_token failed");
@@ -1687,7 +1687,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 434 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 434 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { BEGIN(INITIAL);
 		  yylval->string = turtle_copy_token((unsigned char*)yytext, 0);
       if(!yylval->string)
@@ -1697,7 +1697,7 @@ YY_RULE_SETUP
 case 38:
 /* rule 38 can match eol */
 YY_RULE_SETUP
-#line 440 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 440 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { BEGIN(INITIAL);
 		  if(*yytext == EOF)
                     return EOF;
@@ -1708,7 +1708,7 @@ YY_RULE_SETUP
 case 39:
 /* rule 39 can match eol */
 YY_RULE_SETUP
-#line 448 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 448 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
                   raptor_stringbuffer* sb;
                   unsigned char* uri_string;
@@ -1744,7 +1744,7 @@ YY_RULE_SETUP
 case 40:
 /* rule 40 can match eol */
 YY_RULE_SETUP
-#line 480 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 480 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 {
                while(1) {
                   int c = yytext[yyleng - 1];
@@ -1766,7 +1766,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 499 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 499 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { if(yyleng == 2) 
                   yylval->uri = raptor_uri_copy(rdf_parser->base_uri);
                 else {
@@ -1793,7 +1793,7 @@ YY_RULE_SETUP
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 523 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 523 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { yylval->string = turtle_copy_token((unsigned char*)yytext+1, yyleng-1);
                   if(!yylval->string)
                     YY_FATAL_ERROR_EOF("turtle_copy_token failed");
@@ -1802,20 +1802,20 @@ YY_RULE_SETUP
 case 43:
 /* rule 43 can match eol */
 YY_RULE_SETUP
-#line 528 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 528 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { /* # comment */
 		turtle_parser->lineno++;
                 }
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 532 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 532 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { /* # comment on the last line with no terminating newline */
                 }
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 535 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 535 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 { if(*yytext == EOF)
                     return EOF;
 
@@ -1825,10 +1825,10 @@ YY_RULE_SETUP
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 542 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 542 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 YY_FATAL_ERROR( "flex scanner jammed" );
 	YY_BREAK
-#line 1832 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_lexer.t"
+#line 1832 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_lexer.t"
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(PREF):
 	yyterminate();
@@ -2944,7 +2944,7 @@ static int yy_flex_strlen (const char * s , yyscan_t yyscanner)
 
 #define YYTABLES_NAME "yytables"
 
-#line 542 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_lexer.l"
+#line 542 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_lexer.l"
 
   /* user code */
 

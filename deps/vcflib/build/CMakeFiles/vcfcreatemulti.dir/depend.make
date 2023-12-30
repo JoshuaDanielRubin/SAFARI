@@ -12,15 +12,6 @@ CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: ../smithwaterman/Mosaik.
 CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: ../src/Variant.h
 CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: ../src/convert.h
 CMakeFiles/vcfcreatemulti.dir/src/vcfcreatemulti.cpp.o: ../src/join.h

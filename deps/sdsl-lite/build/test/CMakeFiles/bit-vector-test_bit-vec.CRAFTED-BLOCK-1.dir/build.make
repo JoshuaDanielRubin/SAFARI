@@ -46,10 +46,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build
 
 # Utility rule file for bit-vector-test_bit-vec.CRAFTED-BLOCK-1.
 
@@ -59,12 +59,12 @@ include test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/progress.mak
 test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1: ../test/test_cases/bit-vec.CRAFTED-BLOCK-1
 test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1: ../test/tmp
 test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1: test/bit_vector_test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute bit-vector-test on bit-vec.CRAFTED-BLOCK-1."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/bit_vector_test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/bit-vec.CRAFTED-BLOCK-1 /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp/bit_vector_test_bit-vec.CRAFTED-BLOCK-1 /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/tmp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Execute bit-vector-test on bit-vec.CRAFTED-BLOCK-1."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/bit_vector_test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/bit-vec.CRAFTED-BLOCK-1 /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp/bit_vector_test_bit-vec.CRAFTED-BLOCK-1 /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/tmp
 
 ../test/test_cases/bit-vec.CRAFTED-BLOCK-1: test/bit_vector_generator
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating test case bit-vec.CRAFTED-BLOCK-1."
-	/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/bit_vector_generator /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test/test_cases/bit-vec.CRAFTED-BLOCK-1 CRAFTED-BLOCK-1
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating test case bit-vec.CRAFTED-BLOCK-1."
+	/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/bit_vector_generator /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test/test_cases/bit-vec.CRAFTED-BLOCK-1 CRAFTED-BLOCK-1
 
 bit-vector-test_bit-vec.CRAFTED-BLOCK-1: test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1
 bit-vector-test_bit-vec.CRAFTED-BLOCK-1: ../test/test_cases/bit-vec.CRAFTED-BLOCK-1
@@ -78,10 +78,10 @@ test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/build: bit-vector-te
 .PHONY : test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/build
 
 test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/clean:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/cmake_clean.cmake
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test && $(CMAKE_COMMAND) -P CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/clean
 
 test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/depend:
-	cd /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/sdsl-lite/build/test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/sdsl-lite/build/test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/bit-vector-test_bit-vec.CRAFTED-BLOCK-1.dir/depend
 

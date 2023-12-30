@@ -34,8 +34,8 @@
 /* Undocumented macros, especially those whose name start with YY_,
    are private implementation details.  Do not rely on them.  */
 
-#ifndef YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
-# define YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
+#ifndef YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
+# define YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED
 /* Debug traces.  */
 #ifndef TURTLE_PARSER_DEBUG
 # if defined YYDEBUG
@@ -92,14 +92,14 @@ extern int turtle_parser_debug;
 #if ! defined TURTLE_PARSER_STYPE && ! defined TURTLE_PARSER_STYPE_IS_DECLARED
 union TURTLE_PARSER_STYPE
 {
-#line 143 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/src/turtle_parser.y"
+#line 143 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/src/turtle_parser.y"
 
   unsigned char *string;
   raptor_term *identifier;
   raptor_sequence *sequence;
   raptor_uri *uri;
 
-#line 103 "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/turtle_parser.h"
+#line 103 "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/turtle_parser.h"
 
 };
 typedef union TURTLE_PARSER_STYPE TURTLE_PARSER_STYPE;
@@ -111,4 +111,4 @@ typedef union TURTLE_PARSER_STYPE TURTLE_PARSER_STYPE;
 
 int turtle_parser_parse (raptor_parser* rdf_parser, void* yyscanner);
 
-#endif /* !YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VG_CORRECTED_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED  */
+#endif /* !YY_TURTLE_PARSER_HOME_PROJECTS_MAAG_MAGPIE_MAGPIE_VGAN_CORRECTED_DEP_VG_DEPS_RAPTOR_BUILD_SRC_TURTLE_PARSER_H_INCLUDED  */

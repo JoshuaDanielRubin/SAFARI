@@ -1,9 +1,9 @@
-includedir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/htslib
-libdir=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/htslib
+includedir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/htslib
+libdir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/htslib
 
 # Flags and libraries needed when linking against a static libhts.a
 # (used by manual and semi-manual pkg-config(1)-style enquiries).
-static_ldflags= -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -Wl,-rpath,/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib
+static_ldflags= -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -Wl,-rpath,/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib
 static_libs=-lpthread -lz -lm -lbz2 -llzma -ldeflate
 
 Name: htslib
@@ -11,5 +11,5 @@ Description: C library for high-throughput sequencing data formats
 Version: @-PACKAGE_VERSION@
 Cflags: -I${includedir}
 Libs: -L${libdir} -lhts
-Libs.private: -L${libdir}  -L/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -Wl,-rpath,/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib -lbz2 -ldeflate -lhts -lm -lpthread
+Libs.private: -L${libdir}  -L/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -Wl,-rpath,/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib -lbz2 -ldeflate -lhts -lm -lpthread
 Requires.private: zlib  liblzma

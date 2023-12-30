@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/h0_lz77.cpp" "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/build/CMakeFiles/h0_lz77.dir/h0_lz77.cpp.o"
+  "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/h0_lz77.cpp" "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/build/CMakeFiles/h0_lz77.dir/h0_lz77.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -12,15 +12,6 @@ CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: ../src/Variant.h
 CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: ../src/cdflib.hpp
 CMakeFiles/meltEHH.dir/src/meltEHH.cpp.o: ../src/convert.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor
+# Install script for directory: /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/src/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/utils/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/feeds/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/grddl/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/json/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/ntriples/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/rdfa/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/rdfa11/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/rdfxml/cmake_install.cmake")
-  include("/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/tests/trig/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/src/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/utils/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/feeds/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/grddl/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/json/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/ntriples/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/rdfa/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/rdfa11/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/rdfxml/cmake_install.cmake")
+  include("/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/tests/trig/cmake_install.cmake")
 
 endif()
 
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/raptor/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/raptor/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

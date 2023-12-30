@@ -46,9 +46,9 @@ add_library(VGio::VGio SHARED IMPORTED)
 
 set_target_properties(VGio::VGio PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_14"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/projects2/vgan_ancient/vg/deps/libvgio/include;/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg;/home/projects/MAAG/Magpie/Magpie/vg_corrected/include;/usr/include;/usr/include;/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/include"
-  INTERFACE_LINK_DIRECTORIES "/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libprotobuf.so;Threads::Threads;hts;jansson;/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/lib/libhandlegraph.so;OpenMP::OpenMP_CXX"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/include;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include;/usr/include;/usr/include;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/include"
+  INTERFACE_LINK_DIRECTORIES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libprotobuf.so;Threads::Threads;hts;jansson;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/lib/libhandlegraph.so;OpenMP::OpenMP_CXX"
 )
 
 # Create imported target VGio::VGio_static
@@ -56,15 +56,15 @@ add_library(VGio::VGio_static STATIC IMPORTED)
 
 set_target_properties(VGio::VGio_static PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_14"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/projects2/vgan_ancient/vg/deps/libvgio/include;/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg;/home/projects/MAAG/Magpie/Magpie/vg_corrected/include;/usr/include;/usr/include;/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/include"
-  INTERFACE_LINK_DIRECTORIES "/home/projects/MAAG/Magpie/Magpie/vg_corrected/lib"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libprotobuf.a;Threads::Threads;hts;bz2;deflate;hts;m;pthread;z;lzma;jansson;/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/handlegraph-prefix/lib/libhandlegraph.a;OpenMP::OpenMP_CXX"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/include;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include;/usr/include;/usr/include;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/include"
+  INTERFACE_LINK_DIRECTORIES "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/lib"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libprotobuf.a;Threads::Threads;hts;bz2;deflate;hts;m;pthread;z;lzma;jansson;/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/handlegraph-prefix/lib/libhandlegraph.a;OpenMP::OpenMP_CXX"
 )
 
 # Import target "VGio::VGio" for configuration ""
 set_property(TARGET VGio::VGio APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(VGio::VGio PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/libvgio.so"
+  IMPORTED_LOCATION_NOCONFIG "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/libvgio.so"
   IMPORTED_SONAME_NOCONFIG "libvgio.so"
   )
 
@@ -72,7 +72,7 @@ set_target_properties(VGio::VGio PROPERTIES
 set_property(TARGET VGio::VGio_static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(VGio::VGio_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "/home/projects2/vgan_ancient/vg/deps/libvgio/build-vg/libvgio.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/libvgio/build-vg/libvgio.a"
   )
 
 # This file does not depend on other imported targets which have

@@ -12,15 +12,6 @@ CMakeFiles/bFst.dir/src/bFst.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/bFst.dir/src/bFst.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/bFst.dir/src/bFst.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/bFst.dir/src/bFst.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/bFst.dir/src/bFst.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/bFst.dir/src/bFst.cpp.o: ../src/Variant.h
 CMakeFiles/bFst.dir/src/bFst.cpp.o: ../src/bFst.cpp
 CMakeFiles/bFst.dir/src/bFst.cpp.o: ../src/convert.h

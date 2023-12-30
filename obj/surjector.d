@@ -18,7 +18,7 @@ obj/surjector.o: src/surjector.cpp src/surjector.hpp src/aligner.hpp \
  src/algorithms/../hash_map.hpp \
  src/algorithms/prune_to_connecting_graph.hpp \
  src/algorithms/component.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp
 
 src/surjector.hpp:
 
@@ -118,4 +118,4 @@ src/algorithms/prune_to_connecting_graph.hpp:
 
 src/algorithms/component.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:

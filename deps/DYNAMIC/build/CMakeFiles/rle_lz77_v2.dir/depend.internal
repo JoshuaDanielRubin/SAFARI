@@ -22,4 +22,4 @@ CMakeFiles/rle_lz77_v2.dir/rle_lz77_v2.cpp.o
  ../include/dynamic/internal/succinct_bitvector.hpp
  ../include/dynamic/internal/wm_string.hpp
  ../include/dynamic/internal/wt_string.hpp
- /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/DYNAMIC/rle_lz77_v2.cpp
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/DYNAMIC/rle_lz77_v2.cpp

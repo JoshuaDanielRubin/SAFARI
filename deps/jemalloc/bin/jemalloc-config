@@ -3,7 +3,7 @@
 usage() {
 	cat <<EOF
 Usage:
-  /home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/bin/jemalloc-config <option>
+  /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/bin/jemalloc-config <option>
 Options:
   --help | -h  : Print usage.
   --version    : Print jemalloc version.
@@ -24,8 +24,8 @@ Options:
 EOF
 }
 
-prefix="/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc"
-exec_prefix="/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc"
+prefix="/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc"
+exec_prefix="/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc"
 
 case "$1" in
 --help | -h)
@@ -39,37 +39,37 @@ case "$1" in
 	echo "2"
 	;;
 --config)
-	echo "--disable-libdl --prefix=/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc CC=/usr/bin/gcc 'CFLAGS=-I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include ' LDFLAGS= CXX=/usr/bin/g++ 'CXXFLAGS=-I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g -fopenmp -msse4.2'"
+	echo "--disable-libdl --prefix=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc CC=/usr/bin/gcc 'CFLAGS=-I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include ' LDFLAGS= CXX=/usr/bin/g++ 'CXXFLAGS=-I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g -fopenmp -msse4.2'"
 	;;
 --prefix)
-	echo "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc"
+	echo "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc"
 	;;
 --bindir)
-	echo "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/bin"
+	echo "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/bin"
 	;;
 --datadir)
-	echo "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/share"
+	echo "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/share"
 	;;
 --includedir)
-	echo "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/include"
+	echo "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/include"
 	;;
 --libdir)
-	echo "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/lib"
+	echo "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/lib"
 	;;
 --mandir)
-	echo "/home/projects/MAAG/Magpie/Magpie/vg_corrected/deps/jemalloc/share/man"
+	echo "/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/jemalloc/share/man"
 	;;
 --cc)
 	echo "/usr/bin/gcc"
 	;;
 --cflags)
-	echo "-std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include "
+	echo "-std=gnu11 -Wall -Wextra -Wsign-compare -Wundef -Wno-format-zero-length -Wpointer-arith -Wno-missing-braces -Wno-missing-field-initializers -pipe -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -funroll-loops -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include "
 	;;
 --cppflags)
 	echo "-D_GNU_SOURCE -D_REENTRANT"
 	;;
 --cxxflags)
-	echo "-Wall -Wextra -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -I /home/projects/MAAG/Magpie/Magpie/vg_corrected/include -I/home/projects/MAAG/Magpie/Magpie/vg_corrected/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2"
+	echo "-Wall -Wextra -g3 -fvisibility=hidden -Wimplicit-fallthrough -O3 -I /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include -I/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/include/dynamic -O3 -Werror=return-type -std=c++14 -ggdb -g  -fopenmp -msse4.2"
 	;;
 --ldflags)
 	echo " "

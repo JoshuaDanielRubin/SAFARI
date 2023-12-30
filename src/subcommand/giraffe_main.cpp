@@ -309,7 +309,7 @@ std::string strip_suffixes(std::string filename, const std::vector<std::string>&
 
 void help_giraffe(char** argv) {
     cerr
-    << "usage: " << argv[0] << " safari [options] [ref.fa [variants.vcf.gz]] > output.gam" << endl
+    << "usage: " << argv[0] << " giraffe [options] [ref.fa [variants.vcf.gz]] > output.gam" << endl
     << "Fast haplotype-aware short read mapper." << endl
     << endl
     << "basic options:" << endl
@@ -322,6 +322,8 @@ void help_giraffe(char** argv) {
     << "  -G, --gam-in FILE             read and realign GAM-format reads from FILE" << endl
     << "  -f, --fastq-in FILE           read and align FASTQ-format reads from FILE (two are allowed, one for each mate)" << endl
     << "  -i, --interleaved             GAM/FASTQ input is interleaved pairs, for paired-end alignment" << endl
+    << "   --deam-3p FILE               3' end deamination rate matrix (must end in .prof)" << endl
+    << "   --deam-5p FILE               5' end deamination rate matrix (must end in .prof)" << endl
     << "alternate indexes:" << endl
     << "  -x, --xg-name FILE            use this xg index or graph" << endl
     << "  -g, --graph-name FILE         use this GBWTGraph" << endl
@@ -481,7 +483,9 @@ int main_giraffe(int argc, char** argv) {
     double posterior_odds_threshold = 0.5;
     // What's the prior on spurious alignments when using RYmers?
     double spurious_alignment_prior = 0.5;
-
+    // Deamination matrices
+    string deam3pfreqE = "";
+    string deam5pfreqE = "";
 
     // Chain all the ranges and get a function that loops over all combinations.
     auto for_each_combo = distance_limit
@@ -500,6 +504,7 @@ int main_giraffe(int argc, char** argv) {
         .chain(extension_score)
         .get_iterator();
     
+
     // Formats for alignment output.
     std::string output_format = "GAM";
     std::set<std::string> output_formats = { "GAM", "GAF", "JSON", "TSV", "SAM", "BAM", "CRAM" };
@@ -583,11 +588,13 @@ int main_giraffe(int argc, char** argv) {
             {"threads", required_argument, 0, 't'},
             {"posterior-odds-threshold", required_argument, 0, 'j'},
             {"spurious-alignment-prior", required_argument, 0, 'V'},
+            {"deam-3p", required_argument, 0, 'Y'},
+            {"deam-5p", required_argument, 0, 'y'},
             {0, 0, 0, 0}
         };
 
         int option_index = 0;
-        c = getopt_long (argc, argv, "hZ:x:g:H:m:q:s:d:pG:f:iM:N:R:o:Pnb:c:C:D:F:e:a:S:u:U:v:w:Ot:r:A:L:j:V:",
+        c = getopt_long (argc, argv, "hZ:x:g:H:m:q:s:d:pG:f:iM:N:R:o:Pnb:c:C:D:F:e:a:S:u:U:v:w:Ot:r:A:L:j:V:Y:y:",
                          long_options, &option_index);
 
 
@@ -599,11 +606,11 @@ int main_giraffe(int argc, char** argv) {
         {
             case 'Z':
                 if (!optarg || !*optarg) {
-                    cerr << "error:[vg safari] Must provide GBZ file with -Z." << endl;
+                    cerr << "error:[vg giraffe] Must provide GBZ file with -Z." << endl;
                     exit(1);
                 }
                 if (!std::ifstream(optarg).is_open()) {
-                    cerr << "error:[vg safari] Couldn't open GBZ file " << optarg << endl;
+                    cerr << "error:[vg giraffe] Couldn't open GBZ file " << optarg << endl;
                     exit(1);
                 }
                 registry.provide("Giraffe GBZ", optarg);
@@ -616,11 +623,11 @@ int main_giraffe(int argc, char** argv) {
 
             case 'x':
                 if (!optarg || !*optarg) {
-                    cerr << "error:[vg safari] Must provide graph file with -x." << endl;
+                    cerr << "error:[vg giraffe] Must provide graph file with -x." << endl;
                     exit(1);
                 }
                 if (!std::ifstream(optarg).is_open()) {
-                    cerr << "error:[vg safari] Couldn't open graph file " << optarg << endl;
+                    cerr << "error:[vg giraffe] Couldn't open graph file " << optarg << endl;
                     exit(1); 
                 }
                 registry.provide("XG", optarg);
@@ -633,11 +640,11 @@ int main_giraffe(int argc, char** argv) {
 
             case 'g':
                 if (!optarg || !*optarg) {
-                    cerr << "error:[vg safari] Must provide GBWTGraph file with -g." << endl;
+                    cerr << "error:[vg giraffe] Must provide GBWTGraph file with -g." << endl;
                     exit(1);
                 }
                 if (!std::ifstream(optarg).is_open()) {
-                    cerr << "error:[vg safari] Couldn't open GBWTGraph file " << optarg << endl;
+                    cerr << "error:[vg giraffe] Couldn't open GBWTGraph file " << optarg << endl;
                     exit(1); 
                 }
                 registry.provide("GBWTGraph", optarg);
@@ -650,11 +657,11 @@ int main_giraffe(int argc, char** argv) {
 
             case 'H':
                 if (!optarg || !*optarg) {
-                    cerr << "error:[vg safari] Must provide GBWT file with -H." << endl;
+                    cerr << "error:[vg giraffe] Must provide GBWT file with -H." << endl;
                     exit(1);
                 }
                 if (!std::ifstream(optarg).is_open()) {
-                    cerr << "error:[vg safari] Couldn't open GBWT file " << optarg << endl;
+                    cerr << "error:[vg giraffe] Couldn't open GBWT file " << optarg << endl;
                     exit(1); 
                 }
                 registry.provide("Giraffe GBWT", optarg);
@@ -662,11 +669,11 @@ int main_giraffe(int argc, char** argv) {
                 
             case 'm':
                 if (!optarg || !*optarg) {
-                    cerr << "error:[vg safari] Must provide minimizer file with -m." << endl;
+                    cerr << "error:[vg giraffe] Must provide minimizer file with -m." << endl;
                     exit(1);
                 }
                 if (!std::ifstream(optarg).is_open()) {
-                    cerr << "error:[vg safari] Couldn't open minimizer file " << optarg << endl;
+                    cerr << "error:[vg giraffe] Couldn't open minimizer file " << optarg << endl;
                     exit(1); 
                 }
                 registry.provide("Minimizers", optarg);
@@ -675,11 +682,11 @@ int main_giraffe(int argc, char** argv) {
             case 'q':
 
                 if (!optarg || !*optarg) {
-                   throw runtime_error("error:[vg safari] Must provide rymer file with -m.");
+                   throw runtime_error("error:[vg giraffe] Must provide rymer file with -m.");
                     exit(1);
                 }
                 if (!std::ifstream(optarg).is_open()) {
-                    throw runtime_error("error:[vg safari] Couldn't open rymer file ");
+                    throw runtime_error("error:[vg giraffe] Couldn't open rymer file ");
                     exit(1);
                 }
                 registry.provide("Rymers", optarg);
@@ -688,11 +695,11 @@ int main_giraffe(int argc, char** argv) {
             case 'd':
 
                 if (!optarg || !*optarg) {
-                    cerr << "error:[vg safari] Must provide distance index file with -d." << endl;
+                    cerr << "error:[vg giraffe] Must provide distance index file with -d." << endl;
                     exit(1);
                 }
                 if (!std::ifstream(optarg).is_open()) {
-                    cerr << "error:[vg safari] Couldn't open distance index file " << optarg << endl;
+                    cerr << "error:[vg giraffe] Couldn't open distance index file " << optarg << endl;
                     exit(1); 
                 }
                 registry.provide("Giraffe Distance Index", optarg);
@@ -705,7 +712,7 @@ int main_giraffe(int argc, char** argv) {
             case 'G':
                 gam_filename = optarg;
                 if (gam_filename.empty()) {
-                    cerr << "error:[vg safari] Must provide GAM file with -G." << endl;
+                    cerr << "error:[vg giraffe] Must provide GAM file with -G." << endl;
                     exit(1);
                 }
                 break;
@@ -714,19 +721,19 @@ int main_giraffe(int argc, char** argv) {
                 if (fastq_filename_1.empty()) {
                     fastq_filename_1 = optarg;
                     if (fastq_filename_1.empty()) {
-                        cerr << "error:[vg safari] Must provide FASTQ file with -f." << endl;
+                        cerr << "error:[vg giraffe] Must provide FASTQ file with -f." << endl;
                         exit(1);
                     }
                 }
                 else if (fastq_filename_2.empty()) {
                     fastq_filename_2 = optarg;
                     if (fastq_filename_2.empty()) {
-                        cerr << "error:[vg safari] Must provide FASTQ file with -f." << endl;
+                        cerr << "error:[vg giraffe] Must provide FASTQ file with -f." << endl;
                         exit(1);
                     }
                     paired = true;
                 } else {
-                    cerr << "error:[vg safari] Cannot specify more than two FASTQ files." << endl;
+                    cerr << "error:[vg giraffe] Cannot specify more than two FASTQ files." << endl;
                     exit(1);
                 }
                 break;
@@ -1013,7 +1020,7 @@ int main_giraffe(int argc, char** argv) {
             {
                 int num_threads = parse<int>(optarg);
                 if (num_threads <= 0) {
-                    cerr << "error:[vg safari] Thread count (-t) set to " << num_threads << ", must set to a positive integer." << endl;
+                    cerr << "error:[vg giraffe] Thread count (-t) set to " << num_threads << ", must set to a positive integer." << endl;
                     exit(1);
                 }
                 omp_set_num_threads(num_threads);
@@ -1027,6 +1034,14 @@ int main_giraffe(int argc, char** argv) {
            case 'V':
                 spurious_alignment_prior = parse<Range<double>>(optarg);
                 break;
+
+           case 'Y':
+                 deam3pfreqE =  optarg;
+                 break;
+
+           case 'y':
+                 deam5pfreqE =  optarg;
+                 break;
 
             case 'h':
             case '?':
@@ -1049,7 +1064,7 @@ int main_giraffe(int argc, char** argv) {
             fasta_parts = split_ext(fasta_parts.first);
         }
         if (fasta_parts.second != "fa" && fasta_parts.second != "fasta" && fasta_parts.second != "fna") {
-            cerr << "error:[vg safari] FASTA file " << fasta_filename << " is not named like a FASTA" << endl;
+            cerr << "error:[vg giraffe] FASTA file " << fasta_filename << " is not named like a FASTA" << endl;
             exit(1);
         }
         
@@ -1068,7 +1083,7 @@ int main_giraffe(int argc, char** argv) {
                 vcf_parts = split_ext(vcf_parts.first);
             }
             if (vcf_parts.second != "vcf") {
-                cerr << "error:[vg safari] VCF file " << vcf_filename << " is not named like a VCF" << endl;
+                cerr << "error:[vg giraffe] VCF file " << vcf_filename << " is not named like a VCF" << endl;
                 exit(1);
             }
             
@@ -1097,23 +1112,23 @@ int main_giraffe(int argc, char** argv) {
     }
     
     if (output_format != "GAM" && !output_basename.empty()) {
-        cerr << "error:[vg safari] Using an output basename (--output-basename) only makes sense for GAM format (-o)" << endl;
+        cerr << "error:[vg giraffe] Using an output basename (--output-basename) only makes sense for GAM format (-o)" << endl;
         exit(1);
     }
     
     if (interleaved && !fastq_filename_2.empty()) {
-        cerr << "error:[vg safari] Cannot designate both interleaved paired ends (-i) and separate paired end file (-f)." << endl;
+        cerr << "error:[vg giraffe] Cannot designate both interleaved paired ends (-i) and separate paired end file (-f)." << endl;
         exit(1);
     }
 
     if (!fastq_filename_1.empty() && !gam_filename.empty()) {
-        cerr << "error:[vg safari] Cannot designate both FASTQ input (-f) and GAM input (-G) in same run." << endl;
+        cerr << "error:[vg giraffe] Cannot designate both FASTQ input (-f) and GAM input (-G) in same run." << endl;
         exit(1);
     }
     
     if (have_input_file(optind, argc, argv)) {
         // TODO: work out how to interpret additional files as reads.
-        cerr << "error:[vg safari] Extraneous input file: " << get_input_file_name(optind, argc, argv) << endl;
+        cerr << "error:[vg giraffe] Extraneous input file: " << get_input_file_name(optind, argc, argv) << endl;
         exit(1);
     }
 
@@ -1178,7 +1193,7 @@ int main_giraffe(int argc, char** argv) {
         registry.make_indexes(index_targets);
     }
     catch (InsufficientInputException ex) {
-        cerr << "error:[vg safari] Input is not sufficient to create indexes" << endl;
+        cerr << "error:[vg giraffe] Input is not sufficient to create indexes" << endl;
         cerr << ex.what();
         return 1;
     }
@@ -1233,7 +1248,7 @@ int main_giraffe(int argc, char** argv) {
     if (show_progress) {
         cerr << "Initializing MinimizerMapper" << endl;
     }
-    MinimizerMapper minimizer_mapper(gbz->graph, *minimizer_index, *rymer_index, &*distance_index, path_position_graph);
+    MinimizerMapper minimizer_mapper(gbz->graph, *minimizer_index, *rymer_index, &*distance_index, path_position_graph, deam3pfreqE, deam5pfreqE);
 
     //minimizer_mapper.rymer_index.print_hash_table();
 
@@ -1588,7 +1603,7 @@ int main_giraffe(int argc, char** argv) {
                 // Define a way to force the distribution ready
                 auto require_distribution_finalized = [&]() {
                     if (!minimizer_mapper.fragment_distr_is_finalized()){
-                        cerr << "warning[vg::safari]: Finalizing fragment length distribution before reaching maximum sample size" << endl;
+                        cerr << "warning[vg::giraffe]: Finalizing fragment length distribution before reaching maximum sample size" << endl;
                         cerr << "                      mapped " << minimizer_mapper.get_fragment_length_sample_size() 
                              << " reads single ended with " << ambiguous_pair_buffer.size() << " pairs of reads left unmapped" << endl;
                         cerr << "                      mean: " << minimizer_mapper.get_fragment_length_mean() << ", stdev: " 
@@ -1629,7 +1644,7 @@ int main_giraffe(int argc, char** argv) {
                     
                     if (!minimizer_mapper.fragment_distr_is_finalized() && ambiguous_pair_buffer.size() >= MAX_BUFFERED_PAIRS) {
                         // We risk running out of memory if we keep this up.
-                        cerr << "warning[vg::safari]: Encountered " << ambiguous_pair_buffer.size() << " ambiguously-paired reads before finding enough" << endl
+                        cerr << "warning[vg::giraffe]: Encountered " << ambiguous_pair_buffer.size() << " ambiguously-paired reads before finding enough" << endl
                              << "                      unambiguously-paired reads to learn fragment length distribution. Are you sure" << endl
                              << "                      your reads are paired and your graph is not a hairball?" << endl;
                         require_distribution_finalized();
@@ -1783,4 +1798,4 @@ int main_giraffe(int argc, char** argv) {
 }
 
 // Register subcommand
-static Subcommand vg_safari("safari", "fast haplotype-aware short read alignment", PIPELINE, 6, main_giraffe);
+static Subcommand vg_giraffe("giraffe", "fast haplotype-aware short read alignment", PIPELINE, 6, main_giraffe);

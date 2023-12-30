@@ -12,15 +12,6 @@ CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: ../src/Variant.h
 CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: ../src/convert.h
 CMakeFiles/vcfcat.dir/src/vcfcat.cpp.o: ../src/join.h

@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/projects2/vgan_ancient/vg/deps/vcflib
+CMAKE_SOURCE_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/projects2/vgan_ancient/vg/deps/vcflib/build
+CMAKE_BINARY_DIR = /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -244,14 +244,14 @@ clean: CMakeFiles/vcfglxgt.dir/clean
 CMakeFiles/man.dir/all:
 	$(MAKE) -f CMakeFiles/man.dir/build.make CMakeFiles/man.dir/depend
 	$(MAKE) -f CMakeFiles/man.dir/build.make CMakeFiles/man.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num= "Built target man"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num= "Built target man"
 .PHONY : CMakeFiles/man.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/man.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/man.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/man.dir/rule
 
 # Convenience name for target.
@@ -271,14 +271,14 @@ CMakeFiles/man.dir/clean:
 CMakeFiles/vcfglbound.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfglbound.dir/build.make CMakeFiles/vcfglbound.dir/depend
 	$(MAKE) -f CMakeFiles/vcfglbound.dir/build.make CMakeFiles/vcfglbound.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=55 "Built target vcfglbound"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=55 "Built target vcfglbound"
 .PHONY : CMakeFiles/vcfglbound.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfglbound.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfglbound.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfglbound.dir/rule
 
 # Convenience name for target.
@@ -298,14 +298,14 @@ CMakeFiles/vcfglbound.dir/clean:
 CMakeFiles/vcfinfo2qual.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfinfo2qual.dir/build.make CMakeFiles/vcfinfo2qual.dir/depend
 	$(MAKE) -f CMakeFiles/vcfinfo2qual.dir/build.make CMakeFiles/vcfinfo2qual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=60 "Built target vcfinfo2qual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=60 "Built target vcfinfo2qual"
 .PHONY : CMakeFiles/vcfinfo2qual.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfinfo2qual.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfinfo2qual.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfinfo2qual.dir/rule
 
 # Convenience name for target.
@@ -325,14 +325,14 @@ CMakeFiles/vcfinfo2qual.dir/clean:
 CMakeFiles/vcfqual2info.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfqual2info.dir/build.make CMakeFiles/vcfqual2info.dir/depend
 	$(MAKE) -f CMakeFiles/vcfqual2info.dir/build.make CMakeFiles/vcfqual2info.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=83 "Built target vcfqual2info"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=83 "Built target vcfqual2info"
 .PHONY : CMakeFiles/vcfqual2info.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfqual2info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfqual2info.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfqual2info.dir/rule
 
 # Convenience name for target.
@@ -352,14 +352,14 @@ CMakeFiles/vcfqual2info.dir/clean:
 CMakeFiles/vcfsample2info.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfsample2info.dir/build.make CMakeFiles/vcfsample2info.dir/depend
 	$(MAKE) -f CMakeFiles/vcfsample2info.dir/build.make CMakeFiles/vcfsample2info.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=91 "Built target vcfsample2info"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=91 "Built target vcfsample2info"
 .PHONY : CMakeFiles/vcfsample2info.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfsample2info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfsample2info.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfsample2info.dir/rule
 
 # Convenience name for target.
@@ -379,14 +379,14 @@ CMakeFiles/vcfsample2info.dir/clean:
 CMakeFiles/vcf2dag.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcf2dag.dir/build.make CMakeFiles/vcf2dag.dir/depend
 	$(MAKE) -f CMakeFiles/vcf2dag.dir/build.make CMakeFiles/vcf2dag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=20 "Built target vcf2dag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=20 "Built target vcf2dag"
 .PHONY : CMakeFiles/vcf2dag.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcf2dag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcf2dag.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcf2dag.dir/rule
 
 # Convenience name for target.
@@ -406,14 +406,14 @@ CMakeFiles/vcf2dag.dir/clean:
 CMakeFiles/vcfgeno2alleles.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfgeno2alleles.dir/build.make CMakeFiles/vcfgeno2alleles.dir/depend
 	$(MAKE) -f CMakeFiles/vcfgeno2alleles.dir/build.make CMakeFiles/vcfgeno2alleles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=48 "Built target vcfgeno2alleles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=48 "Built target vcfgeno2alleles"
 .PHONY : CMakeFiles/vcfgeno2alleles.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfgeno2alleles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfgeno2alleles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfgeno2alleles.dir/rule
 
 # Convenience name for target.
@@ -433,14 +433,14 @@ CMakeFiles/vcfgeno2alleles.dir/clean:
 CMakeFiles/vcfcombine.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfcombine.dir/build.make CMakeFiles/vcfcombine.dir/depend
 	$(MAKE) -f CMakeFiles/vcfcombine.dir/build.make CMakeFiles/vcfcombine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=36 "Built target vcfcombine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=36 "Built target vcfcombine"
 .PHONY : CMakeFiles/vcfcombine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfcombine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfcombine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfcombine.dir/rule
 
 # Convenience name for target.
@@ -460,14 +460,14 @@ CMakeFiles/vcfcombine.dir/clean:
 CMakeFiles/vcfgenosamplenames.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfgenosamplenames.dir/build.make CMakeFiles/vcfgenosamplenames.dir/depend
 	$(MAKE) -f CMakeFiles/vcfgenosamplenames.dir/build.make CMakeFiles/vcfgenosamplenames.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=50 "Built target vcfgenosamplenames"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=50 "Built target vcfgenosamplenames"
 .PHONY : CMakeFiles/vcfgenosamplenames.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfgenosamplenames.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfgenosamplenames.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfgenosamplenames.dir/rule
 
 # Convenience name for target.
@@ -487,14 +487,14 @@ CMakeFiles/vcfgenosamplenames.dir/clean:
 CMakeFiles/vcfevenregions.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfevenregions.dir/build.make CMakeFiles/vcfevenregions.dir/depend
 	$(MAKE) -f CMakeFiles/vcfevenregions.dir/build.make CMakeFiles/vcfevenregions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=44 "Built target vcfevenregions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=44 "Built target vcfevenregions"
 .PHONY : CMakeFiles/vcfevenregions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfevenregions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfevenregions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfevenregions.dir/rule
 
 # Convenience name for target.
@@ -514,14 +514,14 @@ CMakeFiles/vcfevenregions.dir/clean:
 CMakeFiles/vcfbreakmulti.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfbreakmulti.dir/build.make CMakeFiles/vcfbreakmulti.dir/depend
 	$(MAKE) -f CMakeFiles/vcfbreakmulti.dir/build.make CMakeFiles/vcfbreakmulti.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=30 "Built target vcfbreakmulti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=30 "Built target vcfbreakmulti"
 .PHONY : CMakeFiles/vcfbreakmulti.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfbreakmulti.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfbreakmulti.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfbreakmulti.dir/rule
 
 # Convenience name for target.
@@ -541,14 +541,14 @@ CMakeFiles/vcfbreakmulti.dir/clean:
 CMakeFiles/vcfsitesummarize.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfsitesummarize.dir/build.make CMakeFiles/vcfsitesummarize.dir/depend
 	$(MAKE) -f CMakeFiles/vcfsitesummarize.dir/build.make CMakeFiles/vcfsitesummarize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=94 "Built target vcfsitesummarize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=94 "Built target vcfsitesummarize"
 .PHONY : CMakeFiles/vcfsitesummarize.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfsitesummarize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfsitesummarize.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfsitesummarize.dir/rule
 
 # Convenience name for target.
@@ -568,14 +568,14 @@ CMakeFiles/vcfsitesummarize.dir/clean:
 CMakeFiles/vcfleftalign.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfleftalign.dir/build.make CMakeFiles/vcfleftalign.dir/depend
 	$(MAKE) -f CMakeFiles/vcfleftalign.dir/build.make CMakeFiles/vcfleftalign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=68 "Built target vcfleftalign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=68 "Built target vcfleftalign"
 .PHONY : CMakeFiles/vcfleftalign.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfleftalign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfleftalign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfleftalign.dir/rule
 
 # Convenience name for target.
@@ -595,14 +595,14 @@ CMakeFiles/vcfleftalign.dir/clean:
 CMakeFiles/vcfremap.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfremap.dir/build.make CMakeFiles/vcfremap.dir/depend
 	$(MAKE) -f CMakeFiles/vcfremap.dir/build.make CMakeFiles/vcfremap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=86 "Built target vcfremap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=86 "Built target vcfremap"
 .PHONY : CMakeFiles/vcfremap.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfremap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfremap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfremap.dir/rule
 
 # Convenience name for target.
@@ -622,14 +622,14 @@ CMakeFiles/vcfremap.dir/clean:
 CMakeFiles/vcfstreamsort.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfstreamsort.dir/build.make CMakeFiles/vcfstreamsort.dir/depend
 	$(MAKE) -f CMakeFiles/vcfstreamsort.dir/build.make CMakeFiles/vcfstreamsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=96 "Built target vcfstreamsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=96 "Built target vcfstreamsort"
 .PHONY : CMakeFiles/vcfstreamsort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfstreamsort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfstreamsort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfstreamsort.dir/rule
 
 # Convenience name for target.
@@ -649,14 +649,14 @@ CMakeFiles/vcfstreamsort.dir/clean:
 CMakeFiles/vcfroc.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfroc.dir/build.make CMakeFiles/vcfroc.dir/depend
 	$(MAKE) -f CMakeFiles/vcfroc.dir/build.make CMakeFiles/vcfroc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=89,90 "Built target vcfroc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=89,90 "Built target vcfroc"
 .PHONY : CMakeFiles/vcfroc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfroc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfroc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfroc.dir/rule
 
 # Convenience name for target.
@@ -676,14 +676,14 @@ CMakeFiles/vcfroc.dir/clean:
 CMakeFiles/vcf2tsv.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcf2tsv.dir/build.make CMakeFiles/vcf2tsv.dir/depend
 	$(MAKE) -f CMakeFiles/vcf2tsv.dir/build.make CMakeFiles/vcf2tsv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=23 "Built target vcf2tsv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=23 "Built target vcf2tsv"
 .PHONY : CMakeFiles/vcf2tsv.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcf2tsv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcf2tsv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcf2tsv.dir/rule
 
 # Convenience name for target.
@@ -703,14 +703,14 @@ CMakeFiles/vcf2tsv.dir/clean:
 CMakeFiles/vcfhethomratio.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfhethomratio.dir/build.make CMakeFiles/vcfhethomratio.dir/depend
 	$(MAKE) -f CMakeFiles/vcfhethomratio.dir/build.make CMakeFiles/vcfhethomratio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=58 "Built target vcfhethomratio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=58 "Built target vcfhethomratio"
 .PHONY : CMakeFiles/vcfhethomratio.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfhethomratio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfhethomratio.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfhethomratio.dir/rule
 
 # Convenience name for target.
@@ -730,14 +730,14 @@ CMakeFiles/vcfhethomratio.dir/clean:
 CMakeFiles/meltEHH.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/meltEHH.dir/build.make CMakeFiles/meltEHH.dir/depend
 	$(MAKE) -f CMakeFiles/meltEHH.dir/build.make CMakeFiles/meltEHH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=7 "Built target meltEHH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=7 "Built target meltEHH"
 .PHONY : CMakeFiles/meltEHH.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/meltEHH.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/meltEHH.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/meltEHH.dir/rule
 
 # Convenience name for target.
@@ -757,14 +757,14 @@ CMakeFiles/meltEHH.dir/clean:
 CMakeFiles/vcfallelicprimitives.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfallelicprimitives.dir/build.make CMakeFiles/vcfallelicprimitives.dir/depend
 	$(MAKE) -f CMakeFiles/vcfallelicprimitives.dir/build.make CMakeFiles/vcfallelicprimitives.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=26 "Built target vcfallelicprimitives"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=26 "Built target vcfallelicprimitives"
 .PHONY : CMakeFiles/vcfallelicprimitives.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfallelicprimitives.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfallelicprimitives.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfallelicprimitives.dir/rule
 
 # Convenience name for target.
@@ -784,14 +784,14 @@ CMakeFiles/vcfallelicprimitives.dir/clean:
 CMakeFiles/vcfuniq.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfuniq.dir/build.make CMakeFiles/vcfuniq.dir/depend
 	$(MAKE) -f CMakeFiles/vcfuniq.dir/build.make CMakeFiles/vcfuniq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=97 "Built target vcfuniq"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=97 "Built target vcfuniq"
 .PHONY : CMakeFiles/vcfuniq.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfuniq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfuniq.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfuniq.dir/rule
 
 # Convenience name for target.
@@ -811,14 +811,14 @@ CMakeFiles/vcfuniq.dir/clean:
 CMakeFiles/vcfhetcount.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfhetcount.dir/build.make CMakeFiles/vcfhetcount.dir/depend
 	$(MAKE) -f CMakeFiles/vcfhetcount.dir/build.make CMakeFiles/vcfhetcount.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=57 "Built target vcfhetcount"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=57 "Built target vcfhetcount"
 .PHONY : CMakeFiles/vcfhetcount.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfhetcount.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfhetcount.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfhetcount.dir/rule
 
 # Convenience name for target.
@@ -838,14 +838,14 @@ CMakeFiles/vcfhetcount.dir/clean:
 CMakeFiles/vcfcommonsamples.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfcommonsamples.dir/build.make CMakeFiles/vcfcommonsamples.dir/depend
 	$(MAKE) -f CMakeFiles/vcfcommonsamples.dir/build.make CMakeFiles/vcfcommonsamples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=37 "Built target vcfcommonsamples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=37 "Built target vcfcommonsamples"
 .PHONY : CMakeFiles/vcfcommonsamples.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfcommonsamples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfcommonsamples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfcommonsamples.dir/rule
 
 # Convenience name for target.
@@ -865,14 +865,14 @@ CMakeFiles/vcfcommonsamples.dir/clean:
 CMakeFiles/vcfindex.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfindex.dir/build.make CMakeFiles/vcfindex.dir/depend
 	$(MAKE) -f CMakeFiles/vcfindex.dir/build.make CMakeFiles/vcfindex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=59 "Built target vcfindex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=59 "Built target vcfindex"
 .PHONY : CMakeFiles/vcfindex.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfindex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfindex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfindex.dir/rule
 
 # Convenience name for target.
@@ -892,14 +892,14 @@ CMakeFiles/vcfindex.dir/clean:
 CMakeFiles/permuteGPAT++.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/permuteGPAT++.dir/build.make CMakeFiles/permuteGPAT++.dir/depend
 	$(MAKE) -f CMakeFiles/permuteGPAT++.dir/build.make CMakeFiles/permuteGPAT++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=12 "Built target permuteGPAT++"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=12 "Built target permuteGPAT++"
 .PHONY : CMakeFiles/permuteGPAT++.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/permuteGPAT++.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/permuteGPAT++.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/permuteGPAT++.dir/rule
 
 # Convenience name for target.
@@ -919,14 +919,14 @@ CMakeFiles/permuteGPAT++.dir/clean:
 CMakeFiles/abba-baba.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/abba-baba.dir/build.make CMakeFiles/abba-baba.dir/depend
 	$(MAKE) -f CMakeFiles/abba-baba.dir/build.make CMakeFiles/abba-baba.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=1 "Built target abba-baba"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=1 "Built target abba-baba"
 .PHONY : CMakeFiles/abba-baba.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/abba-baba.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/abba-baba.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/abba-baba.dir/rule
 
 # Convenience name for target.
@@ -946,14 +946,14 @@ CMakeFiles/abba-baba.dir/clean:
 CMakeFiles/vcfuniqalleles.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfuniqalleles.dir/build.make CMakeFiles/vcfuniqalleles.dir/depend
 	$(MAKE) -f CMakeFiles/vcfuniqalleles.dir/build.make CMakeFiles/vcfuniqalleles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=98 "Built target vcfuniqalleles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=98 "Built target vcfuniqalleles"
 .PHONY : CMakeFiles/vcfuniqalleles.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfuniqalleles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfuniqalleles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfuniqalleles.dir/rule
 
 # Convenience name for target.
@@ -973,14 +973,14 @@ CMakeFiles/vcfuniqalleles.dir/clean:
 CMakeFiles/vcfld.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfld.dir/build.make CMakeFiles/vcfld.dir/depend
 	$(MAKE) -f CMakeFiles/vcfld.dir/build.make CMakeFiles/vcfld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=67 "Built target vcfld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=67 "Built target vcfld"
 .PHONY : CMakeFiles/vcfld.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfld.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfld.dir/rule
 
 # Convenience name for target.
@@ -1000,14 +1000,14 @@ CMakeFiles/vcfld.dir/clean:
 CMakeFiles/vcf2fasta.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcf2fasta.dir/build.make CMakeFiles/vcf2fasta.dir/depend
 	$(MAKE) -f CMakeFiles/vcf2fasta.dir/build.make CMakeFiles/vcf2fasta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=21,22 "Built target vcf2fasta"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=21,22 "Built target vcf2fasta"
 .PHONY : CMakeFiles/vcf2fasta.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcf2fasta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcf2fasta.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcf2fasta.dir/rule
 
 # Convenience name for target.
@@ -1027,14 +1027,14 @@ CMakeFiles/vcf2fasta.dir/clean:
 CMakeFiles/plotHaps.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/plotHaps.dir/build.make CMakeFiles/plotHaps.dir/depend
 	$(MAKE) -f CMakeFiles/plotHaps.dir/build.make CMakeFiles/plotHaps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=14 "Built target plotHaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=14 "Built target plotHaps"
 .PHONY : CMakeFiles/plotHaps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/plotHaps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/plotHaps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/plotHaps.dir/rule
 
 # Convenience name for target.
@@ -1054,14 +1054,14 @@ CMakeFiles/plotHaps.dir/clean:
 CMakeFiles/segmentFst.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/segmentFst.dir/build.make CMakeFiles/segmentFst.dir/depend
 	$(MAKE) -f CMakeFiles/segmentFst.dir/build.make CMakeFiles/segmentFst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=16 "Built target segmentFst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=16 "Built target segmentFst"
 .PHONY : CMakeFiles/segmentFst.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/segmentFst.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/segmentFst.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/segmentFst.dir/rule
 
 # Convenience name for target.
@@ -1081,14 +1081,14 @@ CMakeFiles/segmentFst.dir/clean:
 CMakeFiles/vcffixup.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcffixup.dir/build.make CMakeFiles/vcffixup.dir/depend
 	$(MAKE) -f CMakeFiles/vcffixup.dir/build.make CMakeFiles/vcffixup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=46 "Built target vcffixup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=46 "Built target vcffixup"
 .PHONY : CMakeFiles/vcffixup.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcffixup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcffixup.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcffixup.dir/rule
 
 # Convenience name for target.
@@ -1108,14 +1108,14 @@ CMakeFiles/vcffixup.dir/clean:
 CMakeFiles/pVst.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/pVst.dir/build.make CMakeFiles/pVst.dir/depend
 	$(MAKE) -f CMakeFiles/pVst.dir/build.make CMakeFiles/pVst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=10,11 "Built target pVst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=10,11 "Built target pVst"
 .PHONY : CMakeFiles/pVst.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pVst.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pVst.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/pVst.dir/rule
 
 # Convenience name for target.
@@ -1135,14 +1135,14 @@ CMakeFiles/pVst.dir/clean:
 CMakeFiles/vcfcheck.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfcheck.dir/build.make CMakeFiles/vcfcheck.dir/depend
 	$(MAKE) -f CMakeFiles/vcfcheck.dir/build.make CMakeFiles/vcfcheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=33 "Built target vcfcheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=33 "Built target vcfcheck"
 .PHONY : CMakeFiles/vcfcheck.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfcheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfcheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfcheck.dir/rule
 
 # Convenience name for target.
@@ -1162,14 +1162,14 @@ CMakeFiles/vcfcheck.dir/clean:
 CMakeFiles/vcfaltcount.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfaltcount.dir/build.make CMakeFiles/vcfaltcount.dir/depend
 	$(MAKE) -f CMakeFiles/vcfaltcount.dir/build.make CMakeFiles/vcfaltcount.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=27 "Built target vcfaltcount"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=27 "Built target vcfaltcount"
 .PHONY : CMakeFiles/vcfaltcount.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfaltcount.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfaltcount.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfaltcount.dir/rule
 
 # Convenience name for target.
@@ -1189,14 +1189,14 @@ CMakeFiles/vcfaltcount.dir/clean:
 CMakeFiles/dumpContigsFromHeader.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/dumpContigsFromHeader.dir/build.make CMakeFiles/dumpContigsFromHeader.dir/depend
 	$(MAKE) -f CMakeFiles/dumpContigsFromHeader.dir/build.make CMakeFiles/dumpContigsFromHeader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=3 "Built target dumpContigsFromHeader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=3 "Built target dumpContigsFromHeader"
 .PHONY : CMakeFiles/dumpContigsFromHeader.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dumpContigsFromHeader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dumpContigsFromHeader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/dumpContigsFromHeader.dir/rule
 
 # Convenience name for target.
@@ -1216,14 +1216,14 @@ CMakeFiles/dumpContigsFromHeader.dir/clean:
 CMakeFiles/pFst.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/pFst.dir/build.make CMakeFiles/pFst.dir/depend
 	$(MAKE) -f CMakeFiles/pFst.dir/build.make CMakeFiles/pFst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=9 "Built target pFst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=9 "Built target pFst"
 .PHONY : CMakeFiles/pFst.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pFst.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pFst.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/pFst.dir/rule
 
 # Convenience name for target.
@@ -1243,14 +1243,14 @@ CMakeFiles/pFst.dir/clean:
 CMakeFiles/popStats.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/popStats.dir/build.make CMakeFiles/popStats.dir/depend
 	$(MAKE) -f CMakeFiles/popStats.dir/build.make CMakeFiles/popStats.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=15 "Built target popStats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=15 "Built target popStats"
 .PHONY : CMakeFiles/popStats.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/popStats.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/popStats.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/popStats.dir/rule
 
 # Convenience name for target.
@@ -1270,14 +1270,14 @@ CMakeFiles/popStats.dir/clean:
 CMakeFiles/vcfcreatemulti.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfcreatemulti.dir/build.make CMakeFiles/vcfcreatemulti.dir/depend
 	$(MAKE) -f CMakeFiles/vcfcreatemulti.dir/build.make CMakeFiles/vcfcreatemulti.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=39 "Built target vcfcreatemulti"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=39 "Built target vcfcreatemulti"
 .PHONY : CMakeFiles/vcfcreatemulti.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfcreatemulti.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfcreatemulti.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfcreatemulti.dir/rule
 
 # Convenience name for target.
@@ -1297,14 +1297,14 @@ CMakeFiles/vcfcreatemulti.dir/clean:
 CMakeFiles/vcfrandomsample.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfrandomsample.dir/build.make CMakeFiles/vcfrandomsample.dir/depend
 	$(MAKE) -f CMakeFiles/vcfrandomsample.dir/build.make CMakeFiles/vcfrandomsample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=85 "Built target vcfrandomsample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=85 "Built target vcfrandomsample"
 .PHONY : CMakeFiles/vcfrandomsample.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfrandomsample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfrandomsample.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfrandomsample.dir/rule
 
 # Convenience name for target.
@@ -1324,14 +1324,14 @@ CMakeFiles/vcfrandomsample.dir/clean:
 CMakeFiles/vcfannotategenotypes.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfannotategenotypes.dir/build.make CMakeFiles/vcfannotategenotypes.dir/depend
 	$(MAKE) -f CMakeFiles/vcfannotategenotypes.dir/build.make CMakeFiles/vcfannotategenotypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=29 "Built target vcfannotategenotypes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=29 "Built target vcfannotategenotypes"
 .PHONY : CMakeFiles/vcfannotategenotypes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfannotategenotypes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfannotategenotypes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfannotategenotypes.dir/rule
 
 # Convenience name for target.
@@ -1351,14 +1351,14 @@ CMakeFiles/vcfannotategenotypes.dir/clean:
 CMakeFiles/bFst.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/bFst.dir/build.make CMakeFiles/bFst.dir/depend
 	$(MAKE) -f CMakeFiles/bFst.dir/build.make CMakeFiles/bFst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=2 "Built target bFst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=2 "Built target bFst"
 .PHONY : CMakeFiles/bFst.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bFst.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bFst.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/bFst.dir/rule
 
 # Convenience name for target.
@@ -1378,14 +1378,14 @@ CMakeFiles/bFst.dir/clean:
 CMakeFiles/normalize-iHS.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/normalize-iHS.dir/build.make CMakeFiles/normalize-iHS.dir/depend
 	$(MAKE) -f CMakeFiles/normalize-iHS.dir/build.make CMakeFiles/normalize-iHS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=8 "Built target normalize-iHS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=8 "Built target normalize-iHS"
 .PHONY : CMakeFiles/normalize-iHS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/normalize-iHS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/normalize-iHS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/normalize-iHS.dir/rule
 
 # Convenience name for target.
@@ -1405,14 +1405,14 @@ CMakeFiles/normalize-iHS.dir/clean:
 CMakeFiles/sequenceDiversity.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/sequenceDiversity.dir/build.make CMakeFiles/sequenceDiversity.dir/depend
 	$(MAKE) -f CMakeFiles/sequenceDiversity.dir/build.make CMakeFiles/sequenceDiversity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=18 "Built target sequenceDiversity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=18 "Built target sequenceDiversity"
 .PHONY : CMakeFiles/sequenceDiversity.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sequenceDiversity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sequenceDiversity.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/sequenceDiversity.dir/rule
 
 # Convenience name for target.
@@ -1432,14 +1432,14 @@ CMakeFiles/sequenceDiversity.dir/clean:
 CMakeFiles/segmentIhs.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/segmentIhs.dir/build.make CMakeFiles/segmentIhs.dir/depend
 	$(MAKE) -f CMakeFiles/segmentIhs.dir/build.make CMakeFiles/segmentIhs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=17 "Built target segmentIhs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=17 "Built target segmentIhs"
 .PHONY : CMakeFiles/segmentIhs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/segmentIhs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/segmentIhs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/segmentIhs.dir/rule
 
 # Convenience name for target.
@@ -1459,14 +1459,14 @@ CMakeFiles/segmentIhs.dir/clean:
 CMakeFiles/hapLrt.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/hapLrt.dir/build.make CMakeFiles/hapLrt.dir/depend
 	$(MAKE) -f CMakeFiles/hapLrt.dir/build.make CMakeFiles/hapLrt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=5 "Built target hapLrt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=5 "Built target hapLrt"
 .PHONY : CMakeFiles/hapLrt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hapLrt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hapLrt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/hapLrt.dir/rule
 
 # Convenience name for target.
@@ -1486,14 +1486,14 @@ CMakeFiles/hapLrt.dir/clean:
 CMakeFiles/wcFst.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/wcFst.dir/build.make CMakeFiles/wcFst.dir/depend
 	$(MAKE) -f CMakeFiles/wcFst.dir/build.make CMakeFiles/wcFst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=99,100 "Built target wcFst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=99,100 "Built target wcFst"
 .PHONY : CMakeFiles/wcFst.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wcFst.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wcFst.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/wcFst.dir/rule
 
 # Convenience name for target.
@@ -1513,14 +1513,14 @@ CMakeFiles/wcFst.dir/clean:
 CMakeFiles/vcffilter.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcffilter.dir/build.make CMakeFiles/vcffilter.dir/depend
 	$(MAKE) -f CMakeFiles/vcffilter.dir/build.make CMakeFiles/vcffilter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=45 "Built target vcffilter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=45 "Built target vcffilter"
 .PHONY : CMakeFiles/vcffilter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcffilter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcffilter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcffilter.dir/rule
 
 # Convenience name for target.
@@ -1540,14 +1540,14 @@ CMakeFiles/vcffilter.dir/clean:
 CMakeFiles/vcfrandom.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfrandom.dir/build.make CMakeFiles/vcfrandom.dir/depend
 	$(MAKE) -f CMakeFiles/vcfrandom.dir/build.make CMakeFiles/vcfrandom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=84 "Built target vcfrandom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=84 "Built target vcfrandom"
 .PHONY : CMakeFiles/vcfrandom.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfrandom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfrandom.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfrandom.dir/rule
 
 # Convenience name for target.
@@ -1567,14 +1567,14 @@ CMakeFiles/vcfrandom.dir/clean:
 CMakeFiles/vcflib.dir/all:
 	$(MAKE) -f CMakeFiles/vcflib.dir/build.make CMakeFiles/vcflib.dir/depend
 	$(MAKE) -f CMakeFiles/vcflib.dir/build.make CMakeFiles/vcflib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=70,71,72,73,74,75,76,77 "Built target vcflib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=70,71,72,73,74,75,76,77 "Built target vcflib"
 .PHONY : CMakeFiles/vcflib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcflib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcflib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcflib.dir/rule
 
 # Convenience name for target.
@@ -1594,14 +1594,14 @@ CMakeFiles/vcflib.dir/clean:
 CMakeFiles/permuteSmooth.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/permuteSmooth.dir/build.make CMakeFiles/permuteSmooth.dir/depend
 	$(MAKE) -f CMakeFiles/permuteSmooth.dir/build.make CMakeFiles/permuteSmooth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=13 "Built target permuteSmooth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=13 "Built target permuteSmooth"
 .PHONY : CMakeFiles/permuteSmooth.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/permuteSmooth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/permuteSmooth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/permuteSmooth.dir/rule
 
 # Convenience name for target.
@@ -1621,14 +1621,14 @@ CMakeFiles/permuteSmooth.dir/clean:
 CMakeFiles/genotypeSummary.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/genotypeSummary.dir/build.make CMakeFiles/genotypeSummary.dir/depend
 	$(MAKE) -f CMakeFiles/genotypeSummary.dir/build.make CMakeFiles/genotypeSummary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=4 "Built target genotypeSummary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=4 "Built target genotypeSummary"
 .PHONY : CMakeFiles/genotypeSummary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/genotypeSummary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/genotypeSummary.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/genotypeSummary.dir/rule
 
 # Convenience name for target.
@@ -1648,14 +1648,14 @@ CMakeFiles/genotypeSummary.dir/clean:
 CMakeFiles/vcfecho.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfecho.dir/build.make CMakeFiles/vcfecho.dir/depend
 	$(MAKE) -f CMakeFiles/vcfecho.dir/build.make CMakeFiles/vcfecho.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=41 "Built target vcfecho"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=41 "Built target vcfecho"
 .PHONY : CMakeFiles/vcfecho.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfecho.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfecho.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfecho.dir/rule
 
 # Convenience name for target.
@@ -1675,14 +1675,14 @@ CMakeFiles/vcfecho.dir/clean:
 CMakeFiles/vcfclassify.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfclassify.dir/build.make CMakeFiles/vcfclassify.dir/depend
 	$(MAKE) -f CMakeFiles/vcfclassify.dir/build.make CMakeFiles/vcfclassify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=34 "Built target vcfclassify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=34 "Built target vcfclassify"
 .PHONY : CMakeFiles/vcfclassify.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfclassify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfclassify.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfclassify.dir/rule
 
 # Convenience name for target.
@@ -1702,14 +1702,14 @@ CMakeFiles/vcfclassify.dir/clean:
 CMakeFiles/vcfremovesamples.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfremovesamples.dir/build.make CMakeFiles/vcfremovesamples.dir/depend
 	$(MAKE) -f CMakeFiles/vcfremovesamples.dir/build.make CMakeFiles/vcfremovesamples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=88 "Built target vcfremovesamples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=88 "Built target vcfremovesamples"
 .PHONY : CMakeFiles/vcfremovesamples.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfremovesamples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfremovesamples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfremovesamples.dir/rule
 
 # Convenience name for target.
@@ -1729,14 +1729,14 @@ CMakeFiles/vcfremovesamples.dir/clean:
 CMakeFiles/vcfentropy.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfentropy.dir/build.make CMakeFiles/vcfentropy.dir/depend
 	$(MAKE) -f CMakeFiles/vcfentropy.dir/build.make CMakeFiles/vcfentropy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=42,43 "Built target vcfentropy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=42,43 "Built target vcfentropy"
 .PHONY : CMakeFiles/vcfentropy.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfentropy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfentropy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfentropy.dir/rule
 
 # Convenience name for target.
@@ -1756,14 +1756,14 @@ CMakeFiles/vcfentropy.dir/clean:
 CMakeFiles/vcfkeepsamples.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfkeepsamples.dir/build.make CMakeFiles/vcfkeepsamples.dir/depend
 	$(MAKE) -f CMakeFiles/vcfkeepsamples.dir/build.make CMakeFiles/vcfkeepsamples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=66 "Built target vcfkeepsamples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=66 "Built target vcfkeepsamples"
 .PHONY : CMakeFiles/vcfkeepsamples.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfkeepsamples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfkeepsamples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfkeepsamples.dir/rule
 
 # Convenience name for target.
@@ -1783,14 +1783,14 @@ CMakeFiles/vcfkeepsamples.dir/clean:
 CMakeFiles/vcfsamplenames.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfsamplenames.dir/build.make CMakeFiles/vcfsamplenames.dir/depend
 	$(MAKE) -f CMakeFiles/vcfsamplenames.dir/build.make CMakeFiles/vcfsamplenames.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=93 "Built target vcfsamplenames"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=93 "Built target vcfsamplenames"
 .PHONY : CMakeFiles/vcfsamplenames.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfsamplenames.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfsamplenames.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfsamplenames.dir/rule
 
 # Convenience name for target.
@@ -1810,14 +1810,14 @@ CMakeFiles/vcfsamplenames.dir/clean:
 CMakeFiles/vcfinfosummarize.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfinfosummarize.dir/build.make CMakeFiles/vcfinfosummarize.dir/depend
 	$(MAKE) -f CMakeFiles/vcfinfosummarize.dir/build.make CMakeFiles/vcfinfosummarize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=61 "Built target vcfinfosummarize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=61 "Built target vcfinfosummarize"
 .PHONY : CMakeFiles/vcfinfosummarize.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfinfosummarize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfinfosummarize.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfinfosummarize.dir/rule
 
 # Convenience name for target.
@@ -1837,14 +1837,14 @@ CMakeFiles/vcfinfosummarize.dir/clean:
 CMakeFiles/vcfgenotypecompare.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfgenotypecompare.dir/build.make CMakeFiles/vcfgenotypecompare.dir/depend
 	$(MAKE) -f CMakeFiles/vcfgenotypecompare.dir/build.make CMakeFiles/vcfgenotypecompare.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=52,53 "Built target vcfgenotypecompare"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=52,53 "Built target vcfgenotypecompare"
 .PHONY : CMakeFiles/vcfgenotypecompare.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfgenotypecompare.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfgenotypecompare.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfgenotypecompare.dir/rule
 
 # Convenience name for target.
@@ -1864,14 +1864,14 @@ CMakeFiles/vcfgenotypecompare.dir/clean:
 CMakeFiles/vcfgeno2haplo.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfgeno2haplo.dir/build.make CMakeFiles/vcfgeno2haplo.dir/depend
 	$(MAKE) -f CMakeFiles/vcfgeno2haplo.dir/build.make CMakeFiles/vcfgeno2haplo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=49 "Built target vcfgeno2haplo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=49 "Built target vcfgeno2haplo"
 .PHONY : CMakeFiles/vcfgeno2haplo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfgeno2haplo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfgeno2haplo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfgeno2haplo.dir/rule
 
 # Convenience name for target.
@@ -1891,14 +1891,14 @@ CMakeFiles/vcfgeno2haplo.dir/clean:
 CMakeFiles/vcfsamplediff.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfsamplediff.dir/build.make CMakeFiles/vcfsamplediff.dir/depend
 	$(MAKE) -f CMakeFiles/vcfsamplediff.dir/build.make CMakeFiles/vcfsamplediff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=92 "Built target vcfsamplediff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=92 "Built target vcfsamplediff"
 .PHONY : CMakeFiles/vcfsamplediff.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfsamplediff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfsamplediff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfsamplediff.dir/rule
 
 # Convenience name for target.
@@ -1918,14 +1918,14 @@ CMakeFiles/vcfsamplediff.dir/clean:
 CMakeFiles/vcfremoveaberrantgenotypes.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfremoveaberrantgenotypes.dir/build.make CMakeFiles/vcfremoveaberrantgenotypes.dir/depend
 	$(MAKE) -f CMakeFiles/vcfremoveaberrantgenotypes.dir/build.make CMakeFiles/vcfremoveaberrantgenotypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=87 "Built target vcfremoveaberrantgenotypes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=87 "Built target vcfremoveaberrantgenotypes"
 .PHONY : CMakeFiles/vcfremoveaberrantgenotypes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfremoveaberrantgenotypes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfremoveaberrantgenotypes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfremoveaberrantgenotypes.dir/rule
 
 # Convenience name for target.
@@ -1945,14 +1945,14 @@ CMakeFiles/vcfremoveaberrantgenotypes.dir/clean:
 CMakeFiles/vcfparsealts.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfparsealts.dir/build.make CMakeFiles/vcfparsealts.dir/depend
 	$(MAKE) -f CMakeFiles/vcfparsealts.dir/build.make CMakeFiles/vcfparsealts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=81 "Built target vcfparsealts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=81 "Built target vcfparsealts"
 .PHONY : CMakeFiles/vcfparsealts.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfparsealts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfparsealts.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfparsealts.dir/rule
 
 # Convenience name for target.
@@ -1972,14 +1972,14 @@ CMakeFiles/vcfparsealts.dir/clean:
 CMakeFiles/vcfafpath.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfafpath.dir/build.make CMakeFiles/vcfafpath.dir/depend
 	$(MAKE) -f CMakeFiles/vcfafpath.dir/build.make CMakeFiles/vcfafpath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=25 "Built target vcfafpath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=25 "Built target vcfafpath"
 .PHONY : CMakeFiles/vcfafpath.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfafpath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfafpath.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfafpath.dir/rule
 
 # Convenience name for target.
@@ -1999,14 +1999,14 @@ CMakeFiles/vcfafpath.dir/clean:
 CMakeFiles/vcfstats.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfstats.dir/build.make CMakeFiles/vcfstats.dir/depend
 	$(MAKE) -f CMakeFiles/vcfstats.dir/build.make CMakeFiles/vcfstats.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=95 "Built target vcfstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=95 "Built target vcfstats"
 .PHONY : CMakeFiles/vcfstats.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfstats.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfstats.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfstats.dir/rule
 
 # Convenience name for target.
@@ -2026,14 +2026,14 @@ CMakeFiles/vcfstats.dir/clean:
 CMakeFiles/vcfflatten.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfflatten.dir/build.make CMakeFiles/vcfflatten.dir/depend
 	$(MAKE) -f CMakeFiles/vcfflatten.dir/build.make CMakeFiles/vcfflatten.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=47 "Built target vcfflatten"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=47 "Built target vcfflatten"
 .PHONY : CMakeFiles/vcfflatten.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfflatten.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfflatten.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfflatten.dir/rule
 
 # Convenience name for target.
@@ -2053,14 +2053,14 @@ CMakeFiles/vcfflatten.dir/clean:
 CMakeFiles/vcfprimers.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfprimers.dir/build.make CMakeFiles/vcfprimers.dir/depend
 	$(MAKE) -f CMakeFiles/vcfprimers.dir/build.make CMakeFiles/vcfprimers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=82 "Built target vcfprimers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=82 "Built target vcfprimers"
 .PHONY : CMakeFiles/vcfprimers.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfprimers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfprimers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfprimers.dir/rule
 
 # Convenience name for target.
@@ -2080,14 +2080,14 @@ CMakeFiles/vcfprimers.dir/clean:
 CMakeFiles/iHS.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/iHS.dir/build.make CMakeFiles/iHS.dir/depend
 	$(MAKE) -f CMakeFiles/iHS.dir/build.make CMakeFiles/iHS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=6 "Built target iHS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=6 "Built target iHS"
 .PHONY : CMakeFiles/iHS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/iHS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/iHS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/iHS.dir/rule
 
 # Convenience name for target.
@@ -2107,14 +2107,14 @@ CMakeFiles/iHS.dir/clean:
 CMakeFiles/vcfnumalt.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfnumalt.dir/build.make CMakeFiles/vcfnumalt.dir/depend
 	$(MAKE) -f CMakeFiles/vcfnumalt.dir/build.make CMakeFiles/vcfnumalt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=78,79 "Built target vcfnumalt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=78,79 "Built target vcfnumalt"
 .PHONY : CMakeFiles/vcfnumalt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfnumalt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfnumalt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfnumalt.dir/rule
 
 # Convenience name for target.
@@ -2134,14 +2134,14 @@ CMakeFiles/vcfnumalt.dir/clean:
 CMakeFiles/vcfgenotypes.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfgenotypes.dir/build.make CMakeFiles/vcfgenotypes.dir/depend
 	$(MAKE) -f CMakeFiles/vcfgenotypes.dir/build.make CMakeFiles/vcfgenotypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=54 "Built target vcfgenotypes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=54 "Built target vcfgenotypes"
 .PHONY : CMakeFiles/vcfgenotypes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfgenotypes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfgenotypes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfgenotypes.dir/rule
 
 # Convenience name for target.
@@ -2161,14 +2161,14 @@ CMakeFiles/vcfgenotypes.dir/clean:
 CMakeFiles/vcfcountalleles.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfcountalleles.dir/build.make CMakeFiles/vcfcountalleles.dir/depend
 	$(MAKE) -f CMakeFiles/vcfcountalleles.dir/build.make CMakeFiles/vcfcountalleles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=38 "Built target vcfcountalleles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=38 "Built target vcfcountalleles"
 .PHONY : CMakeFiles/vcfcountalleles.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfcountalleles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfcountalleles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfcountalleles.dir/rule
 
 # Convenience name for target.
@@ -2188,14 +2188,14 @@ CMakeFiles/vcfcountalleles.dir/clean:
 CMakeFiles/vcfcat.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfcat.dir/build.make CMakeFiles/vcfcat.dir/depend
 	$(MAKE) -f CMakeFiles/vcfcat.dir/build.make CMakeFiles/vcfcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=31,32 "Built target vcfcat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=31,32 "Built target vcfcat"
 .PHONY : CMakeFiles/vcfcat.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfcat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfcat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfcat.dir/rule
 
 # Convenience name for target.
@@ -2215,14 +2215,14 @@ CMakeFiles/vcfcat.dir/clean:
 CMakeFiles/vcfcleancomplex.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfcleancomplex.dir/build.make CMakeFiles/vcfcleancomplex.dir/depend
 	$(MAKE) -f CMakeFiles/vcfcleancomplex.dir/build.make CMakeFiles/vcfcleancomplex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=35 "Built target vcfcleancomplex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=35 "Built target vcfcleancomplex"
 .PHONY : CMakeFiles/vcfcleancomplex.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfcleancomplex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfcleancomplex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfcleancomplex.dir/rule
 
 # Convenience name for target.
@@ -2242,14 +2242,14 @@ CMakeFiles/vcfcleancomplex.dir/clean:
 CMakeFiles/smoother.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/smoother.dir/build.make CMakeFiles/smoother.dir/depend
 	$(MAKE) -f CMakeFiles/smoother.dir/build.make CMakeFiles/smoother.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=19 "Built target smoother"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=19 "Built target smoother"
 .PHONY : CMakeFiles/smoother.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/smoother.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/smoother.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/smoother.dir/rule
 
 # Convenience name for target.
@@ -2269,14 +2269,14 @@ CMakeFiles/smoother.dir/clean:
 CMakeFiles/vcfintersect.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfintersect.dir/build.make CMakeFiles/vcfintersect.dir/depend
 	$(MAKE) -f CMakeFiles/vcfintersect.dir/build.make CMakeFiles/vcfintersect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=62 "Built target vcfintersect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=62 "Built target vcfintersect"
 .PHONY : CMakeFiles/vcfintersect.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfintersect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfintersect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfintersect.dir/rule
 
 # Convenience name for target.
@@ -2296,14 +2296,14 @@ CMakeFiles/vcfintersect.dir/clean:
 CMakeFiles/vcfannotate.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfannotate.dir/build.make CMakeFiles/vcfannotate.dir/depend
 	$(MAKE) -f CMakeFiles/vcfannotate.dir/build.make CMakeFiles/vcfannotate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=28 "Built target vcfannotate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=28 "Built target vcfannotate"
 .PHONY : CMakeFiles/vcfannotate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfannotate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfannotate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfannotate.dir/rule
 
 # Convenience name for target.
@@ -2323,14 +2323,14 @@ CMakeFiles/vcfannotate.dir/clean:
 CMakeFiles/vcfoverlay.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfoverlay.dir/build.make CMakeFiles/vcfoverlay.dir/depend
 	$(MAKE) -f CMakeFiles/vcfoverlay.dir/build.make CMakeFiles/vcfoverlay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=80 "Built target vcfoverlay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=80 "Built target vcfoverlay"
 .PHONY : CMakeFiles/vcfoverlay.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfoverlay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfoverlay.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfoverlay.dir/rule
 
 # Convenience name for target.
@@ -2350,14 +2350,14 @@ CMakeFiles/vcfoverlay.dir/clean:
 CMakeFiles/vcfaddinfo.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfaddinfo.dir/build.make CMakeFiles/vcfaddinfo.dir/depend
 	$(MAKE) -f CMakeFiles/vcfaddinfo.dir/build.make CMakeFiles/vcfaddinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=24 "Built target vcfaddinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=24 "Built target vcfaddinfo"
 .PHONY : CMakeFiles/vcfaddinfo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfaddinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfaddinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfaddinfo.dir/rule
 
 # Convenience name for target.
@@ -2377,14 +2377,14 @@ CMakeFiles/vcfaddinfo.dir/clean:
 CMakeFiles/vcfkeepinfo.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfkeepinfo.dir/build.make CMakeFiles/vcfkeepinfo.dir/depend
 	$(MAKE) -f CMakeFiles/vcfkeepinfo.dir/build.make CMakeFiles/vcfkeepinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=65 "Built target vcfkeepinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=65 "Built target vcfkeepinfo"
 .PHONY : CMakeFiles/vcfkeepinfo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfkeepinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfkeepinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfkeepinfo.dir/rule
 
 # Convenience name for target.
@@ -2404,14 +2404,14 @@ CMakeFiles/vcfkeepinfo.dir/clean:
 CMakeFiles/vcfgenosummarize.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfgenosummarize.dir/build.make CMakeFiles/vcfgenosummarize.dir/depend
 	$(MAKE) -f CMakeFiles/vcfgenosummarize.dir/build.make CMakeFiles/vcfgenosummarize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=51 "Built target vcfgenosummarize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=51 "Built target vcfgenosummarize"
 .PHONY : CMakeFiles/vcfgenosummarize.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfgenosummarize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfgenosummarize.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfgenosummarize.dir/rule
 
 # Convenience name for target.
@@ -2431,14 +2431,14 @@ CMakeFiles/vcfgenosummarize.dir/clean:
 CMakeFiles/vcfkeepgeno.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfkeepgeno.dir/build.make CMakeFiles/vcfkeepgeno.dir/depend
 	$(MAKE) -f CMakeFiles/vcfkeepgeno.dir/build.make CMakeFiles/vcfkeepgeno.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=63,64 "Built target vcfkeepgeno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=63,64 "Built target vcfkeepgeno"
 .PHONY : CMakeFiles/vcfkeepgeno.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfkeepgeno.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfkeepgeno.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfkeepgeno.dir/rule
 
 # Convenience name for target.
@@ -2458,14 +2458,14 @@ CMakeFiles/vcfkeepgeno.dir/clean:
 CMakeFiles/vcfdistance.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfdistance.dir/build.make CMakeFiles/vcfdistance.dir/depend
 	$(MAKE) -f CMakeFiles/vcfdistance.dir/build.make CMakeFiles/vcfdistance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=40 "Built target vcfdistance"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=40 "Built target vcfdistance"
 .PHONY : CMakeFiles/vcfdistance.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfdistance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfdistance.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfdistance.dir/rule
 
 # Convenience name for target.
@@ -2485,14 +2485,14 @@ CMakeFiles/vcfdistance.dir/clean:
 CMakeFiles/vcflength.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcflength.dir/build.make CMakeFiles/vcflength.dir/depend
 	$(MAKE) -f CMakeFiles/vcflength.dir/build.make CMakeFiles/vcflength.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=69 "Built target vcflength"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=69 "Built target vcflength"
 .PHONY : CMakeFiles/vcflength.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcflength.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcflength.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcflength.dir/rule
 
 # Convenience name for target.
@@ -2512,14 +2512,14 @@ CMakeFiles/vcflength.dir/clean:
 CMakeFiles/vcfglxgt.dir/all: CMakeFiles/vcflib.dir/all
 	$(MAKE) -f CMakeFiles/vcfglxgt.dir/build.make CMakeFiles/vcfglxgt.dir/depend
 	$(MAKE) -f CMakeFiles/vcfglxgt.dir/build.make CMakeFiles/vcfglxgt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles --progress-num=56 "Built target vcfglxgt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles --progress-num=56 "Built target vcfglxgt"
 .PHONY : CMakeFiles/vcfglxgt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/vcfglxgt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/vcfglxgt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects2/vgan_ancient/vg/deps/vcflib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/deps/vcflib/build/CMakeFiles 0
 .PHONY : CMakeFiles/vcfglxgt.dir/rule
 
 # Convenience name for target.

@@ -12,15 +12,6 @@ CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: ../smithwaterman/Mosaik.h
 CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: ../src/Variant.h
 CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: ../src/convert.h
 CMakeFiles/vcfflatten.dir/src/vcfflatten.cpp.o: ../src/join.h

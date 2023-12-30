@@ -9,19 +9,19 @@ obj/index_registry.o: src/index_registry.cpp src/index_registry.hpp \
  src/haplotype_indexer.hpp src/phase_unfolder.hpp src/gbwt_helper.hpp \
  src/gbwtgraph_helper.hpp src/gcsa_helper.hpp \
  src/flat_file_back_translation.hpp src/transcriptome.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/unittest/../vg.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/unittest/../types.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/unittest/../gbwt_helper.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/unittest/../vg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/unittest/../types.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/unittest/../gbwt_helper.hpp \
  src/integrated_snarl_finder.hpp src/snarls.hpp src/cactus.hpp \
  src/snarl_distance_index.hpp src/gfa.hpp src/job_schedule.hpp \
  src/io/save_handle_graph.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp \
  src/io/../algorithms/gfa_to_handle.hpp \
  src/io/../algorithms/../handle.hpp src/algorithms/gfa_to_handle.hpp \
  src/algorithms/prune.hpp src/algorithms/../handle.hpp \
  src/algorithms/component.hpp \
- /net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp \
+ /home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp \
  src/algorithms/find_translation.hpp
 
 src/index_registry.hpp:
@@ -92,11 +92,11 @@ src/flat_file_back_translation.hpp:
 
 src/transcriptome.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/unittest/../vg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/unittest/../vg.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/unittest/../types.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/unittest/../types.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/unittest/../gbwt_helper.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/unittest/../gbwt_helper.hpp:
 
 src/integrated_snarl_finder.hpp:
 
@@ -112,9 +112,9 @@ src/job_schedule.hpp:
 
 src/io/save_handle_graph.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/vg.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/vg.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/gfa.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/gfa.hpp:
 
 src/io/../algorithms/gfa_to_handle.hpp:
 
@@ -128,6 +128,6 @@ src/algorithms/../handle.hpp:
 
 src/algorithms/component.hpp:
 
-/net/mimer/mnt/tank/projects2/vgan_ancient/vg/src/handle.hpp:
+/home/projects/MAAG/Magpie/Magpie/vgan_corrected/dep/vg/src/handle.hpp:
 
 src/algorithms/find_translation.hpp:

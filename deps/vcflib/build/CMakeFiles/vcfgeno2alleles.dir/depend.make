@@ -12,15 +12,6 @@ CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: ../smithwaterman/Mosai
 CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: ../smithwaterman/Repeats.h
 CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: ../smithwaterman/SmithWatermanGotoh.h
 CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: ../smithwaterman/disorder.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/bgzf.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_defs.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/hts_log.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kroundup.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kseq.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/kstring.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/htslib/tbx.h
-CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: /home/projects/MAAG/Magpie/Magpie/vg_corrected/include/tabix.hpp
 CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: ../src/Variant.h
 CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: ../src/convert.h
 CMakeFiles/vcfgeno2alleles.dir/src/vcfgeno2alleles.cpp.o: ../src/join.h
