@@ -235,8 +235,8 @@ inline unsigned long long binomial_coefficient(int n, int k) {
 }
 
 inline double compute_likelihood_model2(int mismatches, size_t kmer_seq_size, int k) {
-    double a = 0.72095;
-    double b = -0.64291;
+    double a = 1.0195;
+    double b = -0.8528;
 
     // Calculate expected mismatch probability
     double p = a * pow(kmer_seq_size, b);
